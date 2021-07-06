@@ -136,6 +136,9 @@ module.exports = (
 
   for (let i = 0; i < lines.length; i++) {
     drawDataLines(i)
+  }
+
+  for (let i = 0; i < lines.length; i++) {
     drawDataLabels(i)
   }
 
