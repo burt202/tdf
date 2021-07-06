@@ -4,7 +4,7 @@ module.exports = (
   ctx,
   {chartWidth, chartHeight, padding, gridLineColour, columnTitleColour, cols, lines},
 ) => {
-  const rowCount = R.pipe(R.pluck("points"), R.flatten, R.pluck("coords"), R.map(R.last), arr =>
+  const rowCount = R.pipe(R.pluck("points"), R.flatten, R.pluck("coords"), R.map(R.last), (arr) =>
     Math.max.apply(null, arr),
   )(lines)
 
