@@ -1,0 +1,117 @@
+{
+  "id": "2020",
+  "startDate": "2020-08-29",
+  "endDate": "2020-09-20",
+  "teams": [
+    {
+      "uciCode": "IGD",
+      "previousUciCode": "INS",
+      "name": "Ineos Grenadiers"
+    },
+    {
+      "uciCode": "TJV",
+      "previousUciCode": "TJV",
+      "name": "Team Jumbo-Visma"
+    },
+    {
+      "uciCode": "BOH",
+      "previousUciCode": "BOH",
+      "name": "Bora-Hansgrohe"
+    },
+    {
+      "uciCode": "ALM",
+      "previousUciCode": "ALM",
+      "name": "AG2R La Mondiale"
+    },
+    {
+      "uciCode": "DQT",
+      "previousUciCode": "DQT",
+      "name": "Deceuninck-Quick-Step"
+    },
+    {
+      "uciCode": "GFC",
+      "previousUciCode": "GFC",
+      "name": "Groupama-FDJ"
+    },
+    {
+      "uciCode": "TBM",
+      "previousUciCode": "TBM",
+      "name": "Bahrain-McLaren"
+    },
+    {
+      "uciCode": "EF1",
+      "previousUciCode": "EF1",
+      "name": "EF Pro Cycling"
+    },
+    {
+      "uciCode": "ARK",
+      "previousUciCode": "ARK",
+      "name": "Arkéa-Samsic"
+    },
+    {
+      "uciCode": "MOV",
+      "previousUciCode": "MOV",
+      "name": "Movistar Team"
+    },
+    {
+      "uciCode": "TFS",
+      "previousUciCode": "TFS",
+      "name": "Trek-Segafredo"
+    },
+    {
+      "uciCode": "CCC",
+      "previousUciCode": "CPT",
+      "name": "CCC Team"
+    },
+    {
+      "uciCode": "COF",
+      "previousUciCode": "COF",
+      "name": "Cofidis"
+    },
+    {
+      "uciCode": "UAD",
+      "previousUciCode": "UAD",
+      "name": "UAE Team Emirates"
+    },
+    {
+      "uciCode": "AST",
+      "previousUciCode": "AST",
+      "name": "Astana"
+    },
+    {
+      "uciCode": "LTS",
+      "previousUciCode": "LTS",
+      "name": "Lotto-Soudal"
+    },
+    {
+      "uciCode": "MTS",
+      "previousUciCode": "MTS",
+      "name": "Mitchelton-Scott"
+    },
+    {
+      "uciCode": "ISN",
+      "previousUciCode": null,
+      "name": "Israel Start-Up Nation"
+    },
+    {
+      "uciCode": "TDE",
+      "previousUciCode": "TDE",
+      "name": "Total Direct Énergie"
+    },
+    {
+      "uciCode": "NTT",
+      "previousUciCode": "TDD",
+      "name": "NTT Pro Cycling"
+    },
+    {
+      "uciCode": "SUN",
+      "previousUciCode": "SUN",
+      "name": "Team Sunweb"
+    },
+    {
+      "uciCode": "BVC",
+      "previousUciCode": null,
+      "name": "B&B Hotels-Vital Concept"
+    }
+  ]
+}

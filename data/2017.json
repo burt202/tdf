@@ -1,0 +1,117 @@
+{
+  "id": "2017",
+  "startDate": "2017-07-01",
+  "endDate": "2017-07-23",
+  "teams": [
+    {
+      "uciCode": "SKY",
+      "previousUciCode": null,
+      "name": "Team Sky"
+    },
+    {
+      "uciCode": "ALM",
+      "previousUciCode": null,
+      "name": "AG2R La Mondiale"
+    },
+    {
+      "uciCode": "MOV",
+      "previousUciCode": null,
+      "name": "Movistar Team"
+    },
+    {
+      "uciCode": "TFS",
+      "previousUciCode": null,
+      "name": "Trek-Segafredo"
+    },
+    {
+      "uciCode": "BMC",
+      "previousUciCode": null,
+      "name": "BMC Racing Team"
+    },
+    {
+      "uciCode": "AST",
+      "previousUciCode": null,
+      "name": "Astana"
+    },
+    {
+      "uciCode": "UAD",
+      "previousUciCode": null,
+      "name": "UAE Team Emirates"
+    },
+    {
+      "uciCode": "FDJ",
+      "previousUciCode": null,
+      "name": "Groupama-FDJ"
+    },
+    {
+      "uciCode": "ORS",
+      "previousUciCode": null,
+      "name": "Orica-Scott"
+    },
+    {
+      "uciCode": "DDD",
+      "previousUciCode": null,
+      "name": "Team Dimension Data"
+    },
+    {
+      "uciCode": "QST",
+      "previousUciCode": null,
+      "name": "Quick-Step Floors"
+    },
+    {
+      "uciCode": "BOH",
+      "previousUciCode": null,
+      "name": "Bora-Hansgrohe"
+    },
+    {
+      "uciCode": "TKA",
+      "previousUciCode": null,
+      "name": "Team Katusha-Alpecin"
+    },
+    {
+      "uciCode": "LTS",
+      "previousUciCode": null,
+      "name": "Lotto-Soudal"
+    },
+    {
+      "uciCode": "SUN",
+      "previousUciCode": null,
+      "name": "Team Sunweb"
+    },
+    {
+      "uciCode": "COF",
+      "previousUciCode": null,
+      "name": "Cofidis"
+    },
+    {
+      "uciCode": "TLJ",
+      "previousUciCode": null,
+      "name": "LottoNL-Jumbo"
+    },
+    {
+      "uciCode": "TDE",
+      "previousUciCode": null,
+      "name": "Direct Énergie"
+    },
+    {
+      "uciCode": "CDT",
+      "previousUciCode": null,
+      "name": "Cannondale–Drapac"
+    },
+    {
+      "uciCode": "TBM",
+      "previousUciCode": null,
+      "name": "Bahrain-Merida"
+    },
+    {
+      "uciCode": "WGG",
+      "previousUciCode": null,
+      "name": " Wanty-Groupe Gobert"
+    }
+    {
+      "uciCode": "TFO",
+      "previousUciCode": null,
+      "name": "Fortuneo–Oscaro"
+    }
+  ]
+}

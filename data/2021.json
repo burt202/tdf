@@ -1,0 +1,122 @@
+{
+  "id": "2021",
+  "startDate": "2021-06-26",
+  "endDate": "2021-07-18",
+  "teams": [
+    {
+      "uciCode": "UAD",
+      "previousUciCode": "UAD",
+      "name": "UAE Team Emirates"
+    },
+    {
+      "uciCode": "TJV",
+      "previousUciCode": "TJV",
+      "name": "Team Jumbo-Visma"
+    },
+    {
+      "uciCode": "IGD",
+      "previousUciCode": "IGD",
+      "name": "Ineos Grenadiers"
+    },
+    {
+      "uciCode": "ISN",
+      "previousUciCode": "ISN",
+      "name": "Israel Start-Up Nation"
+    },
+    {
+      "uciCode": "TFS",
+      "previousUciCode": "TFS",
+      "name": "Trek-Segafredo"
+    },
+    {
+      "uciCode": "DQT",
+      "previousUciCode": "DQT",
+      "name": "Deceuninck-Quick-Step"
+    },
+    {
+      "uciCode": "MOV",
+      "previousUciCode": "MOV",
+      "name": "Movistar Team"
+    },
+    {
+      "uciCode": "BOH",
+      "previousUciCode": "BOH",
+      "name": "Bora-Hansgrohe"
+    },
+    {
+      "uciCode": "GFC",
+      "previousUciCode": "GFC",
+      "name": "Groupama-FDJ"
+    },
+    {
+      "uciCode": "COF",
+      "previousUciCode": "COF",
+      "name": "Cofidis"
+    },
+    {
+      "uciCode": "AFC",
+      "previousUciCode": null,
+      "name": "Alpecin-Fenix"
+    },
+    {
+      "uciCode": "EFN",
+      "previousUciCode": "EF1",
+      "name": "EF Education-Nippo"
+    },
+    {
+      "uciCode": "ACT",
+      "previousUciCode": "ALM",
+      "name": "AG2R Citroën Team"
+    },
+    {
+      "uciCode": "ARK",
+      "previousUciCode": "ARK",
+      "name": "Arkéa-Samsic"
+    },
+    {
+      "uciCode": "DSM",
+      "previousUciCode": null,
+      "name": "Team DSM"
+    },
+    {
+      "uciCode": "LTS",
+      "previousUciCode": "LTS",
+      "name": "Lotto-Soudal"
+    },
+    {
+      "uciCode": "TBV",
+      "previousUciCode": "TBM",
+      "name": "Team Bahrain Victorious"
+    },
+    {
+      "uciCode": "BEX",
+      "previousUciCode": "MTS",
+      "name": "Team BikeExchange"
+    },
+    {
+      "uciCode": "APT",
+      "previousUciCode": "AST",
+      "name": "Astana-Premier Tech"
+    },
+    {
+      "uciCode": "TQA",
+      "previousUciCode": "NTT",
+      "name": "Team Qhubeka NextHash"
+    },
+    {
+      "uciCode": "TEN",
+      "previousUciCode": "TDE",
+      "name": "Team TotalEnergies"
+    },
+    {
+      "uciCode": "IWG",
+      "previousUciCode": null,
+      "name": "Intermarché-Wanty-Gobert Matériaux"
+    },
+    {
+      "uciCode": "BBK",
+      "previousUciCode": "BVC",
+      "name": "B&B Hotels p/b KTM"
+    }
+  ]
+}

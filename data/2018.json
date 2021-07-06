@@ -1,0 +1,117 @@
+{
+  "id": "2018",
+  "startDate": "2018-07-07",
+  "endDate": "2018-07-29",
+  "teams": [
+    {
+      "uciCode": "SKY",
+      "previousUciCode": "SKY",
+      "name": "Team Sky"
+    },
+    {
+      "uciCode": "EFD",
+      "previousUciCode": "CDT",
+      "name": "EF Education First-Drapac p/b Cannondale"
+    },
+    {
+      "uciCode": "ALM",
+      "previousUciCode": "ALM",
+      "name": "AG2R La Mondiale"
+    },
+    {
+      "uciCode": "SUN",
+      "previousUciCode": "SUN",
+      "name": "Team Sunweb"
+    },
+    {
+      "uciCode": "FST",
+      "previousUciCode": "TFO",
+      "name": "Fortuneo-Samsic"
+    },
+    {
+      "uciCode": "TBM",
+      "previousUciCode": "TBM",
+      "name": "Bahrain-Merida"
+    },
+    {
+      "uciCode": "MTS",
+      "previousUciCode": "ORS",
+      "name": "Mitchelton-Scott"
+    },
+    {
+      "uciCode": "MOV",
+      "previousUciCode": "MOV",
+      "name": "Movistar Team"
+    },
+    {
+      "uciCode": "BMC",
+      "previousUciCode": "BMC",
+      "name": "BMC Racing Team"
+    },
+    {
+      "uciCode": "UAD",
+      "previousUciCode": "UAD",
+      "name": "UAE Team Emirates"
+    },
+    {
+      "uciCode": "QST",
+      "previousUciCode": "QST",
+      "name": "Quick-Step Floors"
+    },
+    {
+      "uciCode": "BOH",
+      "previousUciCode": "BOH",
+      "name": "Bora-Hansgrohe"
+    },
+    {
+      "uciCode": "AST",
+      "previousUciCode": "AST",
+      "name": "Astana"
+    },
+    {
+      "uciCode": "DDD",
+      "previousUciCode": "DDD",
+      "name": "Team Dimension Data"
+    },
+    {
+      "uciCode": "TKA",
+      "previousUciCode": "TKA",
+      "name": "Team Katusha-Alpecin"
+    },
+    {
+      "uciCode": "GFC",
+      "previousUciCode": "FDJ",
+      "name": "Groupama-FDJ"
+    },
+    {
+      "uciCode": "TLJ",
+      "previousUciCode": "TLJ",
+      "name": "LottoNL-Jumbo"
+    },
+    {
+      "uciCode": "LTS",
+      "previousUciCode": "LTS",
+      "name": "Lotto-Soudal"
+    },
+    {
+      "uciCode": "TDE",
+      "previousUciCode": "TDE",
+      "name": "Direct Énergie"
+    },
+    {
+      "uciCode": "TFS",
+      "previousUciCode": "TFS",
+      "name": "Trek-Segafredo"
+    },
+    {
+      "uciCode": "COF",
+      "previousUciCode": "COF",
+      "name": "Cofidis"
+    },
+    {
+      "uciCode": "WGG",
+      "previousUciCode": "WGG",
+      "name": " Wanty-Groupe Gobert"
+    }
+  ]
+}

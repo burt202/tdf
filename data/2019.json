@@ -1,0 +1,117 @@
+{
+  "id": "2019",
+  "startDate": "2019-07-06",
+  "endDate": "2019-07-28",
+  "teams": [
+    {
+      "uciCode": "INS",
+      "previousUciCode": "SKY",
+      "name": "Team Ineos"
+    },
+    {
+      "uciCode": "BOH",
+      "previousUciCode": "BOH",
+      "name": "Bora-Hansgrohe"
+    },
+    {
+      "uciCode": "DQT",
+      "previousUciCode": "QST",
+      "name": "Deceuninck-Quick-Step"
+    },
+    {
+      "uciCode": "ALM",
+      "previousUciCode": "ALM",
+      "name": "AG2R La Mondiale"
+    },
+    {
+      "uciCode": "TBM",
+      "previousUciCode": "TBM",
+      "name": "Bahrain-McLaren"
+    },
+    {
+      "uciCode": "GFC",
+      "previousUciCode": "GFC",
+      "name": "Groupama-FDJ"
+    },
+    {
+      "uciCode": "MOV",
+      "previousUciCode": "MOV",
+      "name": "Movistar Team"
+    },
+    {
+      "uciCode": "AST",
+      "previousUciCode": "AST",
+      "name": "Astana"
+    },
+    {
+      "uciCode": "TJV",
+      "previousUciCode": "TLJ",
+      "name": "Team Jumbo-Visma"
+    },
+    {
+      "uciCode": "EF1",
+      "previousUciCode": "EFD",
+      "name": "EF Pro Cycling"
+    },
+    {
+      "uciCode": "MTS",
+      "previousUciCode": "MTS",
+      "name": "Mitchelton-Scott"
+    },
+    {
+      "uciCode": "CPT",
+      "previousUciCode": "BMC",
+      "name": "CCC Team"
+    },
+    {
+      "uciCode": "UAD",
+      "previousUciCode": "UAD",
+      "name": "UAE Team Emirates"
+    },
+    {
+      "uciCode": "TFS",
+      "previousUciCode": "TFS",
+      "name": "Trek-Segafredo"
+    },
+    {
+      "uciCode": "SUN",
+      "previousUciCode": "SUN",
+      "name": "Team Sunweb"
+    },
+    {
+      "uciCode": "COF",
+      "previousUciCode": "COF",
+      "name": "Cofidis"
+    },
+    {
+      "uciCode": "LTS",
+      "previousUciCode": "LTS",
+      "name": "Lotto-Soudal"
+    },
+    {
+      "uciCode": "TDE",
+      "previousUciCode": "TDE",
+      "name": "Total Direct Énergie"
+    },
+    {
+      "uciCode": "TKA",
+      "previousUciCode": "TKA",
+      "name": "Team Katusha-Alpecin"
+    },
+    {
+      "uciCode": "WGG",
+      "previousUciCode": "WGG",
+      "name": "Wanty-Gobert"
+    },
+    {
+      "uciCode": "TDD",
+      "previousUciCode": "DDD",
+      "name": "Team Dimension Data"
+    },
+    {
+      "uciCode": "ARK",
+      "previousUciCode": "FST",
+      "name": "Arkéa-Samsic"
+    }
+  ]
+}
