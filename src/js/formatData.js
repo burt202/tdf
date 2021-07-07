@@ -19,7 +19,12 @@ function rec(uciCode, edition, i, arr) {
 
   if (foundIndex > -1) {
     const match = teams[foundIndex]
-    arr.push({text: match.name, coords: [i, foundIndex]})
+    arr.push({
+      text: match.name,
+      id: `${edition}-${match.uciCode}`,
+      colours: match.colours,
+      coords: [i, foundIndex],
+    })
 
     return rec(match.uciCode, edition + 1, i + 1, arr)
   }
@@ -38,11 +43,23 @@ module.exports = () => {
 
     for (let j = 0; j < teams.length; j++) {
       const points = [
-        {text: teams[j].name, coords: [i, j]},
+        {
+          text: teams[j].name,
+          id: `${edition}-${teams[j].uciCode}`,
+          colours: teams[j].colours,
+          coords: [i, j],
+        },
         ...rec(teams[j].uciCode, parseInt(edition, 10) + 1, i + 1, []),
       ]
 
-      lines.push({textColor: "white", lineColour: "black", points})
+      const lastPoint = points[points.length - 1]
+
+      lines.push({
+        lineColour: lastPoint.colours ? lastPoint.colours[0] : "black",
+        borderColour: lastPoint.colours ? lastPoint.colours[1] : "black",
+        textColour: lastPoint.colours ? lastPoint.colours[2] : "white",
+        points: R.map(R.omit("colours"), points),
+      })
     }
   })
 

@@ -111,7 +111,7 @@ module.exports = (
 
       ctx.fill()
       ctx.font = "16px serif"
-      ctx.fillStyle = lines[i].textColor
+      ctx.fillStyle = lines[i].textColour
       ctx.textAlign = "center"
       ctx.fillText(text, lineToX, lineToY + 5)
     }

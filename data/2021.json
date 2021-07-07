@@ -16,7 +16,8 @@
     {
       "uciCode": "IGD",
       "previousUciCode": "IGD",
-      "name": "Ineos Grenadiers"
+      "name": "Ineos Grenadiers",
+      "colours": ["#232C3D", "#B61615", "#FFF"]
     },
     {
       "uciCode": "ISN",
@@ -26,7 +27,8 @@
     {
       "uciCode": "TFS",
       "previousUciCode": "TFS",
-      "name": "Trek-Segafredo"
+      "name": "Trek-Segafredo",
+      "colours": ["#EEE", "#CB252B", "#1A202D"]
     },
     {
       "uciCode": "DQT",
@@ -36,7 +38,8 @@
     {
       "uciCode": "MOV",
       "previousUciCode": "MOV",
-      "name": "Movistar Team"
+      "name": "Movistar Team",
+      "colours": ["#3093D9", "#101016", "#FFF"]
     },
     {
       "uciCode": "BOH",
@@ -66,7 +69,8 @@
     {
       "uciCode": "ACT",
       "previousUciCode": "ALM",
-      "name": "AG2R Citroën Team"
+      "name": "AG2R Citroën Team",
+      "colours": ["#FFF", "#DD1F29", "#000"]
     },
     {
       "uciCode": "ARK",
@@ -110,8 +114,9 @@
     },
     {
       "uciCode": "IWG",
-      "previousUciCode": null,
-      "name": "Intermarché-Wanty-Gobert Matériaux"
+      "previousUciCode": "CCC",
+      "name": "Intermarché-Wanty-Gobert Matériaux",
+      "colours": ["#FFF", "#C5C843", "#163247"]
     },
     {
       "uciCode": "BBK",
