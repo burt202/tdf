@@ -55,8 +55,8 @@ module.exports = () => {
       const lastPoint = points[points.length - 1]
 
       lines.push({
-        lineColour: lastPoint.colours ? lastPoint.colours[0] : "black",
-        borderColour: lastPoint.colours ? lastPoint.colours[1] : "black",
+        fillColour: lastPoint.colours ? lastPoint.colours[0] : "black",
+        lineColour: lastPoint.colours ? lastPoint.colours[1] : "black",
         textColour: lastPoint.colours ? lastPoint.colours[2] : "white",
         points: R.map(R.omit("colours"), points),
       })
@@ -65,5 +65,5 @@ module.exports = () => {
 
   // TODO sort backfill colours in data, remove R.take
 
-  return {cols, lines: R.take(6, lines)}
+  return {cols, lines: R.take(10, lines)}
 }

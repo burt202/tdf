@@ -4,6 +4,8 @@ module.exports = (
   ctx,
   {chartWidth, chartHeight, padding, gridLineColour, columnTitleColour, cols, lines},
 ) => {
+  const dataLabelWidth = 250
+
   const rowCount = R.pipe(R.pluck("points"), R.flatten, R.pluck("coords"), R.map(R.last), (arr) =>
     Math.max.apply(null, arr),
   )(lines)
@@ -77,52 +79,57 @@ module.exports = (
     ctx.stroke()
   }
 
-  function drawDataLines(i) {
-    const linePoints = lines[i].points
+  function drawDataLines(line) {
+    const {points, lineColour} = line
 
     ctx.beginPath()
 
-    const moveToX = linePoints[0].coords[0] * columnWidth + padding
-    const moveToY = linePoints[0].coords[1] * rowHeight + padding
-    ctx.moveTo(moveToX, moveToY)
+    for (let j = 0; j < points.length; j++) {
+      const coords = points[j].coords
 
-    for (let j = 0; j < linePoints.length; j++) {
-      const coords = linePoints[j].coords
-
-      ctx.strokeStyle = lines[i].borderColour
+      ctx.strokeStyle = lineColour
       ctx.lineWidth = 2
 
-      const lineToX = coords[0] * columnWidth + padding
-      const lineToY = coords[1] * rowHeight + padding
-      ctx.lineTo(lineToX, lineToY)
-      ctx.stroke()
+      if (j === 0) {
+        const moveToX = padding + dataLabelWidth / 2
+        const moveToY = coords[1] * rowHeight + padding
+        ctx.moveTo(moveToX, moveToY)
+      } else {
+        const lineToX = coords[0] * columnWidth + padding - dataLabelWidth / 2
+        const lineToY = coords[1] * rowHeight + padding
+
+        ctx.lineTo(lineToX, lineToY)
+        ctx.stroke()
+
+        ctx.moveTo(lineToX + dataLabelWidth, lineToY)
+      }
     }
 
     ctx.closePath()
   }
 
-  function drawDataLabels(i) {
-    const linePoints = lines[i].points
+  function drawDataLabels(line) {
+    const {points, fillColour, lineColour, textColour} = line
 
-    for (let j = 0; j < linePoints.length; j++) {
-      const text = linePoints[j].text
-      const coords = linePoints[j].coords
+    for (let j = 0; j < points.length; j++) {
+      const text = points[j].text
+      const coords = points[j].coords
 
       const lineToX = coords[0] * columnWidth + padding
       const lineToY = coords[1] * rowHeight + padding
 
       drawBorderedRoundedRectangle(
-        lineToX - 125,
+        lineToX - dataLabelWidth / 2,
         lineToY - 20,
-        250,
+        dataLabelWidth,
         40,
         8,
-        lines[i].lineColour,
-        lines[i].borderColour,
+        fillColour,
+        lineColour,
       )
 
       ctx.font = "16px serif"
-      ctx.fillStyle = lines[i].textColour
+      ctx.fillStyle = textColour
       ctx.textAlign = "center"
       ctx.fillText(text, lineToX, lineToY + 5)
     }
@@ -146,11 +153,11 @@ module.exports = (
   drawHorizontalGridLines()
 
   for (let i = 0; i < lines.length; i++) {
-    drawDataLines(i)
+    drawDataLines(lines[i])
   }
 
   for (let i = 0; i < lines.length; i++) {
-    drawDataLabels(i)
+    drawDataLabels(lines[i])
   }
 
   drawColumnHeaders()

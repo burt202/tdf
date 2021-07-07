@@ -6,7 +6,8 @@
     {
       "uciCode": "UAD",
       "previousUciCode": "UAD",
-      "name": "UAE Team Emirates"
+      "name": "UAE Team Emirates",
+      "colours": ["#DDDDE7", "#261A1E", "#BD1C2B"]
     },
     {
       "uciCode": "TJV",
@@ -49,7 +50,8 @@
     {
       "uciCode": "GFC",
       "previousUciCode": "GFC",
-      "name": "Groupama-FDJ"
+      "name": "Groupama-FDJ",
+      "colours": ["#EEF0F4", "#A22B31", "#02439F"]
     },
     {
       "uciCode": "COF",
@@ -95,7 +97,8 @@
     {
       "uciCode": "BEX",
       "previousUciCode": "MTS",
-      "name": "Team BikeExchange"
+      "name": "Team BikeExchange",
+      "colours": ["#F7F6F9", "#23BFB4", "#070707"]
     },
     {
       "uciCode": "APT",
@@ -106,7 +109,8 @@
     {
       "uciCode": "TQA",
       "previousUciCode": "NTT",
-      "name": "Team Qhubeka NextHash"
+      "name": "Team Qhubeka NextHash",
+      "colours": ["#F2F2F3", "#2D2D2E", "#2D2D2E"]
     },
     {
       "uciCode": "TEN",
@@ -117,7 +121,7 @@
       "uciCode": "IWG",
       "previousUciCode": "CCC",
       "name": "Intermarché-Wanty-Gobert Matériaux",
-      "colours": ["#FFF", "#C5C843", "#163247"]
+      "colours": ["#1B4B9B", "#B0F749", "#FFF"]
     },
     {
       "uciCode": "BBK",
