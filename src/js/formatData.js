@@ -42,37 +42,11 @@ module.exports = () => {
         ...rec(teams[j].uciCode, parseInt(edition, 10) + 1, i + 1, []),
       ]
 
-      lines.push({points})
+      lines.push({textColor: "white", lineColour: "black", points})
     }
   })
 
-  const lines2 = [
-    {
-      textColor: "white",
-      lineColour: "black",
-      points: lines[0].points,
-    },
-    {
-      textColor: "white",
-      lineColour: "rgb(200,0,0)",
-      points: lines[1].points,
-    },
-    {
-      textColor: "white",
-      lineColour: "rgb(200,0,0)",
-      points: lines[2].points,
-    },
-    {
-      textColor: "white",
-      lineColour: "rgb(200,0,0)",
-      points: lines[3].points,
-    },
-    {
-      textColor: "white",
-      lineColour: "rgb(200,0,0)",
-      points: lines[4].points,
-    },
-  ]
+  // TODO sort colours, remove R.take
 
-  return {cols, lines: lines2}
+  return {cols, lines: R.take(5, lines)}
 }
