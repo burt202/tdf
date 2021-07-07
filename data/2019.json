@@ -96,7 +96,8 @@
     {
       "uciCode": "TKA",
       "previousUciCode": "TKA",
-      "name": "Team Katusha-Alpecin"
+      "name": "Team Katusha-Alpecin",
+      "colours": ["#79C3E6", "#AC0320", "#AC0320"]
     },
     {
       "uciCode": "WGG",

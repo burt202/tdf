@@ -29,12 +29,13 @@
       "uciCode": "TFS",
       "previousUciCode": "TFS",
       "name": "Trek-Segafredo",
-      "colours": ["#EEE", "#CB252B", "#1A202D"]
+      "colours": ["#EEE", "#CB252B", "#2A364C"]
     },
     {
       "uciCode": "DQT",
       "previousUciCode": "DQT",
-      "name": "Deceuninck-Quick-Step"
+      "name": "Deceuninck-Quick-Step",
+      "colours": ["#004B8F", "#001D45", "#FDFFFE"]
     },
     {
       "uciCode": "MOV",
@@ -45,7 +46,8 @@
     {
       "uciCode": "BOH",
       "previousUciCode": "BOH",
-      "name": "Bora-Hansgrohe"
+      "name": "Bora-Hansgrohe",
+      "colours": ["#367E72", "#284145", "#FFFFFF"]
     },
     {
       "uciCode": "GFC",
@@ -81,13 +83,15 @@
     },
     {
       "uciCode": "DSM",
-      "previousUciCode": null,
-      "name": "Team DSM"
+      "previousUciCode": "SUN",
+      "name": "Team DSM",
+      "colours": ["#0E0A0A", "#B7EBFF", "#FFFCFD"]
     },
     {
       "uciCode": "LTS",
       "previousUciCode": "LTS",
-      "name": "Lotto-Soudal"
+      "name": "Lotto-Soudal",
+      "colours": ["#D1190F", "#030D0A", "#F1F4FD"]
     },
     {
       "uciCode": "TBV",
