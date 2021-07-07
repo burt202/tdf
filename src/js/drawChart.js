@@ -36,17 +36,23 @@ module.exports = (
     return [height + padding, ...arr]
   }
 
-  function drawRoundedRectangle(x, y, width, height, radius) {
-    if (width < 2 * radius) radius = width / 2
-    if (height < 2 * radius) radius = height / 2
+  function drawBorderedRoundedRectangle(x, y, width, height, radius, fillColour, borderColour) {
+    ctx.fillStyle = fillColour
+    ctx.strokeStyle = borderColour
 
     ctx.beginPath()
     ctx.moveTo(x + radius, y)
-    ctx.arcTo(x + width, y, x + width, y + height, radius)
-    ctx.arcTo(x + width, y + height, x, y + height, radius)
-    ctx.arcTo(x, y + height, x, y, radius)
-    ctx.arcTo(x, y, x + width, y, radius)
+    ctx.lineTo(x + width - radius, y)
+    ctx.quadraticCurveTo(x + width, y, x + width, y + radius)
+    ctx.lineTo(x + width, y + height - radius)
+    ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height)
+    ctx.lineTo(x + radius, y + height)
+    ctx.quadraticCurveTo(x, y + height, x, y + height - radius)
+    ctx.lineTo(x, y + radius)
+    ctx.quadraticCurveTo(x, y, x + radius, y)
     ctx.closePath()
+    ctx.stroke()
+    ctx.fill()
   }
 
   function drawVerticalGridLines() {
@@ -83,7 +89,7 @@ module.exports = (
     for (let j = 0; j < linePoints.length; j++) {
       const coords = linePoints[j].coords
 
-      ctx.strokeStyle = lines[i].lineColour
+      ctx.strokeStyle = lines[i].borderColour
       ctx.lineWidth = 2
 
       const lineToX = coords[0] * columnWidth + padding
@@ -105,11 +111,16 @@ module.exports = (
       const lineToX = coords[0] * columnWidth + padding
       const lineToY = coords[1] * rowHeight + padding
 
-      ctx.fillStyle = lines[i].lineColour
+      drawBorderedRoundedRectangle(
+        lineToX - 125,
+        lineToY - 20,
+        250,
+        40,
+        8,
+        lines[i].lineColour,
+        lines[i].borderColour,
+      )
 
-      drawRoundedRectangle(lineToX - 75, lineToY - 20, 150, 40, 8)
-
-      ctx.fill()
       ctx.font = "16px serif"
       ctx.fillStyle = lines[i].textColour
       ctx.textAlign = "center"

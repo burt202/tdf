@@ -63,7 +63,7 @@ module.exports = () => {
     }
   })
 
-  // TODO sort colours, remove R.take
+  // TODO sort backfill colours in data, remove R.take
 
-  return {cols, lines: R.take(5, lines)}
+  return {cols, lines: R.take(6, lines)}
 }

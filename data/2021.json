@@ -100,7 +100,8 @@
     {
       "uciCode": "APT",
       "previousUciCode": "AST",
-      "name": "Astana-Premier Tech"
+      "name": "Astana-Premier Tech",
+      "colours": ["#66CCF4", "#C5CF6C", "#242A4C"]
     },
     {
       "uciCode": "TQA",
