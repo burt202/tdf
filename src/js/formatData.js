@@ -37,11 +37,16 @@ module.exports = () => {
   const sortedKeys = Object.keys(data).sort()
 
   let lines = []
+  let usedCoords = {}
 
   sortedKeys.forEach((edition, i) => {
     const teams = data[edition].teams
 
     for (let j = 0; j < teams.length; j++) {
+      if (usedCoords[`${i}-${j}`]) {
+        continue
+      }
+
       const points = [
         {
           text: teams[j].name,
@@ -51,6 +56,10 @@ module.exports = () => {
         },
         ...rec(teams[j].uciCode, parseInt(edition, 10) + 1, i + 1, []),
       ]
+
+      points.forEach((p) => {
+        usedCoords[`${p.coords[0]}-${p.coords[1]}`] = true
+      })
 
       const lastPoint = points[points.length - 1]
 
@@ -63,9 +72,7 @@ module.exports = () => {
     }
   })
 
-  // TODO sort backfill colours in data, remove R.take
+  // TODO sort backfill colours in data, hover, add sources, readme, colour key
 
-  console.log(lines.length)
-
-  return {cols, lines: R.take(22, lines)}
+  return {cols, lines}
 }

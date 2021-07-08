@@ -24,7 +24,8 @@
     {
       "uciCode": "ISN",
       "previousUciCode": "ISN",
-      "name": "Israel Start-Up Nation"
+      "name": "Israel Start-Up Nation",
+      "colours": ["#EEEEEC", "#65B5F0", "#09122F"]
     },
     {
       "uciCode": "TFS",
@@ -65,7 +66,8 @@
     {
       "uciCode": "AFC",
       "previousUciCode": null,
-      "name": "Alpecin-Fenix"
+      "name": "Alpecin-Fenix",
+      "colours": ["#28334D", "#D13E33", "#D9D9E7"]
     },
     {
       "uciCode": "EFN",
@@ -136,7 +138,8 @@
     {
       "uciCode": "BBK",
       "previousUciCode": "BVC",
-      "name": "B&B Hotels p/b KTM"
+      "name": "B&B Hotels",
+      "colours": ["#4CA894", "#1E2424", "#DEE7E6"]
     }
   ]
 }

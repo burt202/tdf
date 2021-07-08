@@ -91,7 +91,7 @@ module.exports = (
       ctx.lineWidth = 2
 
       if (j === 0) {
-        const moveToX = padding + dataLabelWidth / 2
+        const moveToX = coords[0] * columnWidth + padding + dataLabelWidth / 2
         const moveToY = coords[1] * rowHeight + padding
         ctx.moveTo(moveToX, moveToY)
       } else {
