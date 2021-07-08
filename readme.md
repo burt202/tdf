@@ -6,5 +6,5 @@ View it at [burt202.github.io/tdf/](https://burt202.github.io/tdf/)
 
 ### Sources
 
-https://en.wikipedia.org/wiki/UCI_WorldTeam
-https://www.uci.org/road/teams
+- https://en.wikipedia.org/wiki/UCI_WorldTeam
+- https://www.uci.org/road/teams
