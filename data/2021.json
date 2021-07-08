@@ -12,7 +12,8 @@
     {
       "uciCode": "TJV",
       "previousUciCode": "TJV",
-      "name": "Team Jumbo-Visma"
+      "name": "Team Jumbo-Visma",
+      "colours": ["#141318", "#EE554D", "#EFC054"]
     },
     {
       "uciCode": "IGD",
@@ -58,7 +59,8 @@
     {
       "uciCode": "COF",
       "previousUciCode": "COF",
-      "name": "Cofidis"
+      "name": "Cofidis",
+      "colours": ["#CD3C34", "#CD3C34", "#F2D652"]
     },
     {
       "uciCode": "AFC",
@@ -68,7 +70,8 @@
     {
       "uciCode": "EFN",
       "previousUciCode": "EF1",
-      "name": "EF Education-Nippo"
+      "name": "EF Education-Nippo",
+      "colours": ["#EE769D", "#505165", "#505165"]
     },
     {
       "uciCode": "ACT",
@@ -79,7 +82,8 @@
     {
       "uciCode": "ARK",
       "previousUciCode": "ARK",
-      "name": "Arkéa-Samsic"
+      "name": "Arkéa-Samsic",
+      "colours": ["#E0422E", "#0E0E0E", "#FBFFFF"]
     },
     {
       "uciCode": "DSM",
@@ -96,7 +100,8 @@
     {
       "uciCode": "TBV",
       "previousUciCode": "TBM",
-      "name": "Team Bahrain Victorious"
+      "name": "Team Bahrain Victorious",
+      "colours": ["#ED473B", "#E48835", "#DAD4D4"]
     },
     {
       "uciCode": "BEX",
@@ -119,7 +124,8 @@
     {
       "uciCode": "TEN",
       "previousUciCode": "TDE",
-      "name": "Team TotalEnergies"
+      "name": "Team TotalEnergies",
+      "colours": ["#D9D8DD", "#118DD5", "#24272C"]
     },
     {
       "uciCode": "IWG",

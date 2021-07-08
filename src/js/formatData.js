@@ -65,5 +65,7 @@ module.exports = () => {
 
   // TODO sort backfill colours in data, remove R.take
 
-  return {cols, lines: R.take(15, lines)}
+  console.log(lines.length)
+
+  return {cols, lines: R.take(22, lines)}
 }
