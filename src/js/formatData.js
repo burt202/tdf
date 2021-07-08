@@ -72,7 +72,7 @@ module.exports = () => {
     }
   })
 
-  // TODO sort backfill colours in data, hover, add sources, readme, colour key
+  // TODO sort backfill colours in data, hover
 
   return {cols, lines}
 }
