@@ -5,92 +5,93 @@
   "teams": [
     {
       "uciCode": "GCE",
-      "previousUciCode": null,
+      "previousUciCode": "CEI",
       "name": "Caisse d'Epargne"
     },
     {
       "uciCode": "TMO",
-      "previousUciCode": null,
+      "previousUciCode": "TMO",
       "name": "T-Mobile Team"
     },
     {
       "uciCode": "CSC",
-      "previousUciCode": null,
+      "previousUciCode": "CSC",
       "name": "Team CSC"
     },
     {
       "uciCode": "PRL",
-      "previousUciCode": null,
+      "previousUciCode": "DVL",
       "name": "Predictor-Lotto"
     },
     {
       "uciCode": "RAB",
-      "previousUciCode": null,
+      "previousUciCode": "RAB",
       "name": "Rabobank"
     },
     {
       "uciCode": "A2R",
-      "previousUciCode": null,
+      "previousUciCode": "A2R",
       "name": "AG2R Prévoyance"
     },
     {
       "uciCode": "EUS",
-      "previousUciCode": null,
+      "previousUciCode": "EUS",
       "name": "Euskaltel-Euskadi"
     },
     {
       "uciCode": "LAM",
-      "previousUciCode": null,
+      "previousUciCode": "LAM",
       "name": "Lampre-Fondital"
     },
     {
       "uciCode": "GST",
-      "previousUciCode": null,
+      "previousUciCode": "GST",
       "name": "Gerolsteiner"
     },
     {
       "uciCode": "C.A",
-      "previousUciCode": null,
+      "previousUciCode": "C.A",
       "name": "Crédit Agricole"
     },
     {
       "uciCode": "DSC",
-      "previousUciCode": null,
-      "name": "Discovery Channel Pro Cycling Team"
+      "previousUciCode": "DSC",
+      "name": "Discovery Channel Pro Cycling Team",
+      "colours": ["#000000", "#1A4E99", "#FFF"]
     },
     {
       "uciCode": "BTL",
-      "previousUciCode": null,
+      "previousUciCode": "BTL",
       "name": "Bouygues Télécom"
     },
     {
       "uciCode": "AGR",
-      "previousUciCode": null,
+      "previousUciCode": "AGR",
       "name": "Agritubel"
     },
     {
       "uciCode": "COF",
-      "previousUciCode": null,
+      "previousUciCode": "COF",
       "name": "Cofidis, Le Crédit par Téléphone"
     },
     {
       "uciCode": "LIQ",
-      "previousUciCode": null,
+      "previousUciCode": "LIQ",
       "name": "Liquigas-Doimo"
     },
     {
       "uciCode": "FDJ",
-      "previousUciCode": null,
+      "previousUciCode": "FDJ",
       "name": "Française des Jeux"
     },
     {
       "uciCode": "QSI",
-      "previousUciCode": null,
+      "previousUciCode": "QSI",
       "name": "Quick Step-Innergetic"
     },
     {
       "uciCode": "MRM",
-      "previousUciCode": null,
+      "previousUciCode": "MRM",
       "name": "Team Milram"
     },
     {
@@ -101,7 +102,7 @@
     },
     {
       "uciCode": "SDV",
-      "previousUciCode": null,
+      "previousUciCode": "SDV",
       "name": "Saunier Duval-Prodir"
     },
     {
