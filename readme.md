@@ -8,3 +8,7 @@ View it at [burt202.github.io/tdf/](https://burt202.github.io/tdf/)
 
 - https://en.wikipedia.org/wiki/UCI_WorldTeam
 - https://www.uci.org/road/teams
+
+### TODO
+
+data to 2000?, click event to highlight selected

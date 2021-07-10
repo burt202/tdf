@@ -135,7 +135,7 @@ module.exports = (
       const left = lineToX - dataLabelWidth / 2
       onDataLabelDraw(top, left, dataLabelHeight, dataLabelWidth, points[j].id)
 
-      ctx.font = "16px serif"
+      ctx.font = "16px arial"
       ctx.fillStyle = textColour
       ctx.textAlign = "center"
       ctx.fillText(text, lineToX, lineToY + 5)
@@ -143,7 +143,7 @@ module.exports = (
   }
 
   function drawColumnHeaders() {
-    ctx.font = "16px serif"
+    ctx.font = "16px arial"
     ctx.fillStyle = columnTitleColour
     ctx.textAlign = "left"
 
