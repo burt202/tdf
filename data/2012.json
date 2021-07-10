@@ -1,0 +1,117 @@
+{
+  "id": "2012",
+  "startDate": "2012-06-30",
+  "endDate": "2012-07-22",
+  "teams": [
+    {
+      "uciCode": "BMC",
+      "previousUciCode": null,
+      "name": "BMC Racing Team"
+    },
+    {
+      "uciCode": "RNT",
+      "previousUciCode": null,
+      "name": "RadioShack-Nissan"
+    },
+    {
+      "uciCode": "EUC",
+      "previousUciCode": null,
+      "name": "Team Europcar"
+    },
+    {
+      "uciCode": "EUS",
+      "previousUciCode": null,
+      "name": "Euskaltel–Euskadi"
+    },
+    {
+      "uciCode": "LAM",
+      "previousUciCode": null,
+      "name": "Lampre-ISD"
+    },
+    {
+      "uciCode": "LIQ",
+      "previousUciCode": null,
+      "name": "Liquigas-Cannondale"
+    },
+    {
+      "uciCode": "GRS",
+      "previousUciCode": null,
+      "name": "Garmin-Sharp"
+    },
+    {
+      "uciCode": "ALM",
+      "previousUciCode": null,
+      "name": "AG2R La Mondiale"
+    },
+    {
+      "uciCode": "COF",
+      "previousUciCode": null,
+      "name": "Cofidis"
+    },
+    {
+      "uciCode": "SAU",
+      "previousUciCode": null,
+      "name": "Saur-Sojasun"
+    },
+    {
+      "uciCode": "SKY",
+      "previousUciCode": null,
+      "name": "Team Sky"
+    },
+    {
+      "uciCode": "LTB",
+      "previousUciCode": null,
+      "name": "Lotto-Belisol"
+    },
+    {
+      "uciCode": "VCD",
+      "previousUciCode": null,
+      "name": "Vacansoleil–DCM"
+    },
+    {
+      "uciCode": "KAT",
+      "previousUciCode": null,
+      "name": "Team Katusha"
+    },
+    {
+      "uciCode": "FDJ",
+      "previousUciCode": null,
+      "name": "FDJ–BigMat"
+    },
+    {
+      "uciCode": "RAB",
+      "previousUciCode": null,
+      "name": "Rabobank"
+    },
+    {
+      "uciCode": "MOV",
+      "previousUciCode": null,
+      "name": "Movistar Team"
+    },
+    {
+      "uciCode": "STB",
+      "previousUciCode": null,
+      "name": "Saxo Bank-Tinkoff Bank"
+    },
+    {
+      "uciCode": "AST",
+      "previousUciCode": null,
+      "name": "Astana"
+    },
+    {
+      "uciCode": "OPQ",
+      "previousUciCode": null,
+      "name": "Omega Pharma-Quick-Step"
+    },
+    {
+      "uciCode": "OGE",
+      "previousUciCode": null,
+      "name": "Orica-GreenEDGE"
+    },
+    {
+      "uciCode": "ARG",
+      "previousUciCode": null,
+      "name": "Argos-Shimano"
+    }
+  ]
+}

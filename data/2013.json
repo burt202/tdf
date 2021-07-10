@@ -5,114 +5,114 @@
   "teams": [
     {
       "uciCode": "SKY",
-      "previousUciCode": null,
+      "previousUciCode": "SKY",
       "name": "Team Sky"
     },
     {
       "uciCode": "CAN",
-      "previousUciCode": null,
+      "previousUciCode": "LIQ",
       "name": "Cannondale"
     },
     {
       "uciCode": "LTB",
-      "previousUciCode": null,
+      "previousUciCode": "LTB",
       "name": "Lotto-Belisol"
     },
     {
       "uciCode": "BMC",
-      "previousUciCode": null,
+      "previousUciCode": "BMC",
       "name": "BMC Racing Team"
     },
     {
       "uciCode": "RLT",
-      "previousUciCode": null,
+      "previousUciCode": "RNT",
       "name": "RadioShack-Leopard"
     },
     {
       "uciCode": "EUC",
-      "previousUciCode": null,
+      "previousUciCode": "EUC",
       "name": "Team Europcar"
     },
     {
       "uciCode": "AST",
-      "previousUciCode": null,
+      "previousUciCode": "AST",
       "name": "Astana"
     },
     {
       "uciCode": "FDJ",
-      "previousUciCode": null,
+      "previousUciCode": "FDJ",
       "name": "FDJ.fr"
     },
     {
       "uciCode": "ALM",
-      "previousUciCode": null,
+      "previousUciCode": "ALM",
       "name": "AG2R La Mondiale"
     },
     {
       "uciCode": "TST",
-      "previousUciCode": null,
+      "previousUciCode": "STB",
       "name": "Saxo-Tinkoff"
     },
     {
       "uciCode": "KAT",
-      "previousUciCode": null,
+      "previousUciCode": "KAT",
       "name": "Team Katusha"
     },
     {
       "uciCode": "EUS",
-      "previousUciCode": null,
+      "previousUciCode": "EUS",
       "name": "Euskaltel–Euskadi",
       "colours": ["#DB6D38", "#010105", "#D4DDCA"]
     },
     {
       "uciCode": "MOV",
-      "previousUciCode": null,
+      "previousUciCode": "MOV",
       "name": "Movistar Team"
     },
     {
       "uciCode": "COF",
-      "previousUciCode": null,
+      "previousUciCode": "COF",
       "name": "Cofidis"
     },
     {
       "uciCode": "LAM",
-      "previousUciCode": null,
+      "previousUciCode": "LAM",
       "name": "Lampre-Merida"
     },
     {
       "uciCode": "OPQ",
-      "previousUciCode": null,
+      "previousUciCode": "OPQ",
       "name": "Omega Pharma-Quick-Step"
     },
     {
       "uciCode": "BEL",
-      "previousUciCode": null,
+      "previousUciCode": "RAB",
       "name": "Belkin Pro Cycling"
     },
     {
       "uciCode": "GRS",
-      "previousUciCode": null,
+      "previousUciCode": "GRS",
       "name": "Garmin-Sharp"
     },
     {
       "uciCode": "OGE",
-      "previousUciCode": null,
+      "previousUciCode": "OGE",
       "name": "Orica-GreenEDGE"
     },
     {
       "uciCode": "ARG",
-      "previousUciCode": null,
+      "previousUciCode": "ARG",
       "name": "Argos-Shimano"
     },
     {
       "uciCode": "VCD",
-      "previousUciCode": null,
+      "previousUciCode": "VCD",
       "name": "Vacansoleil–DCM",
       "colours": ["#0F1427", "#0F1427", "#C8C177"]
     },
     {
       "uciCode": "SOJ",
-      "previousUciCode": null,
+      "previousUciCode": "SAU",
       "name": "Sojasun",
       "colours": ["#E0E0F8", "#2E623C", "#C03725"]
     }
