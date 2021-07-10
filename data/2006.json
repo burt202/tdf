@@ -5,94 +5,93 @@
   "teams": [
     {
       "uciCode": "DSC",
-      "previousUciCode": null,
+      "previousUciCode": "DSC",
       "name": "Discovery Channel"
     },
     {
       "uciCode": "CSC",
-      "previousUciCode": null,
+      "previousUciCode": "CSC",
       "name": "Team CSC"
     },
     {
       "uciCode": "TMO",
-      "previousUciCode": null,
+      "previousUciCode": "TMO",
       "name": "T-Mobile Team"
     },
     {
       "uciCode": "A2R",
-      "previousUciCode": null,
+      "previousUciCode": "A2R",
       "name": "AG2R Prévoyance"
     },
     {
       "uciCode": "GST",
-      "previousUciCode": null,
+      "previousUciCode": "GST",
       "name": "Gerolsteiner"
     },
     {
       "uciCode": "RAB",
-      "previousUciCode": null,
+      "previousUciCode": "RAB",
       "name": "Rabobank"
     },
     {
       "uciCode": "DVL",
-      "previousUciCode": null,
+      "previousUciCode": "DVL",
       "name": "Davitamon-Lotto"
     },
     {
       "uciCode": "PHO",
-      "previousUciCode": null,
+      "previousUciCode": "PHO",
       "name": "Phonak",
       "colours": ["#FFF", "#4C9852", "#000"]
     },
     {
       "uciCode": "LAM",
-      "previousUciCode": null,
+      "previousUciCode": "LAM",
       "name": "Lampre-Fondital"
     },
     {
       "uciCode": "CEI",
-      "previousUciCode": null,
-      "name": "Caisse d'Epargne–Illes Balears"
+      "previousUciCode": "IBA",
+      "name": "Caisse d'Epargne-Illes Balears"
     },
     {
       "uciCode": "QSI",
-      "previousUciCode": null,
+      "previousUciCode": "QST",
       "name": "Quick Step-Innergetic"
     },
     {
       "uciCode": "C.A",
-      "previousUciCode": null,
+      "previousUciCode": "C.A",
       "name": "Crédit Agricole"
     },
     {
       "uciCode": "EUS",
-      "previousUciCode": null,
+      "previousUciCode": "EUS",
       "name": "Euskaltel-Euskadi"
     },
     {
       "uciCode": "COF",
-      "previousUciCode": null,
+      "previousUciCode": "COF",
       "name": "Cofidis"
     },
     {
       "uciCode": "SDV",
-      "previousUciCode": null,
+      "previousUciCode": "SDV",
       "name": "Saunier Duval-Prodir"
     },
     {
       "uciCode": "FDJ",
-      "previousUciCode": null,
+      "previousUciCode": "FDJ",
       "name": "Française des Jeux"
     },
     {
       "uciCode": "LIQ",
-      "previousUciCode": null,
+      "previousUciCode": "LIQ",
       "name": "Liquigas"
     },
-
     {
       "uciCode": "BTL",
-      "previousUciCode": null,
+      "previousUciCode": "BTL",
       "name": "Bouygues Télécom"
     },
     {

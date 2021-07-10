@@ -1,0 +1,116 @@
+{
+  "id": "2005",
+  "startDate": "2005-07-02",
+  "endDate": "2005-07-24",
+  "teams": [
+    {
+      "uciCode": "DSC",
+      "previousUciCode": null,
+      "name": "Discovery Channel"
+    },
+    {
+      "uciCode": "TMO",
+      "previousUciCode": null,
+      "name": "T-Mobile Team"
+    },
+    {
+      "uciCode": "CSC",
+      "previousUciCode": null,
+      "name": "Team CSC"
+    },
+    {
+      "uciCode": "IBA",
+      "previousUciCode": null,
+      "name": "Illes Balears"
+    },
+    {
+      "uciCode": "DVL",
+      "previousUciCode": null,
+      "name": "Davitamon-Lotto"
+    },
+    {
+      "uciCode": "RAB",
+      "previousUciCode": null,
+      "name": "Rabobank"
+    },
+    {
+      "uciCode": "PHO",
+      "previousUciCode": null,
+      "name": "Phonak"
+    },
+    {
+      "uciCode": "FAS",
+      "previousUciCode": null,
+      "name": "Fassa Bortolo",
+      "colours": ["#0D1B3F", "#0D1B3F", "#FFF"]
+    },
+    {
+      "uciCode": "SDV",
+      "previousUciCode": null,
+      "name": "Saunier Duval-Prodir"
+    },
+    {
+      "uciCode": "LSW",
+      "previousUciCode": null,
+      "name": "Liberty Seguros-Würth",
+      "colours": ["#3F57A1", "#95D9FC", "#FFF"]
+    },
+    {
+      "uciCode": "C.A",
+      "previousUciCode": null,
+      "name": "Crédit Agricole"
+    },
+    {
+      "uciCode": "LIQ",
+      "previousUciCode": null,
+      "name": "Liquigas-Bianchi"
+    },
+    {
+      "uciCode": "COF",
+      "previousUciCode": null,
+      "name": "Cofidis"
+    },
+    {
+      "uciCode": "QST",
+      "previousUciCode": null,
+      "name": "Quick Step"
+    },
+    {
+      "uciCode": "BTL",
+      "previousUciCode": null,
+      "name": "Bouygues Télécom"
+    },
+    {
+      "uciCode": "LAM",
+      "previousUciCode": null,
+      "name": "Lampre-Caffita"
+    },
+    {
+      "uciCode": "GST",
+      "previousUciCode": null,
+      "name": "Gerolsteiner"
+    },
+    {
+      "uciCode": "FDJ",
+      "previousUciCode": null,
+      "name": "Française des Jeux"
+    },
+    {
+      "uciCode": "DOM",
+      "previousUciCode": null,
+      "name": "Domina Vacanze",
+      "colours": ["#DDA92F", "#F4966E", "#1564EC"]
+    },
+
+    {
+      "uciCode": "EUS",
+      "previousUciCode": null,
+      "name": "Euskaltel-Euskadi"
+    },
+    {
+      "uciCode": "A2R",
+      "previousUciCode": null,
+      "name": "AG2R"
+    }
+  ]
+}
