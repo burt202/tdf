@@ -5,114 +5,114 @@
   "teams": [
     {
       "uciCode": "SKY",
-      "previousUciCode": null,
+      "previousUciCode": "SKY",
       "name": "Team Sky"
     },
     {
       "uciCode": "MOV",
-      "previousUciCode": null,
+      "previousUciCode": "MOV",
       "name": "Movistar Team"
     },
     {
       "uciCode": "AST",
-      "previousUciCode": null,
+      "previousUciCode": "AST",
       "name": "Astana"
     },
     {
       "uciCode": "TNK",
-      "previousUciCode": null,
+      "previousUciCode": "TCS",
       "name": "Tinkoff",
       "colours": ["#CFEC54", "#1C1C24", "#1C1C24"]
     },
     {
       "uciCode": "ALM",
-      "previousUciCode": null,
+      "previousUciCode": "ALM",
       "name": "AG2R La Mondiale"
     },
     {
       "uciCode": "TLJ",
-      "previousUciCode": null,
+      "previousUciCode": "TLJ",
       "name": "LottoNL-Jumbo"
     },
     {
       "uciCode": "TFS",
-      "previousUciCode": null,
+      "previousUciCode": "TFR",
       "name": "Trek-Segafredo"
     },
     {
       "uciCode": "IAM",
-      "previousUciCode": null,
+      "previousUciCode": "IAM",
       "name": "IAM Cycling",
       "colours": ["#CACDDD", "#D53E2B", "#252E4D"]
     },
     {
       "uciCode": "CDT",
-      "previousUciCode": null,
+      "previousUciCode": "TCG",
       "name": "Cannondale-Drapac"
     },
     {
       "uciCode": "BMC",
-      "previousUciCode": null,
+      "previousUciCode": "BMC",
       "name": "BMC Racing Team"
     },
     {
       "uciCode": "DDD",
-      "previousUciCode": null,
+      "previousUciCode": "MTN",
       "name": "Team Dimension Data"
     },
     {
       "uciCode": "TGA",
-      "previousUciCode": null,
+      "previousUciCode": "TGA",
       "name": "Team Giant-Alpecin"
     },
     {
       "uciCode": "FDJ",
-      "previousUciCode": null,
+      "previousUciCode": "FDJ",
       "name": "FDJ"
     },
     {
       "uciCode": "BOA",
-      "previousUciCode": null,
+      "previousUciCode": "BOA",
       "name": "Bora-Argon 18"
     },
     {
       "uciCode": "KAT",
-      "previousUciCode": null,
+      "previousUciCode": "KAT",
       "name": "Team Katusha"
     },
     {
       "uciCode": "LAM",
-      "previousUciCode": null,
+      "previousUciCode": "LAM",
       "name": "Lampre-Merida"
     },
     {
       "uciCode": "LTS",
-      "previousUciCode": null,
+      "previousUciCode": "LTS",
       "name": "Lotto-Soudal"
     },
     {
       "uciCode": "TDE",
-      "previousUciCode": null,
+      "previousUciCode": "EUC",
       "name": "Direct Énergie"
     },
     {
       "uciCode": "EQS",
-      "previousUciCode": null,
+      "previousUciCode": "EQS",
       "name": "Etixx-Quick-Step"
     },
     {
       "uciCode": "COF",
-      "previousUciCode": null,
+      "previousUciCode": "COF",
       "name": "Cofidis"
     },
     {
       "uciCode": "OBE",
-      "previousUciCode": null,
+      "previousUciCode": "OGE",
       "name": "Orica-BikeExchange"
     },
     {
       "uciCode": "FVC",
-      "previousUciCode": null,
+      "previousUciCode": "BSE",
       "name": "Fortuneo-Vital Concept"
     }
   ]

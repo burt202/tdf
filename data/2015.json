@@ -1,0 +1,117 @@
+{
+  "id": "2015",
+  "startDate": "2015-07-04",
+  "endDate": "2015-07-26",
+  "teams": [
+    {
+      "uciCode": "AST",
+      "previousUciCode": null,
+      "name": "Astana"
+    },
+    {
+      "uciCode": "ALM",
+      "previousUciCode": null,
+      "name": "AG2R La Mondiale"
+    },
+    {
+      "uciCode": "FDJ",
+      "previousUciCode": null,
+      "name": "FDJ"
+    },
+    {
+      "uciCode": "SKY",
+      "previousUciCode": null,
+      "name": "Team Sky"
+    },
+    {
+      "uciCode": "TCS",
+      "previousUciCode": null,
+      "name": "Tinkoff-Saxo"
+    },
+    {
+      "uciCode": "MOV",
+      "previousUciCode": null,
+      "name": "Movistar Team"
+    },
+    {
+      "uciCode": "BMC",
+      "previousUciCode": null,
+      "name": "BMC Racing Team"
+    },
+    {
+      "uciCode": "LTS",
+      "previousUciCode": null,
+      "name": "Lotto-Soudal"
+    },
+    {
+      "uciCode": "TGA",
+      "previousUciCode": null,
+      "name": "Team Giant-Alpecin"
+    },
+    {
+      "uciCode": "KAT",
+      "previousUciCode": null,
+      "name": "Team Katusha"
+    },
+    {
+      "uciCode": "OGE",
+      "previousUciCode": null,
+      "name": "Orica-BikeExchange"
+    },
+    {
+      "uciCode": "EQS",
+      "previousUciCode": null,
+      "name": "Etixx-Quick-Step"
+    },
+    {
+      "uciCode": "EUC",
+      "previousUciCode": null,
+      "name": "Team Europcar"
+    },
+    {
+      "uciCode": "TLJ",
+      "previousUciCode": null,
+      "name": "LottoNL-Jumbo"
+    },
+    {
+      "uciCode": "TFR",
+      "previousUciCode": null,
+      "name": "Trek Factory Racing"
+    },
+    {
+      "uciCode": "LAM",
+      "previousUciCode": null,
+      "name": "Lampre-Merida"
+    },
+    {
+      "uciCode": "TCG",
+      "previousUciCode": null,
+      "name": "Cannondale-Garmin"
+    },
+    {
+      "uciCode": "COF",
+      "previousUciCode": null,
+      "name": "Cofidis"
+    },
+    {
+      "uciCode": "IAM",
+      "previousUciCode": null,
+      "name": "IAM Cycling"
+    },
+    {
+      "uciCode": "BOA",
+      "previousUciCode": null,
+      "name": "Bora-Argon 18"
+    },
+    {
+      "uciCode": "BSE",
+      "previousUciCode": null,
+      "name": " Bretagne-Séché Environnement"
+    },
+    {
+      "uciCode": "MTN",
+      "previousUciCode": null,
+      "name": "MTN–Qhubeka"
+    }
+  ]
+}
