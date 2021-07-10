@@ -1,0 +1,118 @@
+{
+  "id": "2014",
+  "startDate": "2014-07-05",
+  "endDate": "2014-07-27",
+  "teams": [
+    {
+      "uciCode": "SKY",
+      "previousUciCode": null,
+      "name": "Team Sky"
+    },
+    {
+      "uciCode": "MOV",
+      "previousUciCode": null,
+      "name": "Movistar Team"
+    },
+    {
+      "uciCode": "KAT",
+      "previousUciCode": null,
+      "name": "Team Katusha"
+    },
+    {
+      "uciCode": "TCS",
+      "previousUciCode": null,
+      "name": "Tinkoff-Saxo"
+    },
+    {
+      "uciCode": "AST",
+      "previousUciCode": null,
+      "name": "Astana"
+    },
+    {
+      "uciCode": "CAN",
+      "previousUciCode": null,
+      "name": "Cannondale",
+      "colours": ["#629512", "#014074", "#111310"]
+    },
+    {
+      "uciCode": "BEL",
+      "previousUciCode": null,
+      "name": "Belkin Pro Cycling"
+    },
+    {
+      "uciCode": "OPQ",
+      "previousUciCode": null,
+      "name": "Omega Pharma-Quick-Step"
+    },
+    {
+      "uciCode": "ALM",
+      "previousUciCode": null,
+      "name": "AG2R La Mondiale"
+    },
+    {
+      "uciCode": "GRS",
+      "previousUciCode": null,
+      "name": "Garmin-Sharp"
+    },
+    {
+      "uciCode": "GIA",
+      "previousUciCode": null,
+      "name": "Giant-Shimano"
+    },
+    {
+      "uciCode": "LAM",
+      "previousUciCode": null,
+      "name": "Lampre-Merida"
+    },
+    {
+      "uciCode": "FDJ",
+      "previousUciCode": null,
+      "name": "FDJ.fr"
+    },
+    {
+      "uciCode": "LTB",
+      "previousUciCode": null,
+      "name": "Lotto-Belisol"
+    },
+    {
+      "uciCode": "BMC",
+      "previousUciCode": null,
+      "name": "BMC Racing Team"
+    },
+    {
+      "uciCode": "EUC",
+      "previousUciCode": null,
+      "name": "Team Europcar"
+    },
+    {
+      "uciCode": "TFR",
+      "previousUciCode": null,
+      "name": "Trek Factory Racing"
+    },
+    {
+      "uciCode": "COF",
+      "previousUciCode": null,
+      "name": "Cofidis"
+    },
+    {
+      "uciCode": "OGE",
+      "previousUciCode": null,
+      "name": "Orica-GreenEDGE"
+    },
+    {
+      "uciCode": "IAM",
+      "previousUciCode": null,
+      "name": "IAM Cycling"
+    },
+    {
+      "uciCode": "TNE",
+      "previousUciCode": null,
+      "name": "NetApp-Endura"
+    },
+    {
+      "uciCode": "BSE",
+      "previousUciCode": null,
+      "name": " Bretagne-Séché Environnement"
+    }
+  ]
+}

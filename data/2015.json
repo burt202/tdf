@@ -5,113 +5,113 @@
   "teams": [
     {
       "uciCode": "AST",
-      "previousUciCode": null,
+      "previousUciCode": "AST",
       "name": "Astana"
     },
     {
       "uciCode": "ALM",
-      "previousUciCode": null,
+      "previousUciCode": "ALM",
       "name": "AG2R La Mondiale"
     },
     {
       "uciCode": "FDJ",
-      "previousUciCode": null,
+      "previousUciCode": "FDJ",
       "name": "FDJ"
     },
     {
       "uciCode": "SKY",
-      "previousUciCode": null,
+      "previousUciCode": "SKY",
       "name": "Team Sky"
     },
     {
       "uciCode": "TCS",
-      "previousUciCode": null,
+      "previousUciCode": "TCS",
       "name": "Tinkoff-Saxo"
     },
     {
       "uciCode": "MOV",
-      "previousUciCode": null,
+      "previousUciCode": "MOV",
       "name": "Movistar Team"
     },
     {
       "uciCode": "BMC",
-      "previousUciCode": null,
+      "previousUciCode": "BMC",
       "name": "BMC Racing Team"
     },
     {
       "uciCode": "LTS",
-      "previousUciCode": null,
+      "previousUciCode": "LTB",
       "name": "Lotto-Soudal"
     },
     {
       "uciCode": "TGA",
-      "previousUciCode": null,
+      "previousUciCode": "GIA",
       "name": "Team Giant-Alpecin"
     },
     {
       "uciCode": "KAT",
-      "previousUciCode": null,
+      "previousUciCode": "KAT",
       "name": "Team Katusha"
     },
     {
       "uciCode": "OGE",
-      "previousUciCode": null,
-      "name": "Orica-BikeExchange"
+      "previousUciCode": "OGE",
+      "name": "Orica-GreenEDGE"
     },
     {
       "uciCode": "EQS",
-      "previousUciCode": null,
+      "previousUciCode": "OPQ",
       "name": "Etixx-Quick-Step"
     },
     {
       "uciCode": "EUC",
-      "previousUciCode": null,
+      "previousUciCode": "EUC",
       "name": "Team Europcar"
     },
     {
       "uciCode": "TLJ",
-      "previousUciCode": null,
+      "previousUciCode": "BEL",
       "name": "LottoNL-Jumbo"
     },
     {
       "uciCode": "TFR",
-      "previousUciCode": null,
+      "previousUciCode": "TFR",
       "name": "Trek Factory Racing"
     },
     {
       "uciCode": "LAM",
-      "previousUciCode": null,
+      "previousUciCode": "LAM",
       "name": "Lampre-Merida"
     },
     {
       "uciCode": "TCG",
-      "previousUciCode": null,
+      "previousUciCode": "GRS",
       "name": "Cannondale-Garmin"
     },
     {
       "uciCode": "COF",
-      "previousUciCode": null,
+      "previousUciCode": "COF",
       "name": "Cofidis"
     },
     {
       "uciCode": "IAM",
-      "previousUciCode": null,
+      "previousUciCode": "IAM",
       "name": "IAM Cycling"
     },
     {
       "uciCode": "BOA",
-      "previousUciCode": null,
+      "previousUciCode": "TNE",
       "name": "Bora-Argon 18"
     },
     {
       "uciCode": "BSE",
-      "previousUciCode": null,
+      "previousUciCode": "BSE",
       "name": " Bretagne-Séché Environnement"
     },
     {
       "uciCode": "MTN",
       "previousUciCode": null,
-      "name": "MTN–Qhubeka"
+      "name": "MTN-Qhubeka"
     }
   ]
 }
