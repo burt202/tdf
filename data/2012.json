@@ -5,102 +5,102 @@
   "teams": [
     {
       "uciCode": "BMC",
-      "previousUciCode": null,
+      "previousUciCode": "BMC",
       "name": "BMC Racing Team"
     },
     {
       "uciCode": "RNT",
-      "previousUciCode": null,
+      "previousUciCode": "LEO",
       "name": "RadioShack-Nissan"
     },
     {
       "uciCode": "EUC",
-      "previousUciCode": null,
+      "previousUciCode": "EUC",
       "name": "Team Europcar"
     },
     {
       "uciCode": "EUS",
-      "previousUciCode": null,
-      "name": "Euskaltel–Euskadi"
+      "previousUciCode": "EUS",
+      "name": "Euskaltel-Euskadi"
     },
     {
       "uciCode": "LAM",
-      "previousUciCode": null,
+      "previousUciCode": "LAM",
       "name": "Lampre-ISD"
     },
     {
       "uciCode": "LIQ",
-      "previousUciCode": null,
+      "previousUciCode": "LIQ",
       "name": "Liquigas-Cannondale"
     },
     {
       "uciCode": "GRS",
-      "previousUciCode": null,
+      "previousUciCode": "GRM",
       "name": "Garmin-Sharp"
     },
     {
       "uciCode": "ALM",
-      "previousUciCode": null,
+      "previousUciCode": "ALM",
       "name": "AG2R La Mondiale"
     },
     {
       "uciCode": "COF",
-      "previousUciCode": null,
+      "previousUciCode": "COF",
       "name": "Cofidis"
     },
     {
       "uciCode": "SAU",
-      "previousUciCode": null,
+      "previousUciCode": "SAU",
       "name": "Saur-Sojasun"
     },
     {
       "uciCode": "SKY",
-      "previousUciCode": null,
+      "previousUciCode": "SKY",
       "name": "Team Sky"
     },
     {
       "uciCode": "LTB",
-      "previousUciCode": null,
+      "previousUciCode": "OLO",
       "name": "Lotto-Belisol"
     },
     {
       "uciCode": "VCD",
-      "previousUciCode": null,
-      "name": "Vacansoleil–DCM"
+      "previousUciCode": "VCD",
+      "name": "Vacansoleil-DCM"
     },
     {
       "uciCode": "KAT",
-      "previousUciCode": null,
+      "previousUciCode": "KAT",
       "name": "Team Katusha"
     },
     {
       "uciCode": "FDJ",
-      "previousUciCode": null,
-      "name": "FDJ–BigMat"
+      "previousUciCode": "FDJ",
+      "name": "FDJ-BigMat"
     },
     {
       "uciCode": "RAB",
-      "previousUciCode": null,
+      "previousUciCode": "RAB",
       "name": "Rabobank"
     },
     {
       "uciCode": "MOV",
-      "previousUciCode": null,
+      "previousUciCode": "MOV",
       "name": "Movistar Team"
     },
     {
       "uciCode": "STB",
-      "previousUciCode": null,
+      "previousUciCode": "SBS",
       "name": "Saxo Bank-Tinkoff Bank"
     },
     {
       "uciCode": "AST",
-      "previousUciCode": null,
+      "previousUciCode": "AST",
       "name": "Astana"
     },
     {
       "uciCode": "OPQ",
-      "previousUciCode": null,
+      "previousUciCode": "QST",
       "name": "Omega Pharma-Quick-Step"
     },
     {

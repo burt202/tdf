@@ -1,0 +1,119 @@
+{
+  "id": "2011",
+  "startDate": "2011-07-02",
+  "endDate": "2011-07-24",
+  "teams": [
+    {
+      "uciCode": "SBS",
+      "previousUciCode": null,
+      "name": "Saxo Bank-SunGard"
+    },
+    {
+      "uciCode": "LEO",
+      "previousUciCode": null,
+      "name": "Leopard Trek"
+    },
+    {
+      "uciCode": "EUS",
+      "previousUciCode": null,
+      "name": "Euskaltel-Euskadi"
+    },
+    {
+      "uciCode": "OLO",
+      "previousUciCode": null,
+      "name": "Omega Pharma-Lotto"
+    },
+    {
+      "uciCode": "RAB",
+      "previousUciCode": null,
+      "name": "Rabobank"
+    },
+    {
+      "uciCode": "GRM",
+      "previousUciCode": null,
+      "name": "Garmin-Cervélo"
+    },
+    {
+      "uciCode": "AST",
+      "previousUciCode": null,
+      "name": "Astana"
+    },
+    {
+      "uciCode": "RSH",
+      "previousUciCode": null,
+      "name": "Team RadioShack",
+      "colours": ["#F8F4F1", "#EA4530", "#EA4530"]
+    },
+    {
+      "uciCode": "MOV",
+      "previousUciCode": null,
+      "name": "Movistar Team"
+    },
+    {
+      "uciCode": "LIQ",
+      "previousUciCode": null,
+      "name": "Liquigas-Cannondale"
+    },
+    {
+      "uciCode": "ALM",
+      "previousUciCode": null,
+      "name": "AG2R La Mondiale"
+    },
+    {
+      "uciCode": "SKY",
+      "previousUciCode": null,
+      "name": "Team Sky"
+    },
+    {
+      "uciCode": "QST",
+      "previousUciCode": null,
+      "name": "Quick-Step"
+    },
+    {
+      "uciCode": "FDJ",
+      "previousUciCode": null,
+      "name": "FDJ"
+    },
+    {
+      "uciCode": "BMC",
+      "previousUciCode": null,
+      "name": "BMC Racing Team"
+    },
+    {
+      "uciCode": "COF",
+      "previousUciCode": null,
+      "name": "Cofidis"
+    },
+    {
+      "uciCode": "LAM",
+      "previousUciCode": null,
+      "name": "Lampre-ISD"
+    },
+    {
+      "uciCode": "THR",
+      "previousUciCode": null,
+      "name": "HTC–Highroad",
+      "colours": ["#FFF", "#68A54F", "#363237"]
+    },
+    {
+      "uciCode": "EUC",
+      "previousUciCode": null,
+      "name": "Team Europcar"
+    },
+    {
+      "uciCode": "KAT",
+      "previousUciCode": null,
+      "name": "Team Katusha"
+    },
+    {
+      "uciCode": "VCD",
+      "previousUciCode": null,
+      "name": "Vacansoleil-DCM"
+    },
+    {
+      "uciCode": "SAU",
+      "previousUciCode": null,
+      "name": "Saur-Sojasun"
+    }
+  ]
+}
