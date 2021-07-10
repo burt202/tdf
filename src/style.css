@@ -21,3 +21,11 @@ body {
 #chart {
   border: 1px solid #000;
 }
+
+#hover {
+  position: absolute;
+  z-index: 999;
+  background-color: #fdfd96;
+  padding: 4px;
+  border: #000 1px solid;
+}

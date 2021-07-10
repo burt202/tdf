@@ -2,9 +2,19 @@ const R = require("ramda")
 
 module.exports = (
   ctx,
-  {chartWidth, chartHeight, padding, gridLineColour, columnTitleColour, cols, lines},
+  {
+    chartWidth,
+    chartHeight,
+    padding,
+    gridLineColour,
+    columnTitleColour,
+    cols,
+    lines,
+    onDataLabelDraw,
+  },
 ) => {
   const dataLabelWidth = 250
+  const dataLabelHeight = 40
 
   const rowCount = R.pipe(R.pluck("points"), R.flatten, R.pluck("coords"), R.map(R.last), (arr) =>
     Math.max.apply(null, arr),
@@ -120,13 +130,17 @@ module.exports = (
 
       drawBorderedRoundedRectangle(
         lineToX - dataLabelWidth / 2,
-        lineToY - 20,
+        lineToY - dataLabelHeight / 2,
         dataLabelWidth,
-        40,
+        dataLabelHeight,
         8,
         fillColour,
         lineColour,
       )
+
+      const top = lineToY - dataLabelHeight / 2
+      const left = lineToX - dataLabelWidth / 2
+      onDataLabelDraw(top, left, dataLabelHeight, dataLabelWidth, points[j].id)
 
       ctx.font = "16px serif"
       ctx.fillStyle = textColour

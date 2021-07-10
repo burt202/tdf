@@ -4,7 +4,10 @@ const formatData = require("./formatData")
 require("../style.css")
 
 module.exports = () => {
-  const ctx = document.getElementById("chart").getContext("2d")
+  const chartEl = document.getElementById("chart")
+  const ctx = chartEl.getContext("2d")
+  const chartElLeft = chartEl.offsetLeft
+  const chartElTop = chartEl.offsetTop
 
   const chartWidth = 1500
   const chartHeight = 1000
@@ -14,6 +17,8 @@ module.exports = () => {
 
   const {cols, lines} = formatData()
 
+  const labelCache = []
+
   drawChart(ctx, {
     chartWidth,
     chartHeight,
@@ -22,5 +27,30 @@ module.exports = () => {
     columnTitleColour,
     cols,
     lines,
+    onDataLabelDraw: (top, left, height, width, id) => {
+      labelCache.push({top, left, height, width, id})
+    },
   })
+
+  const hoverEl = document.getElementById("hover")
+
+  chartEl.addEventListener(
+    "mousemove",
+    function (event) {
+      const x = event.pageX - chartElLeft
+      const y = event.pageY - chartElTop
+
+      hoverEl.style.display = "none"
+
+      labelCache.forEach(function (l) {
+        if (y > l.top && y < l.top + l.height && x > l.left && x < l.left + l.width) {
+          hoverEl.style.display = "block"
+          hoverEl.style.top = `${event.pageY + 10}px`
+          hoverEl.style.left = `${event.pageX + 10}px`
+          hoverEl.innerHTML = l.id.split("-")[1]
+        }
+      })
+    },
+    false,
+  )
 }
