@@ -14,12 +14,8 @@ body {
   background-color: #fff;
 }
 
-#chart-wrapper {
-  padding: 32px 32px 24px 32px;
-}
-
-#chart {
-  border: 1px solid #000;
+h1 {
+  margin: 16px 25px;
 }
 
 #hover {
@@ -28,4 +24,8 @@ body {
   background-color: #fdfd96;
   padding: 4px;
   border: #000 1px solid;
+}
+
+#colour-key {
+  padding: 25px;
 }
