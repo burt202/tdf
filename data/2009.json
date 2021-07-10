@@ -1,0 +1,105 @@
+{
+  "id": "2009",
+  "startDate": "2009-07-04",
+  "endDate": "2009-07-26",
+  "teams": [
+    {
+      "uciCode": "CTT",
+      "previousUciCode": null,
+      "name": "Cervélo TestTeam"
+    },
+    {
+      "uciCode": "SIL",
+      "previousUciCode": null,
+      "name": "Silence-Lotto"
+    },
+    {
+      "uciCode": "AST",
+      "previousUciCode": null,
+      "name": "Astana"
+    },
+    {
+      "uciCode": "SAX",
+      "previousUciCode": null,
+      "name": "Team Saxo Bank"
+    },
+    {
+      "uciCode": "GRM",
+      "previousUciCode": null,
+      "name": "Garmin-Slipstream"
+    },
+    {
+      "uciCode": "EUS",
+      "previousUciCode": null,
+      "name": "Euskaltel-Euskadi"
+    },
+    {
+      "uciCode": "THR",
+      "previousUciCode": null,
+      "name": "Team Columbia-HTC"
+    },
+    {
+      "uciCode": "ALM",
+      "previousUciCode": null,
+      "name": "AG2R La Mondiale"
+    },
+    {
+      "uciCode": "LIQ",
+      "previousUciCode": null,
+      "name": "Liquigas-Doimo"
+    },
+
+    {
+      "uciCode": "FDJ",
+      "previousUciCode": null,
+      "name": "Française des Jeux"
+    },
+    {
+      "uciCode": "GCE",
+      "previousUciCode": null,
+      "name": "Caisse d'Epargne"
+    },
+    {
+      "uciCode": "COF",
+      "previousUciCode": null,
+      "name": "Cofidis"
+    },
+    {
+      "uciCode": "LAM",
+      "previousUciCode": null,
+      "name": "Lampre-NGC"
+    },
+    {
+      "uciCode": "BBO",
+      "previousUciCode": null,
+      "name": "Bbox Bouygues Telecom"
+    },
+    {
+      "uciCode": "QST",
+      "previousUciCode": null,
+      "name": "Quick-Step"
+    },
+    {
+      "uciCode": "KAT",
+      "previousUciCode": null,
+      "name": "Team Katusha"
+    },
+    {
+      "uciCode": "AGR",
+      "previousUciCode": null,
+      "name": "Agritubel",
+      "colours": ["#2555C1", "#2555C1", "#C6C9EF"]
+    },
+    {
+      "uciCode": "MRM",
+      "previousUciCode": null,
+      "name": "Team Milram"
+    },
+    {
+      "uciCode": "SKS",
+      "previousUciCode": null,
+      "name": "Skil–Shimano",
+      "colours": ["#FCFFFF", "#2FB6FB", "#F1837C"]
+    }
+  ]
+}

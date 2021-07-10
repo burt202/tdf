@@ -5,12 +5,12 @@
   "teams": [
     {
       "uciCode": "AST",
-      "previousUciCode": null,
+      "previousUciCode": "AST",
       "name": "Astana"
     },
     {
       "uciCode": "SAX",
-      "previousUciCode": null,
+      "previousUciCode": "SAX",
       "name": "Team Saxo Bank"
     },
     {
@@ -25,43 +25,43 @@
     },
     {
       "uciCode": "LIQ",
-      "previousUciCode": null,
+      "previousUciCode": "LIQ",
       "name": "Liquigas-Doimo"
     },
     {
       "uciCode": "GRM",
-      "previousUciCode": null,
+      "previousUciCode": "GRM",
       "name": "Garmin-Transitions"
     },
     {
       "uciCode": "FDJ",
-      "previousUciCode": null,
+      "previousUciCode": "FDJ",
       "name": "FDJ"
     },
     {
       "uciCode": "KAT",
-      "previousUciCode": null,
+      "previousUciCode": "KAT",
       "name": "Team Katusha"
     },
     {
       "uciCode": "ALM",
-      "previousUciCode": null,
+      "previousUciCode": "ALM",
       "name": "AG2R La Mondiale"
     },
     {
       "uciCode": "CTT",
-      "previousUciCode": null,
+      "previousUciCode": "CTT",
       "name": "Cervélo TestTeam",
       "colours": ["#010101", "#E7442F", "#FEFAFD"]
     },
     {
       "uciCode": "OLO",
-      "previousUciCode": null,
+      "previousUciCode": "SIL",
       "name": "Omega Pharma-Lotto"
     },
     {
       "uciCode": "THR",
-      "previousUciCode": null,
+      "previousUciCode": "THR",
       "name": "Team HTC-Columbia"
     },
     {
@@ -71,33 +71,33 @@
     },
     {
       "uciCode": "QST",
-      "previousUciCode": null,
+      "previousUciCode": "QST",
       "name": "Quick-Step"
     },
     {
       "uciCode": "MRM",
-      "previousUciCode": null,
+      "previousUciCode": "MRM",
       "name": "Team Milram",
       "colours": ["#46C5F0", "#ED4A4E", "#DEECEF"]
     },
     {
       "uciCode": "BTL",
-      "previousUciCode": null,
+      "previousUciCode": "BBO",
       "name": "Bbox Bouygues Telecom"
     },
     {
       "uciCode": "GCE",
-      "previousUciCode": null,
+      "previousUciCode": "GCE",
       "name": "Caisse d'Epargne"
     },
     {
       "uciCode": "COF",
-      "previousUciCode": null,
+      "previousUciCode": "COF",
       "name": "Cofidis"
     },
     {
       "uciCode": "EUS",
-      "previousUciCode": null,
+      "previousUciCode": "EUS",
       "name": "Euskaltel-Euskadi"
     },
     {
@@ -107,7 +107,7 @@
     },
     {
       "uciCode": "LAM",
-      "previousUciCode": null,
+      "previousUciCode": "LAM",
       "name": "Lampre-Farnese Vini"
     },
     {
