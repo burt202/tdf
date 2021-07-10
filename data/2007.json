@@ -1,0 +1,113 @@
+{
+  "id": "2007",
+  "startDate": "2007-07-07",
+  "endDate": "2007-07-29",
+  "teams": [
+    {
+      "uciCode": "GCE",
+      "previousUciCode": null,
+      "name": "Caisse d'Epargne"
+    },
+    {
+      "uciCode": "TMO",
+      "previousUciCode": null,
+      "name": "T-Mobile Team"
+    },
+    {
+      "uciCode": "CSC",
+      "previousUciCode": null,
+      "name": "Team CSC"
+    },
+    {
+      "uciCode": "PRL",
+      "previousUciCode": null,
+      "name": "Predictor-Lotto"
+    },
+    {
+      "uciCode": "RAB",
+      "previousUciCode": null,
+      "name": "Rabobank"
+    },
+    {
+      "uciCode": "A2R",
+      "previousUciCode": null,
+      "name": "AG2R Prévoyance"
+    },
+    {
+      "uciCode": "EUS",
+      "previousUciCode": null,
+      "name": "Euskaltel-Euskadi"
+    },
+    {
+      "uciCode": "LAM",
+      "previousUciCode": null,
+      "name": "Lampre-Fondital"
+    },
+    {
+      "uciCode": "GST",
+      "previousUciCode": null,
+      "name": "Gerolsteiner"
+    },
+    {
+      "uciCode": "C.A",
+      "previousUciCode": null,
+      "name": "Crédit Agricole"
+    },
+    {
+      "uciCode": "DSC",
+      "previousUciCode": null,
+      "name": "Discovery Channel Pro Cycling Team"
+    },
+    {
+      "uciCode": "BTL",
+      "previousUciCode": null,
+      "name": "Bouygues Télécom"
+    },
+    {
+      "uciCode": "AGR",
+      "previousUciCode": null,
+      "name": "Agritubel"
+    },
+    {
+      "uciCode": "COF",
+      "previousUciCode": null,
+      "name": "Cofidis, Le Crédit par Téléphone"
+    },
+    {
+      "uciCode": "LIQ",
+      "previousUciCode": null,
+      "name": "Liquigas-Doimo"
+    },
+    {
+      "uciCode": "FDJ",
+      "previousUciCode": null,
+      "name": "Française des Jeux"
+    },
+    {
+      "uciCode": "QSI",
+      "previousUciCode": null,
+      "name": "Quick Step-Innergetic"
+    },
+    {
+      "uciCode": "MRM",
+      "previousUciCode": null,
+      "name": "Team Milram"
+    },
+    {
+      "uciCode": "AST",
+      "previousUciCode": null,
+      "name": "Astana",
+      "colours": ["#66CCF4", "#C5CF6C", "#242A4C"]
+    },
+    {
+      "uciCode": "SDV",
+      "previousUciCode": null,
+      "name": "Saunier Duval-Prodir"
+    },
+    {
+      "uciCode": "BAR",
+      "previousUciCode": null,
+      "name": "Barloworld"
+    }
+  ]
+}

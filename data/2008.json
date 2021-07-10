@@ -5,102 +5,102 @@
   "teams": [
     {
       "uciCode": "SIL",
-      "previousUciCode": null,
+      "previousUciCode": "PRL",
       "name": "Silence-Lotto"
     },
     {
       "uciCode": "CSC",
-      "previousUciCode": null,
+      "previousUciCode": "CSC",
       "name": "Team CSC Saxo Bank"
     },
     {
       "uciCode": "EUS",
-      "previousUciCode": null,
+      "previousUciCode": "EUS",
       "name": "Euskaltel-Euskadi"
     },
     {
       "uciCode": "GCE",
-      "previousUciCode": null,
+      "previousUciCode": "GCE",
       "name": "Caisse d'Epargne"
     },
     {
       "uciCode": "THR",
-      "previousUciCode": null,
+      "previousUciCode": "TMO",
       "name": "Team Columbia"
     },
     {
       "uciCode": "BAR",
-      "previousUciCode": null,
+      "previousUciCode": "BAR",
       "name": "Barloworld",
       "colours": ["#FADF6C", "#ED4A52", "#000"]
     },
     {
       "uciCode": "LIQ",
-      "previousUciCode": null,
+      "previousUciCode": "LIQ",
       "name": "Liquigas-Doimo"
     },
     {
       "uciCode": "LAM",
-      "previousUciCode": null,
+      "previousUciCode": "LAM",
       "name": "Lampre"
     },
     {
       "uciCode": "C.A",
-      "previousUciCode": null,
+      "previousUciCode": "C.A",
       "name": "Crédit Agricole",
       "colours": ["#2F6648", "#E6442F", "#FFF"]
     },
     {
       "uciCode": "QST",
-      "previousUciCode": null,
+      "previousUciCode": "QSI",
       "name": "Quick-Step"
     },
     {
       "uciCode": "ALM",
-      "previousUciCode": null,
+      "previousUciCode": "A2R",
       "name": "AG2R La Mondiale"
     },
     {
       "uciCode": "GST",
-      "previousUciCode": null,
+      "previousUciCode": "GST",
       "name": "Gerolsteiner",
       "colours": ["#6C9DBE", "#0164AC", "#112F55"]
     },
     {
       "uciCode": "AGR",
-      "previousUciCode": null,
+      "previousUciCode": "AGR",
       "name": "Agritubel"
     },
     {
       "uciCode": "RAB",
-      "previousUciCode": null,
+      "previousUciCode": "RAB",
       "name": "Rabobank",
       "colours": ["#F48C34", "#183E98", "#674887"]
     },
     {
       "uciCode": "BTL",
-      "previousUciCode": null,
+      "previousUciCode": "BTL",
       "name": "Bouygues Télécom"
     },
     {
       "uciCode": "MRM",
-      "previousUciCode": null,
+      "previousUciCode": "MRM",
       "name": "Team Milram"
     },
     {
       "uciCode": "FDJ",
-      "previousUciCode": null,
+      "previousUciCode": "FDJ",
       "name": "Française des Jeux"
     },
     {
       "uciCode": "SDV",
-      "previousUciCode": null,
+      "previousUciCode": "SDV",
       "name": "Saunier Duval-Scott",
       "colours": ["#DAAF2E", "#9D2B1D", "#412E26"]
     },
     {
       "uciCode": "COF",
-      "previousUciCode": null,
+      "previousUciCode": "COF",
       "name": "Cofidis, Le Crédit par Téléphone"
     },
     {
