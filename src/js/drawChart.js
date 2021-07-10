@@ -2,19 +2,12 @@ const R = require("ramda")
 
 module.exports = (
   ctx,
-  {
-    chartWidth,
-    chartHeight,
-    padding,
-    gridLineColour,
-    columnTitleColour,
-    cols,
-    lines,
-    onDataLabelDraw,
-  },
+  {chartWidth, chartHeight, gridLineColour, columnTitleColour, cols, lines, onDataLabelDraw},
 ) => {
   const dataLabelWidth = 250
   const dataLabelHeight = 40
+  const topBottomPadding = 100
+  const sidePadding = 150
 
   const rowCount = R.pipe(R.pluck("points"), R.flatten, R.pluck("coords"), R.map(R.last), (arr) =>
     Math.max.apply(null, arr),
@@ -23,29 +16,29 @@ module.exports = (
   const columnWidth = chartWidth / (cols.length - 1)
   const rowHeight = chartHeight / rowCount
 
-  ctx.canvas.width = chartWidth + 2 * padding
-  ctx.canvas.height = chartHeight + 2 * padding
+  ctx.canvas.width = chartWidth + 2 * sidePadding
+  ctx.canvas.height = chartHeight + 2 * topBottomPadding
 
   function getColumnCoords(noOfCols, width) {
     let arr = []
 
     for (let i = 0; i < noOfCols - 1; i++) {
-      const coord = (i + 1) * width + padding
+      const coord = (i + 1) * width + sidePadding
       arr.push(coord)
     }
 
-    return [0 + padding, ...arr]
+    return [0 + sidePadding, ...arr]
   }
 
   function getRowCoords(noOfRows, height) {
     let arr = []
 
     for (let i = 0; i < noOfRows; i++) {
-      const coord = height - (i + 1) * (height / noOfRows) + padding
+      const coord = height - (i + 1) * (height / noOfRows) + topBottomPadding
       arr.push(coord)
     }
 
-    return [height + padding, ...arr]
+    return [height + topBottomPadding, ...arr]
   }
 
   function drawBorderedRoundedRectangle(x, y, width, height, radius, fillColour, borderColour) {
@@ -71,8 +64,8 @@ module.exports = (
     for (let i = 1; i < columnCoords.length - 1; i++) {
       ctx.strokeStyle = gridLineColour
       ctx.lineWidth = 1
-      ctx.moveTo(columnCoords[i], padding)
-      ctx.lineTo(columnCoords[i], chartHeight + padding)
+      ctx.moveTo(columnCoords[i], topBottomPadding)
+      ctx.lineTo(columnCoords[i], chartHeight + topBottomPadding)
     }
 
     ctx.stroke()
@@ -82,8 +75,8 @@ module.exports = (
     for (let i = 1; i < rowCoords.length - 1; i++) {
       ctx.strokeStyle = gridLineColour
       ctx.lineWidth = 1
-      ctx.moveTo(padding, rowCoords[i])
-      ctx.lineTo(chartWidth + padding, rowCoords[i])
+      ctx.moveTo(sidePadding, rowCoords[i])
+      ctx.lineTo(chartWidth + sidePadding, rowCoords[i])
     }
 
     ctx.stroke()
@@ -101,12 +94,12 @@ module.exports = (
       ctx.lineWidth = 2
 
       if (j === 0) {
-        const moveToX = coords[0] * columnWidth + padding + dataLabelWidth / 2
-        const moveToY = coords[1] * rowHeight + padding
+        const moveToX = coords[0] * columnWidth + sidePadding + dataLabelWidth / 2
+        const moveToY = coords[1] * rowHeight + topBottomPadding
         ctx.moveTo(moveToX, moveToY)
       } else {
-        const lineToX = coords[0] * columnWidth + padding - dataLabelWidth / 2
-        const lineToY = coords[1] * rowHeight + padding
+        const lineToX = coords[0] * columnWidth + sidePadding - dataLabelWidth / 2
+        const lineToY = coords[1] * rowHeight + topBottomPadding
 
         ctx.lineTo(lineToX, lineToY)
         ctx.stroke()
@@ -125,8 +118,8 @@ module.exports = (
       const text = points[j].text
       const coords = points[j].coords
 
-      const lineToX = coords[0] * columnWidth + padding
-      const lineToY = coords[1] * rowHeight + padding
+      const lineToX = coords[0] * columnWidth + sidePadding
+      const lineToY = coords[1] * rowHeight + topBottomPadding
 
       drawBorderedRoundedRectangle(
         lineToX - dataLabelWidth / 2,
@@ -155,7 +148,7 @@ module.exports = (
     ctx.textAlign = "left"
 
     for (let i = 0; i < cols.length; i++) {
-      const x = padding - 20 + i * columnWidth
+      const x = sidePadding - 20 + i * columnWidth
       ctx.fillText(cols[i], x, 40)
     }
   }

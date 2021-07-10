@@ -11,7 +11,6 @@ module.exports = () => {
 
   const chartWidth = 4200
   const chartHeight = 1000
-  const padding = 150
   const gridLineColour = "rgba(29, 210, 175,0.3)"
   const columnTitleColour = "rgb(200,0,0)"
 
@@ -22,7 +21,6 @@ module.exports = () => {
   drawChart(ctx, {
     chartWidth,
     chartHeight,
-    padding,
     gridLineColour,
     columnTitleColour,
     cols,
