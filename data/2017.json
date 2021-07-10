@@ -5,98 +5,98 @@
   "teams": [
     {
       "uciCode": "SKY",
-      "previousUciCode": null,
+      "previousUciCode": "SKY",
       "name": "Team Sky"
     },
     {
       "uciCode": "ALM",
-      "previousUciCode": null,
+      "previousUciCode": "ALM",
       "name": "AG2R La Mondiale"
     },
     {
       "uciCode": "MOV",
-      "previousUciCode": null,
+      "previousUciCode": "MOV",
       "name": "Movistar Team"
     },
     {
       "uciCode": "TFS",
-      "previousUciCode": null,
+      "previousUciCode": "TFS",
       "name": "Trek-Segafredo"
     },
     {
       "uciCode": "BMC",
-      "previousUciCode": null,
+      "previousUciCode": "BMC",
       "name": "BMC Racing Team"
     },
     {
       "uciCode": "AST",
-      "previousUciCode": null,
+      "previousUciCode": "AST",
       "name": "Astana"
     },
     {
       "uciCode": "UAD",
-      "previousUciCode": null,
+      "previousUciCode": "LAM",
       "name": "UAE Team Emirates"
     },
     {
       "uciCode": "FDJ",
-      "previousUciCode": null,
+      "previousUciCode": "FDJ",
       "name": "Groupama-FDJ"
     },
     {
       "uciCode": "ORS",
-      "previousUciCode": null,
+      "previousUciCode": "OBE",
       "name": "Orica-Scott"
     },
     {
       "uciCode": "DDD",
-      "previousUciCode": null,
+      "previousUciCode": "DDD",
       "name": "Team Dimension Data"
     },
     {
       "uciCode": "QST",
-      "previousUciCode": null,
+      "previousUciCode": "EQS",
       "name": "Quick-Step Floors"
     },
     {
       "uciCode": "BOH",
-      "previousUciCode": null,
+      "previousUciCode": "BOA",
       "name": "Bora-Hansgrohe"
     },
     {
-      "uciCode": "TKA",
-      "previousUciCode": null,
+      "uciCode": "KAT",
+      "previousUciCode": "KAT",
       "name": "Team Katusha-Alpecin"
     },
     {
       "uciCode": "LTS",
-      "previousUciCode": null,
+      "previousUciCode": "LTS",
       "name": "Lotto-Soudal"
     },
     {
       "uciCode": "SUN",
-      "previousUciCode": null,
+      "previousUciCode": "TGA",
       "name": "Team Sunweb"
     },
     {
       "uciCode": "COF",
-      "previousUciCode": null,
+      "previousUciCode": "COF",
       "name": "Cofidis"
     },
     {
       "uciCode": "TLJ",
-      "previousUciCode": null,
+      "previousUciCode": "TLJ",
       "name": "LottoNL-Jumbo"
     },
     {
       "uciCode": "TDE",
-      "previousUciCode": null,
+      "previousUciCode": "TDE",
       "name": "Direct Énergie"
     },
     {
       "uciCode": "CDT",
-      "previousUciCode": null,
-      "name": "Cannondale–Drapac"
+      "previousUciCode": "CDT",
+      "name": "Cannondale-Drapac"
     },
     {
       "uciCode": "TBM",
@@ -110,8 +110,8 @@
     },
     {
       "uciCode": "TFO",
-      "previousUciCode": null,
-      "name": "Fortuneo–Oscaro"
+      "previousUciCode": "FVC",
+      "name": "Fortuneo-Oscaro"
     }
   ]
 }

@@ -1,6 +1,7 @@
 const R = require("ramda")
 
 const data = {
+  2016: require("../../data/2016.json"),
   2017: require("../../data/2017.json"),
   2018: require("../../data/2018.json"),
   2019: require("../../data/2019.json"),
@@ -71,8 +72,6 @@ module.exports = () => {
       })
     }
   })
-
-  // TODO sort backfill colours in data, hover
 
   return {cols, lines}
 }

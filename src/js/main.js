@@ -9,7 +9,7 @@ module.exports = () => {
   const chartElLeft = chartEl.offsetLeft
   const chartElTop = chartEl.offsetTop
 
-  const chartWidth = 1500
+  const chartWidth = 1800
   const chartHeight = 1000
   const padding = 150
   const gridLineColour = "rgba(29, 210, 175,0.3)"

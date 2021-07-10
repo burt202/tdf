@@ -1,0 +1,119 @@
+{
+  "id": "2016",
+  "startDate": "2016-07-02",
+  "endDate": "2016-07-24",
+  "teams": [
+    {
+      "uciCode": "SKY",
+      "previousUciCode": null,
+      "name": "Team Sky"
+    },
+    {
+      "uciCode": "MOV",
+      "previousUciCode": null,
+      "name": "Movistar Team"
+    },
+    {
+      "uciCode": "AST",
+      "previousUciCode": null,
+      "name": "Astana"
+    },
+    {
+      "uciCode": "TNK",
+      "previousUciCode": null,
+      "name": "Tinkoff",
+      "colours": ["#CFEC54", "#1C1C24", "#1C1C24"]
+    },
+    {
+      "uciCode": "ALM",
+      "previousUciCode": null,
+      "name": "AG2R La Mondiale"
+    },
+    {
+      "uciCode": "TLJ",
+      "previousUciCode": null,
+      "name": "LottoNL-Jumbo"
+    },
+    {
+      "uciCode": "TFS",
+      "previousUciCode": null,
+      "name": "Trek-Segafredo"
+    },
+    {
+      "uciCode": "IAM",
+      "previousUciCode": null,
+      "name": "IAM Cycling",
+      "colours": ["#CACDDD", "#D53E2B", "#252E4D"]
+    },
+    {
+      "uciCode": "CDT",
+      "previousUciCode": null,
+      "name": "Cannondale-Drapac"
+    },
+    {
+      "uciCode": "BMC",
+      "previousUciCode": null,
+      "name": "BMC Racing Team"
+    },
+    {
+      "uciCode": "DDD",
+      "previousUciCode": null,
+      "name": "Team Dimension Data"
+    },
+    {
+      "uciCode": "TGA",
+      "previousUciCode": null,
+      "name": "Team Giant-Alpecin"
+    },
+    {
+      "uciCode": "FDJ",
+      "previousUciCode": null,
+      "name": "FDJ"
+    },
+    {
+      "uciCode": "BOA",
+      "previousUciCode": null,
+      "name": "Bora-Argon 18"
+    },
+    {
+      "uciCode": "KAT",
+      "previousUciCode": null,
+      "name": "Team Katusha"
+    },
+    {
+      "uciCode": "LAM",
+      "previousUciCode": null,
+      "name": "Lampre-Merida"
+    },
+    {
+      "uciCode": "LTS",
+      "previousUciCode": null,
+      "name": "Lotto-Soudal"
+    },
+    {
+      "uciCode": "TDE",
+      "previousUciCode": null,
+      "name": "Direct Énergie"
+    },
+    {
+      "uciCode": "EQS",
+      "previousUciCode": null,
+      "name": "Etixx-Quick-Step"
+    },
+    {
+      "uciCode": "COF",
+      "previousUciCode": null,
+      "name": "Cofidis"
+    },
+    {
+      "uciCode": "OBE",
+      "previousUciCode": null,
+      "name": "Orica-BikeExchange"
+    },
+    {
+      "uciCode": "FVC",
+      "previousUciCode": null,
+      "name": "Fortuneo-Vital Concept"
+    }
+  ]
+}
