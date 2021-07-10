@@ -1,0 +1,120 @@
+{
+  "id": "2010",
+  "startDate": "2010-07-03",
+  "endDate": "2010-07-25",
+  "teams": [
+    {
+      "uciCode": "AST",
+      "previousUciCode": null,
+      "name": "Astana"
+    },
+    {
+      "uciCode": "SAX",
+      "previousUciCode": null,
+      "name": "Team Saxo Bank"
+    },
+    {
+      "uciCode": "RSH",
+      "previousUciCode": null,
+      "name": "Team RadioShack"
+    },
+    {
+      "uciCode": "SKY",
+      "previousUciCode": null,
+      "name": "Team Sky"
+    },
+    {
+      "uciCode": "LIQ",
+      "previousUciCode": null,
+      "name": "Liquigas-Doimo"
+    },
+    {
+      "uciCode": "GRM",
+      "previousUciCode": null,
+      "name": "Garmin-Transitions"
+    },
+    {
+      "uciCode": "FDJ",
+      "previousUciCode": null,
+      "name": "FDJ"
+    },
+    {
+      "uciCode": "KAT",
+      "previousUciCode": null,
+      "name": "Team Katusha"
+    },
+    {
+      "uciCode": "ALM",
+      "previousUciCode": null,
+      "name": "AG2R La Mondiale"
+    },
+    {
+      "uciCode": "CTT",
+      "previousUciCode": null,
+      "name": "Cervélo TestTeam",
+      "colours": ["#010101", "#E7442F", "#FEFAFD"]
+    },
+    {
+      "uciCode": "OLO",
+      "previousUciCode": null,
+      "name": "Omega Pharma-Lotto"
+    },
+    {
+      "uciCode": "THR",
+      "previousUciCode": null,
+      "name": "Team HTC-Columbia"
+    },
+    {
+      "uciCode": "BMC",
+      "previousUciCode": null,
+      "name": "BMC Racing Team"
+    },
+    {
+      "uciCode": "QST",
+      "previousUciCode": null,
+      "name": "Quick-Step"
+    },
+    {
+      "uciCode": "MRM",
+      "previousUciCode": null,
+      "name": "Team Milram",
+      "colours": ["#46C5F0", "#ED4A4E", "#DEECEF"]
+    },
+    {
+      "uciCode": "BTL",
+      "previousUciCode": null,
+      "name": "Bbox Bouygues Telecom"
+    },
+    {
+      "uciCode": "GCE",
+      "previousUciCode": null,
+      "name": "Caisse d'Epargne"
+    },
+    {
+      "uciCode": "COF",
+      "previousUciCode": null,
+      "name": "Cofidis"
+    },
+    {
+      "uciCode": "EUS",
+      "previousUciCode": null,
+      "name": "Euskaltel-Euskadi"
+    },
+    {
+      "uciCode": "RAB",
+      "previousUciCode": null,
+      "name": "Rabobank"
+    },
+    {
+      "uciCode": "LAM",
+      "previousUciCode": null,
+      "name": "Lampre-Farnese Vini"
+    },
+    {
+      "uciCode": "FOT",
+      "previousUciCode": null,
+      "name": "Footon-Servetto-Fuji",
+      "colours": ["#DBBE92", "#A04C41", "#231E1B"]
+    }
+  ]
+}

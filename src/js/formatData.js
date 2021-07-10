@@ -1,6 +1,7 @@
 const R = require("ramda")
 
 const data = {
+  2010: require("../../data/2010.json"),
   2011: require("../../data/2011.json"),
   2012: require("../../data/2012.json"),
   2013: require("../../data/2013.json"),

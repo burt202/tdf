@@ -5,7 +5,7 @@
   "teams": [
     {
       "uciCode": "SBS",
-      "previousUciCode": null,
+      "previousUciCode": "SAX",
       "name": "Saxo Bank-SunGard"
     },
     {
@@ -15,94 +15,94 @@
     },
     {
       "uciCode": "EUS",
-      "previousUciCode": null,
+      "previousUciCode": "EUS",
       "name": "Euskaltel-Euskadi"
     },
     {
       "uciCode": "OLO",
-      "previousUciCode": null,
+      "previousUciCode": "OLO",
       "name": "Omega Pharma-Lotto"
     },
     {
       "uciCode": "RAB",
-      "previousUciCode": null,
+      "previousUciCode": "RAB",
       "name": "Rabobank"
     },
     {
       "uciCode": "GRM",
-      "previousUciCode": null,
+      "previousUciCode": "GRM",
       "name": "Garmin-Cervélo"
     },
     {
       "uciCode": "AST",
-      "previousUciCode": null,
+      "previousUciCode": "AST",
       "name": "Astana"
     },
     {
       "uciCode": "RSH",
-      "previousUciCode": null,
+      "previousUciCode": "RSH",
       "name": "Team RadioShack",
       "colours": ["#F8F4F1", "#EA4530", "#EA4530"]
     },
     {
       "uciCode": "MOV",
-      "previousUciCode": null,
+      "previousUciCode": "GCE",
       "name": "Movistar Team"
     },
     {
       "uciCode": "LIQ",
-      "previousUciCode": null,
+      "previousUciCode": "LIQ",
       "name": "Liquigas-Cannondale"
     },
     {
       "uciCode": "ALM",
-      "previousUciCode": null,
+      "previousUciCode": "ALM",
       "name": "AG2R La Mondiale"
     },
     {
       "uciCode": "SKY",
-      "previousUciCode": null,
+      "previousUciCode": "SKY",
       "name": "Team Sky"
     },
     {
       "uciCode": "QST",
-      "previousUciCode": null,
+      "previousUciCode": "QST",
       "name": "Quick-Step"
     },
     {
       "uciCode": "FDJ",
-      "previousUciCode": null,
+      "previousUciCode": "FDJ",
       "name": "FDJ"
     },
     {
       "uciCode": "BMC",
-      "previousUciCode": null,
+      "previousUciCode": "BMC",
       "name": "BMC Racing Team"
     },
     {
       "uciCode": "COF",
-      "previousUciCode": null,
+      "previousUciCode": "COF",
       "name": "Cofidis"
     },
     {
       "uciCode": "LAM",
-      "previousUciCode": null,
+      "previousUciCode": "LAM",
       "name": "Lampre-ISD"
     },
     {
       "uciCode": "THR",
-      "previousUciCode": null,
-      "name": "HTC–Highroad",
+      "previousUciCode": "THR",
+      "name": "HTC-Highroad",
       "colours": ["#FFF", "#68A54F", "#363237"]
     },
     {
       "uciCode": "EUC",
-      "previousUciCode": null,
+      "previousUciCode": "BTL",
       "name": "Team Europcar"
     },
     {
       "uciCode": "KAT",
-      "previousUciCode": null,
+      "previousUciCode": "KAT",
       "name": "Team Katusha"
     },
     {
