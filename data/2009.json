@@ -10,7 +10,7 @@
     },
     {
       "uciCode": "SIL",
-      "previousUciCode": null,
+      "previousUciCode": "SIL",
       "name": "Silence-Lotto"
     },
     {
@@ -20,63 +20,62 @@
     },
     {
       "uciCode": "SAX",
-      "previousUciCode": null,
+      "previousUciCode": "CSC",
       "name": "Team Saxo Bank"
     },
     {
       "uciCode": "GRM",
-      "previousUciCode": null,
+      "previousUciCode": "TSL",
       "name": "Garmin-Slipstream"
     },
     {
       "uciCode": "EUS",
-      "previousUciCode": null,
+      "previousUciCode": "EUS",
       "name": "Euskaltel-Euskadi"
     },
     {
       "uciCode": "THR",
-      "previousUciCode": null,
+      "previousUciCode": "THR",
       "name": "Team Columbia-HTC"
     },
     {
       "uciCode": "ALM",
-      "previousUciCode": null,
+      "previousUciCode": "ALM",
       "name": "AG2R La Mondiale"
     },
     {
       "uciCode": "LIQ",
-      "previousUciCode": null,
+      "previousUciCode": "LIQ",
       "name": "Liquigas-Doimo"
     },
-
     {
       "uciCode": "FDJ",
-      "previousUciCode": null,
+      "previousUciCode": "FDJ",
       "name": "Française des Jeux"
     },
     {
       "uciCode": "GCE",
-      "previousUciCode": null,
+      "previousUciCode": "GCE",
       "name": "Caisse d'Epargne"
     },
     {
       "uciCode": "COF",
-      "previousUciCode": null,
+      "previousUciCode": "COF",
       "name": "Cofidis"
     },
     {
       "uciCode": "LAM",
-      "previousUciCode": null,
+      "previousUciCode": "LAM",
       "name": "Lampre-NGC"
     },
     {
       "uciCode": "BBO",
-      "previousUciCode": null,
-      "name": "Bbox Bouygues Telecom"
+      "previousUciCode": "BTL",
+      "name": "Bbox Bouygues Télécom"
     },
     {
       "uciCode": "QST",
-      "previousUciCode": null,
+      "previousUciCode": "QST",
       "name": "Quick-Step"
     },
     {
@@ -86,13 +85,13 @@
     },
     {
       "uciCode": "AGR",
-      "previousUciCode": null,
+      "previousUciCode": "AGR",
       "name": "Agritubel",
       "colours": ["#2555C1", "#2555C1", "#C6C9EF"]
     },
     {
       "uciCode": "MRM",
-      "previousUciCode": null,
+      "previousUciCode": "MRM",
       "name": "Team Milram"
     },
     {

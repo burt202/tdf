@@ -1,0 +1,112 @@
+{
+  "id": "2008",
+  "startDate": "2008-07-05",
+  "endDate": "2008-07-27",
+  "teams": [
+    {
+      "uciCode": "SIL",
+      "previousUciCode": null,
+      "name": "Silence-Lotto"
+    },
+    {
+      "uciCode": "CSC",
+      "previousUciCode": null,
+      "name": "Team CSC Saxo Bank"
+    },
+    {
+      "uciCode": "EUS",
+      "previousUciCode": null,
+      "name": "Euskaltel-Euskadi"
+    },
+    {
+      "uciCode": "GCE",
+      "previousUciCode": null,
+      "name": "Caisse d'Epargne"
+    },
+    {
+      "uciCode": "THR",
+      "previousUciCode": null,
+      "name": "Team Columbia"
+    },
+    {
+      "uciCode": "BAR",
+      "previousUciCode": null,
+      "name": "Barloworld",
+      "colours": ["#FADF6C", "#ED4A52", "#757A8D"]
+    },
+    {
+      "uciCode": "LIQ",
+      "previousUciCode": null,
+      "name": "Liquigas-Doimo"
+    },
+    {
+      "uciCode": "LAM",
+      "previousUciCode": null,
+      "name": "Lampre"
+    },
+    {
+      "uciCode": "C.A",
+      "previousUciCode": null,
+      "name": "Crédit Agricole",
+      "colours": ["#2F6648", "#E6442F", "#FFF"]
+    },
+    {
+      "uciCode": "QST",
+      "previousUciCode": null,
+      "name": "Quick-Step"
+    },
+    {
+      "uciCode": "ALM",
+      "previousUciCode": null,
+      "name": "AG2R La Mondiale"
+    },
+    {
+      "uciCode": "GST",
+      "previousUciCode": null,
+      "name": "Gerolsteiner",
+      "colours": ["#6C9DBE", "#0164AC", "#112F55"]
+    },
+    {
+      "uciCode": "AGR",
+      "previousUciCode": null,
+      "name": "Agritubel"
+    },
+    {
+      "uciCode": "RAB",
+      "previousUciCode": null,
+      "name": "Rabobank",
+      "colours": ["#F48C34", "#183E98", "#674887"]
+    },
+    {
+      "uciCode": "BTL",
+      "previousUciCode": null,
+      "name": "Bouygues Télécom"
+    },
+    {
+      "uciCode": "MRM",
+      "previousUciCode": null,
+      "name": "Team Milram"
+    },
+    {
+      "uciCode": "FDJ",
+      "previousUciCode": null,
+      "name": "Française des Jeux"
+    },
+    {
+      "uciCode": "SDV",
+      "previousUciCode": null,
+      "name": "Saunier Duval-Scott",
+      "colours": ["#DAAF2E", "#9D2B1D", "#412E26"]
+    },
+    {
+      "uciCode": "COF",
+      "previousUciCode": null,
+      "name": "Cofidis, Le Crédit par Téléphone"
+    },
+    {
+      "uciCode": "TSL",
+      "previousUciCode": null,
+      "name": "Garmin-Chipotle"
+    }
+  ]
+}
