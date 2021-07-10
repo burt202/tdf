@@ -32,7 +32,7 @@
       "uciCode": "BAR",
       "previousUciCode": null,
       "name": "Barloworld",
-      "colours": ["#FADF6C", "#ED4A52", "#757A8D"]
+      "colours": ["#FADF6C", "#ED4A52", "#000"]
     },
     {
       "uciCode": "LIQ",

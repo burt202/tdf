@@ -87,7 +87,7 @@
       "uciCode": "AGR",
       "previousUciCode": "AGR",
       "name": "Agritubel",
-      "colours": ["#2555C1", "#2555C1", "#C6C9EF"]
+      "colours": ["#2555C1", "#2555C1", "#FFF"]
     },
     {
       "uciCode": "MRM",
@@ -98,7 +98,7 @@
       "uciCode": "SKS",
       "previousUciCode": null,
       "name": "Skil–Shimano",
-      "colours": ["#FCFFFF", "#2FB6FB", "#F1837C"]
+      "colours": ["#FCFFFF", "#2FB6FB", "#CD404B"]
     }
   ]
 }

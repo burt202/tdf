@@ -73,7 +73,7 @@
       "uciCode": "EFN",
       "previousUciCode": "EF1",
       "name": "EF Education-Nippo",
-      "colours": ["#EE769D", "#505165", "#505165"]
+      "colours": ["#EE769D", "#505165", "#28334D"]
     },
     {
       "uciCode": "ACT",
@@ -139,7 +139,7 @@
       "uciCode": "BBK",
       "previousUciCode": "BVC",
       "name": "B&B Hotels",
-      "colours": ["#4CA894", "#1E2424", "#DEE7E6"]
+      "colours": ["#4CA894", "#1E2424", "#FFF"]
     }
   ]
 }
