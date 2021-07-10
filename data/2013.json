@@ -1,0 +1,120 @@
+{
+  "id": "2013",
+  "startDate": "2013-06-29",
+  "endDate": "2013-07-21",
+  "teams": [
+    {
+      "uciCode": "SKY",
+      "previousUciCode": null,
+      "name": "Team Sky"
+    },
+    {
+      "uciCode": "CAN",
+      "previousUciCode": null,
+      "name": "Cannondale"
+    },
+    {
+      "uciCode": "LTB",
+      "previousUciCode": null,
+      "name": "Lotto-Belisol"
+    },
+    {
+      "uciCode": "BMC",
+      "previousUciCode": null,
+      "name": "BMC Racing Team"
+    },
+    {
+      "uciCode": "RLT",
+      "previousUciCode": null,
+      "name": "RadioShack-Leopard"
+    },
+    {
+      "uciCode": "EUC",
+      "previousUciCode": null,
+      "name": "Team Europcar"
+    },
+    {
+      "uciCode": "AST",
+      "previousUciCode": null,
+      "name": "Astana"
+    },
+    {
+      "uciCode": "FDJ",
+      "previousUciCode": null,
+      "name": "FDJ.fr"
+    },
+    {
+      "uciCode": "ALM",
+      "previousUciCode": null,
+      "name": "AG2R La Mondiale"
+    },
+    {
+      "uciCode": "TST",
+      "previousUciCode": null,
+      "name": "Saxo-Tinkoff"
+    },
+    {
+      "uciCode": "KAT",
+      "previousUciCode": null,
+      "name": "Team Katusha"
+    },
+    {
+      "uciCode": "EUS",
+      "previousUciCode": null,
+      "name": "Euskaltel–Euskadi",
+      "colours": ["#DB6D38", "#010105", "#D4DDCA"]
+    },
+    {
+      "uciCode": "MOV",
+      "previousUciCode": null,
+      "name": "Movistar Team"
+    },
+    {
+      "uciCode": "COF",
+      "previousUciCode": null,
+      "name": "Cofidis"
+    },
+    {
+      "uciCode": "LAM",
+      "previousUciCode": null,
+      "name": "Lampre-Merida"
+    },
+    {
+      "uciCode": "OPQ",
+      "previousUciCode": null,
+      "name": "Omega Pharma-Quick-Step"
+    },
+    {
+      "uciCode": "BEL",
+      "previousUciCode": null,
+      "name": "Belkin Pro Cycling"
+    },
+    {
+      "uciCode": "GRS",
+      "previousUciCode": null,
+      "name": "Garmin-Sharp"
+    },
+    {
+      "uciCode": "OGE",
+      "previousUciCode": null,
+      "name": "Orica-GreenEDGE"
+    },
+    {
+      "uciCode": "ARG",
+      "previousUciCode": null,
+      "name": "Argos-Shimano"
+    },
+    {
+      "uciCode": "VCD",
+      "previousUciCode": null,
+      "name": "Vacansoleil–DCM",
+      "colours": ["#0F1427", "#0F1427", "#C8C177"]
+    },
+    {
+      "uciCode": "SOJ",
+      "previousUciCode": null,
+      "name": "Sojasun",
+      "colours": ["#E0E0F8", "#2E623C", "#C03725"]
+    }
+  ]
+}
