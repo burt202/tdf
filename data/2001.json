@@ -1,0 +1,114 @@
+{
+  "id": "2001",
+  "startDate": "2002-07-07",
+  "endDate": "2002-07-29",
+  "teams": [
+    {
+      "uciCode": "USP",
+      "previousUciCode": null,
+      "name": "US Postal"
+    },
+    {
+      "uciCode": "TEL",
+      "previousUciCode": null,
+      "name": "Team Telekom"
+    },
+    {
+      "uciCode": "ONC",
+      "previousUciCode": null,
+      "name": "ONCE-Eroski"
+    },
+    {
+      "uciCode": "FES",
+      "previousUciCode": null,
+      "name": "Festina",
+      "colours": ["#1C1E32", "#C9D535", "#C9D535"]
+    },
+    {
+      "uciCode": "FAS",
+      "previousUciCode": null,
+      "name": "Fassa Bortolo"
+    },
+    {
+      "uciCode": "RAB",
+      "previousUciCode": null,
+      "name": "Rabobank"
+    },
+    {
+      "uciCode": "LOT",
+      "previousUciCode": null,
+      "name": "Lotto-Adecco"
+    },
+    {
+      "uciCode": "COF",
+      "previousUciCode": null,
+      "name": "Cofidis"
+    },
+    {
+      "uciCode": "MQS",
+      "previousUciCode": null,
+      "name": "Mapei-Quick-Step"
+    },
+    {
+      "uciCode": "BAN",
+      "previousUciCode": null,
+      "name": "iBanesto.com"
+    },
+    {
+      "uciCode": "C.A",
+      "previousUciCode": null,
+      "name": "Crédit Agricole"
+    },
+    {
+      "uciCode": "EUS",
+      "previousUciCode": null,
+      "name": "Euskaltel-Euskadi"
+    },
+    {
+      "uciCode": "A2R",
+      "previousUciCode": null,
+      "name": "Ag2r Prévoyance"
+    },
+    {
+      "uciCode": "CST",
+      "previousUciCode": null,
+      "name": "CSC-Tiscali"
+    },
+    {
+      "uciCode": "DEL",
+      "previousUciCode": null,
+      "name": "Jean Delatour"
+    },
+    {
+      "uciCode": "KEL",
+      "previousUciCode": null,
+      "name": "Kelme-Costa Blanca"
+    },
+    {
+      "uciCode": "BJR",
+      "previousUciCode": null,
+      "name": "Bonjour"
+    },
+    {
+      "uciCode": "LAM",
+      "previousUciCode": null,
+      "name": "Lampre-Daikin"
+    },
+    {
+      "uciCode": "FDJ",
+      "previousUciCode": null,
+      "name": "Française des Jeux"
+    },
+    {
+      "uciCode": "DFF",
+      "previousUciCode": null,
+      "name": "Domo-Farm Frites-Latexco"
+    },
+    {
+      "uciCode": "BIG",
+      "previousUciCode": null,
+      "name": "BigMat-Auber 93",
+      "colours": ["#FFF", "#ED4631", "#142561"]
+    }
+  ]
+}

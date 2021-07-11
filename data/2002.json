@@ -5,89 +5,89 @@
   "teams": [
     {
       "uciCode": "USP",
-      "previousUciCode": null,
+      "previousUciCode": "USP",
       "name": "US Postal"
     },
     {
       "uciCode": "TEL",
-      "previousUciCode": null,
+      "previousUciCode": "TEL",
       "name": "Team Telekom"
     },
     {
       "uciCode": "ONC",
-      "previousUciCode": null,
+      "previousUciCode": "ONC",
       "name": "ONCE-Eroski"
     },
     {
       "uciCode": "KEL",
-      "previousUciCode": null,
+      "previousUciCode": "KEL",
       "name": "Kelme-Costa Blanca"
     },
     {
       "uciCode": "COF",
-      "previousUciCode": null,
+      "previousUciCode": "COF",
       "name": "Cofidis"
     },
     {
       "uciCode": "CST",
-      "previousUciCode": null,
+      "previousUciCode": "CST",
       "name": "CSC-Tiscali"
     },
     {
       "uciCode": "C.A",
-      "previousUciCode": null,
+      "previousUciCode": "C.A",
       "name": "Crédit Agricole"
     },
     {
       "uciCode": "DFF",
-      "previousUciCode": null,
+      "previousUciCode": "DFF",
       "name": "Domo-Farm Frites",
       "colours": ["#FFF", "#99BBEB", "#2C2439"]
     },
     {
       "uciCode": "FAS",
-      "previousUciCode": null,
+      "previousUciCode": "FAS",
       "name": "Fassa Bortolo"
     },
     {
       "uciCode": "FDJ",
-      "previousUciCode": null,
+      "previousUciCode": "FDJ",
       "name": "Française des Jeux"
     },
     {
       "uciCode": "RAB",
-      "previousUciCode": null,
+      "previousUciCode": "RAB",
       "name": "Rabobank"
     },
     {
       "uciCode": "BJR",
-      "previousUciCode": null,
+      "previousUciCode": "BJR",
       "name": "Bonjour"
     },
     {
       "uciCode": "MQS",
-      "previousUciCode": null,
+      "previousUciCode": "MQS",
       "name": "Mapei-Quick-Step"
     },
     {
       "uciCode": "BAN",
-      "previousUciCode": null,
+      "previousUciCode": "BAN",
       "name": "iBanesto.com"
     },
     {
       "uciCode": "LOT",
-      "previousUciCode": null,
+      "previousUciCode": "LOT",
       "name": "Lotto-Adecco"
     },
     {
       "uciCode": "LAM",
-      "previousUciCode": null,
+      "previousUciCode": "LAM",
       "name": "Lampre-Daikin",
       "colours": ["#355CAB", "#EB5C9D", "#FFF"]
     },
     {
       "uciCode": "EUS",
-      "previousUciCode": null,
+      "previousUciCode": "EUS",
       "name": "Euskaltel-Euskadi"
     },
     {
@@ -97,7 +97,7 @@
     },
     {
       "uciCode": "A2R",
-      "previousUciCode": null,
+      "previousUciCode": "A2R",
       "name": "Ag2r Prévoyance"
     },
     {
@@ -107,7 +107,7 @@
     },
     {
       "uciCode": "DEL",
-      "previousUciCode": null,
+      "previousUciCode": "DEL",
       "name": "Jean Delatour"
     }
   ]
