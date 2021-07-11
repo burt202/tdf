@@ -12,4 +12,4 @@ View it at [burt202.github.io/tdf/](https://burt202.github.io/tdf/)
 
 ### TODO
 
-data to 2000?, click event to highlight selected
+data to 2000?, click event to highlight selected, make names consistent

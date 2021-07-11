@@ -5,12 +5,12 @@
   "teams": [
     {
       "uciCode": "USP",
-      "previousUciCode": null,
+      "previousUciCode": "USP",
       "name": "US Postal"
     },
     {
       "uciCode": "TMO",
-      "previousUciCode": null,
+      "previousUciCode": "TEL",
       "name": "T-Mobile Team"
     },
     {
@@ -20,84 +20,84 @@
     },
     {
       "uciCode": "EUS",
-      "previousUciCode": null,
+      "previousUciCode": "EUS",
       "name": "Euskaltel-Euskadi"
     },
     {
       "uciCode": "FAS",
-      "previousUciCode": null,
+      "previousUciCode": "FAS",
       "name": "Fassa Bortolo"
     },
     {
       "uciCode": "C.A",
-      "previousUciCode": null,
+      "previousUciCode": "C.A",
       "name": "Crédit Agricole"
     },
     {
       "uciCode": "CSC",
-      "previousUciCode": null,
+      "previousUciCode": "CSC",
       "name": "Team CSC"
     },
     {
       "uciCode": "IBA",
-      "previousUciCode": null,
+      "previousUciCode": "BAN",
       "name": "Illes Balears"
     },
     {
       "uciCode": "GST",
-      "previousUciCode": null,
+      "previousUciCode": "GST",
       "name": "Gerolsteiner"
     },
     {
       "uciCode": "COF",
-      "previousUciCode": null,
+      "previousUciCode": "COF",
       "name": "Cofidis, Le Crédit par Téléphone"
     },
     {
       "uciCode": "QSD",
-      "previousUciCode": null,
+      "previousUciCode": "QSD",
       "name": "Quick Step - Davitamon"
     },
     {
       "uciCode": "LST",
-      "previousUciCode": null,
+      "previousUciCode": "ONC",
       "name": "Liberty Seguros"
     },
     {
       "uciCode": "BLB",
-      "previousUciCode": null,
-      "name": "Bouygues Télécom"
+      "previousUciCode": "BLB",
+      "name": "Brioches La Boulangère"
     },
     {
       "uciCode": "ALB",
-      "previousUciCode": null,
+      "previousUciCode": "ALS",
       "name": "Alessio-Bianchi",
       "colours": ["#ED4631", "#292B6D", "#FFF"]
     },
     {
       "uciCode": "A2R",
-      "previousUciCode": null,
+      "previousUciCode": "A2R",
       "name": "Ag2r Prévoyance"
     },
     {
       "uciCode": "RAB",
-      "previousUciCode": null,
+      "previousUciCode": "RAB",
       "name": "Rabobank"
     },
     {
       "uciCode": "FDJ",
-      "previousUciCode": null,
+      "previousUciCode": "FDJ",
       "name": "Française des Jeux"
     },
     {
       "uciCode": "SAE",
-      "previousUciCode": null,
+      "previousUciCode": "SAE",
       "name": "Saeco Macchine per Caffè",
       "colours": ["#DD433E", "#2C6EBC", "#FFF"]
     },
     {
       "uciCode": "LOT",
-      "previousUciCode": null,
+      "previousUciCode": "LOT",
       "name": "Lotto-Domo"
     },
     {
@@ -107,7 +107,7 @@
     },
     {
       "uciCode": "RAG",
-      "previousUciCode": null,
+      "previousUciCode": "DEL",
       "name": "R.A.G.T. Semences",
       "colours": ["#FFF", "#EB4530", "#71DB73"]
     }

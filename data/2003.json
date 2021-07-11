@@ -1,0 +1,120 @@
+{
+  "id": "2003",
+  "startDate": "2003-07-05",
+  "endDate": "2003-07-27",
+  "teams": [
+    {
+      "uciCode": "USP",
+      "previousUciCode": null,
+      "name": "US Postal"
+    },
+    {
+      "uciCode": "ONC",
+      "previousUciCode": null,
+      "name": "ONCE-Eroski"
+    },
+    {
+      "uciCode": "TEL",
+      "previousUciCode": null,
+      "name": "Team Telekom"
+    },
+    {
+      "uciCode": "BAN",
+      "previousUciCode": null,
+      "name": "iBanesto.com"
+    },
+    {
+      "uciCode": "RAB",
+      "previousUciCode": null,
+      "name": "Rabobank"
+    },
+    {
+      "uciCode": "SAE",
+      "previousUciCode": null,
+      "name": "Saeco Macchine per Caffè"
+    },
+    {
+      "uciCode": "COF",
+      "previousUciCode": null,
+      "name": "Cofidis"
+    },
+    {
+      "uciCode": "CSC",
+      "previousUciCode": null,
+      "name": "Team CSC"
+    },
+    {
+      "uciCode": "FAS",
+      "previousUciCode": null,
+      "name": "Fassa Bortolo"
+    },
+    {
+      "uciCode": "FDJ",
+      "previousUciCode": null,
+      "name": "FDJeux.com"
+    },
+    {
+      "uciCode": "KEL",
+      "previousUciCode": null,
+      "name": "Kelme-Costa Blanca",
+      "colours": ["#6CC164", "#4594A3", "#3A433E"]
+    },
+    {
+      "uciCode": "QSD",
+      "previousUciCode": null,
+      "name": "Quick Step - Davitamon"
+    },
+    {
+      "uciCode": "C.A",
+      "previousUciCode": null,
+      "name": "Crédit Agricole"
+    },
+    {
+      "uciCode": "TBI",
+      "previousUciCode": null,
+      "name": "Team Bianchi",
+      "colours": ["#FFF", "#56AEB0", "#000"]
+    },
+    {
+      "uciCode": "LOT",
+      "previousUciCode": null,
+      "name": "Lotto-Domo"
+    },
+    {
+      "uciCode": "A2R",
+      "previousUciCode": null,
+      "name": "Ag2r Prévoyance"
+    },
+    {
+      "uciCode": "VIN",
+      "previousUciCode": null,
+      "name": "Vini Caldirola-So.Di",
+      "colours": ["#ECED38", "#000", "#000"]
+    },
+    {
+      "uciCode": "EUS",
+      "previousUciCode": null,
+      "name": "Euskaltel-Euskadi"
+    },
+    {
+      "uciCode": "BLB",
+      "previousUciCode": null,
+      "name": "Brioches La Boulangère"
+    },
+    {
+      "uciCode": "GST",
+      "previousUciCode": null,
+      "name": "Gerolsteiner"
+    },
+    {
+      "uciCode": "ALS",
+      "previousUciCode": null,
+      "name": "Alessio"
+    },
+    {
+      "uciCode": "DEL",
+      "previousUciCode": null,
+      "name": "Jean Delatour"
+    }
+  ]
+}
