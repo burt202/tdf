@@ -93,7 +93,7 @@
     {
       "uciCode": "COF",
       "previousUciCode": "COF",
-      "name": "Cofidis"
+      "name": "Cofidis, Le Crédit en Ligne"
     },
     {
       "uciCode": "EUS",
@@ -102,7 +102,7 @@
     },
     {
       "uciCode": "RAB",
-      "previousUciCode": null,
+      "previousUciCode": "RAB",
       "name": "Rabobank"
     },
     {

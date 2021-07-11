@@ -24,6 +24,11 @@
       "name": "Team Saxo Bank"
     },
     {
+      "uciCode": "RAB",
+      "previousUciCode": "RAB",
+      "name": "Rabobank"
+    },
+    {
       "uciCode": "GRM",
       "previousUciCode": "TSL",
       "name": "Garmin-Slipstream"
@@ -61,7 +66,7 @@
     {
       "uciCode": "COF",
       "previousUciCode": "COF",
-      "name": "Cofidis"
+      "name": "Cofidis, Le Crédit en Ligne"
     },
     {
       "uciCode": "LAM",

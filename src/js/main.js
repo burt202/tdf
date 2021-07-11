@@ -86,6 +86,8 @@ module.exports = () => {
         ctx.clearRect(0, 0, chartWidth, chartHeight)
         labelCache = []
 
+        const lineIdToDraw = match.lineId === selectedLineId ? undefined : match.lineId
+
         drawChart(ctx, {
           chartWidth,
           chartHeight,
@@ -96,10 +98,10 @@ module.exports = () => {
           onDataLabelDraw: (top, left, height, width, id, lineId) => {
             labelCache.push({top, left, height, width, id, lineId})
           },
-          selectedLineId: match.lineId === selectedLineId ? undefined : match.lineId,
+          selectedLineId: lineIdToDraw,
         })
 
-        selectedLineId = match.lineId
+        selectedLineId = lineIdToDraw
       }
     },
     false,

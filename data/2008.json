@@ -74,8 +74,7 @@
     {
       "uciCode": "RAB",
       "previousUciCode": "RAB",
-      "name": "Rabobank",
-      "colours": ["#F48C34", "#183E98", "#004B8F"]
+      "name": "Rabobank"
     },
     {
       "uciCode": "BTL",
