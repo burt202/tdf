@@ -12,4 +12,4 @@ View it at [burt202.github.io/tdf/](https://burt202.github.io/tdf/)
 
 ### TODO
 
-make names consistent, double border
+double border

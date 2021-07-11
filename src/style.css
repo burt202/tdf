@@ -32,5 +32,6 @@ h1 {
 }
 
 #colour-key {
-  padding: 25px;
+  margin: 0;
+  padding: 0 25px 25px 25px;
 }
