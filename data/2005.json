@@ -5,42 +5,42 @@
   "teams": [
     {
       "uciCode": "DSC",
-      "previousUciCode": null,
+      "previousUciCode": "USP",
       "name": "Discovery Channel"
     },
     {
       "uciCode": "TMO",
-      "previousUciCode": null,
+      "previousUciCode": "TMO",
       "name": "T-Mobile Team"
     },
     {
       "uciCode": "CSC",
-      "previousUciCode": null,
+      "previousUciCode": "CSC",
       "name": "Team CSC"
     },
     {
       "uciCode": "IBA",
-      "previousUciCode": null,
+      "previousUciCode": "IBA",
       "name": "Illes Balears"
     },
     {
       "uciCode": "DVL",
-      "previousUciCode": null,
+      "previousUciCode": "LOT",
       "name": "Davitamon-Lotto"
     },
     {
       "uciCode": "RAB",
-      "previousUciCode": null,
+      "previousUciCode": "RAB",
       "name": "Rabobank"
     },
     {
       "uciCode": "PHO",
-      "previousUciCode": null,
+      "previousUciCode": "PHO",
       "name": "Phonak"
     },
     {
       "uciCode": "FAS",
-      "previousUciCode": null,
+      "previousUciCode": "FAS",
       "name": "Fassa Bortolo",
       "colours": ["#0D1B3F", "#0D1B3F", "#FFF"]
     },
@@ -51,13 +51,13 @@
     },
     {
       "uciCode": "LSW",
-      "previousUciCode": null,
+      "previousUciCode": "LST",
       "name": "Liberty Seguros-Würth",
       "colours": ["#3F57A1", "#95D9FC", "#FFF"]
     },
     {
       "uciCode": "C.A",
-      "previousUciCode": null,
+      "previousUciCode": "C.A",
       "name": "Crédit Agricole"
     },
     {
@@ -67,17 +67,17 @@
     },
     {
       "uciCode": "COF",
-      "previousUciCode": null,
+      "previousUciCode": "COF",
       "name": "Cofidis"
     },
     {
       "uciCode": "QST",
-      "previousUciCode": null,
+      "previousUciCode": "QSD",
       "name": "Quick Step"
     },
     {
       "uciCode": "BTL",
-      "previousUciCode": null,
+      "previousUciCode": "BLB",
       "name": "Bouygues Télécom"
     },
     {
@@ -87,29 +87,28 @@
     },
     {
       "uciCode": "GST",
-      "previousUciCode": null,
+      "previousUciCode": "GST",
       "name": "Gerolsteiner"
     },
     {
       "uciCode": "FDJ",
-      "previousUciCode": null,
+      "previousUciCode": "FDJ",
       "name": "Française des Jeux"
     },
     {
       "uciCode": "DOM",
-      "previousUciCode": null,
+      "previousUciCode": "DOM",
       "name": "Domina Vacanze",
       "colours": ["#DDA92F", "#F4966E", "#1564EC"]
     },
-
     {
       "uciCode": "EUS",
-      "previousUciCode": null,
+      "previousUciCode": "EUS",
       "name": "Euskaltel-Euskadi"
     },
     {
       "uciCode": "A2R",
-      "previousUciCode": null,
+      "previousUciCode": "A2R",
       "name": "AG2R"
     }
   ]

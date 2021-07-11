@@ -1,0 +1,115 @@
+{
+  "id": "2004",
+  "startDate": "2004-07-03",
+  "endDate": "2004-07-25",
+  "teams": [
+    {
+      "uciCode": "USP",
+      "previousUciCode": null,
+      "name": "US Postal"
+    },
+    {
+      "uciCode": "TMO",
+      "previousUciCode": null,
+      "name": "T-Mobile Team"
+    },
+    {
+      "uciCode": "PHO",
+      "previousUciCode": null,
+      "name": "Phonak Hearing Systems"
+    },
+    {
+      "uciCode": "EUS",
+      "previousUciCode": null,
+      "name": "Euskaltel-Euskadi"
+    },
+    {
+      "uciCode": "FAS",
+      "previousUciCode": null,
+      "name": "Fassa Bortolo"
+    },
+    {
+      "uciCode": "C.A",
+      "previousUciCode": null,
+      "name": "Crédit Agricole"
+    },
+    {
+      "uciCode": "CSC",
+      "previousUciCode": null,
+      "name": "Team CSC"
+    },
+    {
+      "uciCode": "IBA",
+      "previousUciCode": null,
+      "name": "Illes Balears"
+    },
+    {
+      "uciCode": "GST",
+      "previousUciCode": null,
+      "name": "Gerolsteiner"
+    },
+    {
+      "uciCode": "COF",
+      "previousUciCode": null,
+      "name": "Cofidis, Le Crédit par Téléphone"
+    },
+    {
+      "uciCode": "QSD",
+      "previousUciCode": null,
+      "name": "Quick Step - Davitamon"
+    },
+    {
+      "uciCode": "LST",
+      "previousUciCode": null,
+      "name": "Liberty Seguros"
+    },
+    {
+      "uciCode": "BLB",
+      "previousUciCode": null,
+      "name": "Bouygues Télécom"
+    },
+    {
+      "uciCode": "ALB",
+      "previousUciCode": null,
+      "name": "Alessio-Bianchi",
+      "colours": ["#ED4631", "#292B6D", "#FFF"]
+    },
+    {
+      "uciCode": "A2R",
+      "previousUciCode": null,
+      "name": "Ag2r Prévoyance"
+    },
+    {
+      "uciCode": "RAB",
+      "previousUciCode": null,
+      "name": "Rabobank"
+    },
+    {
+      "uciCode": "FDJ",
+      "previousUciCode": null,
+      "name": "Française des Jeux"
+    },
+    {
+      "uciCode": "SAE",
+      "previousUciCode": null,
+      "name": "Saeco Macchine per Caffè",
+      "colours": ["#DD433E", "#2C6EBC", "#FFF"]
+    },
+    {
+      "uciCode": "LOT",
+      "previousUciCode": null,
+      "name": "Lotto-Domo"
+    },
+    {
+      "uciCode": "DOM",
+      "previousUciCode": null,
+      "name": "Domina Vacanze"
+    },
+    {
+      "uciCode": "RAG",
+      "previousUciCode": null,
+      "name": "R.A.G.T. Semences",
+      "colours": ["#FFF", "#EB4530", "#71DB73"]
+    }
+  ]
+}

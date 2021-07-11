@@ -8,6 +8,7 @@ View it at [burt202.github.io/tdf/](https://burt202.github.io/tdf/)
 
 - https://en.wikipedia.org/wiki/UCI_WorldTeam
 - https://www.uci.org/road/teams
+- http://www.cyclingarchives.com/
 
 ### TODO
 
