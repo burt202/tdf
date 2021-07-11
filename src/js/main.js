@@ -51,4 +51,8 @@ module.exports = () => {
     },
     false,
   )
+
+  document.addEventListener("scroll", function () {
+    hoverEl.style.display = "none"
+  })
 }
