@@ -5,27 +5,27 @@
   "teams": [
     {
       "uciCode": "USP",
-      "previousUciCode": null,
+      "previousUciCode": "USP",
       "name": "US Postal"
     },
     {
       "uciCode": "ONC",
-      "previousUciCode": null,
+      "previousUciCode": "ONC",
       "name": "ONCE-Eroski"
     },
     {
       "uciCode": "TEL",
-      "previousUciCode": null,
+      "previousUciCode": "TEL",
       "name": "Team Telekom"
     },
     {
       "uciCode": "BAN",
-      "previousUciCode": null,
+      "previousUciCode": "BAN",
       "name": "iBanesto.com"
     },
     {
       "uciCode": "RAB",
-      "previousUciCode": null,
+      "previousUciCode": "RAB",
       "name": "Rabobank"
     },
     {
@@ -35,38 +35,38 @@
     },
     {
       "uciCode": "COF",
-      "previousUciCode": null,
+      "previousUciCode": "COF",
       "name": "Cofidis"
     },
     {
       "uciCode": "CSC",
-      "previousUciCode": null,
+      "previousUciCode": "CST",
       "name": "Team CSC"
     },
     {
       "uciCode": "FAS",
-      "previousUciCode": null,
+      "previousUciCode": "FAS",
       "name": "Fassa Bortolo"
     },
     {
       "uciCode": "FDJ",
-      "previousUciCode": null,
+      "previousUciCode": "FDJ",
       "name": "FDJeux.com"
     },
     {
       "uciCode": "KEL",
-      "previousUciCode": null,
+      "previousUciCode": "KEL",
       "name": "Kelme-Costa Blanca",
       "colours": ["#6CC164", "#4594A3", "#3A433E"]
     },
     {
       "uciCode": "QSD",
-      "previousUciCode": null,
+      "previousUciCode": "MQS",
       "name": "Quick Step - Davitamon"
     },
     {
       "uciCode": "C.A",
-      "previousUciCode": null,
+      "previousUciCode": "C.A",
       "name": "Crédit Agricole"
     },
     {
@@ -77,28 +77,28 @@
     },
     {
       "uciCode": "LOT",
-      "previousUciCode": null,
+      "previousUciCode": "LOT",
       "name": "Lotto-Domo"
     },
     {
       "uciCode": "A2R",
-      "previousUciCode": null,
+      "previousUciCode": "A2R",
       "name": "Ag2r Prévoyance"
     },
     {
       "uciCode": "VIN",
-      "previousUciCode": null,
+      "previousUciCode": "TAC",
       "name": "Vini Caldirola-So.Di",
       "colours": ["#ECED38", "#000", "#000"]
     },
     {
       "uciCode": "EUS",
-      "previousUciCode": null,
+      "previousUciCode": "EUS",
       "name": "Euskaltel-Euskadi"
     },
     {
       "uciCode": "BLB",
-      "previousUciCode": null,
+      "previousUciCode": "BJR",
       "name": "Brioches La Boulangère"
     },
     {
@@ -108,12 +108,12 @@
     },
     {
       "uciCode": "ALS",
-      "previousUciCode": null,
+      "previousUciCode": "ALS",
       "name": "Alessio"
     },
     {
       "uciCode": "DEL",
-      "previousUciCode": null,
+      "previousUciCode": "DEL",
       "name": "Jean Delatour"
     }
   ]

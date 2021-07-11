@@ -1,0 +1,114 @@
+{
+  "id": "2002",
+  "startDate": "2002-07-06",
+  "endDate": "2002-07-28",
+  "teams": [
+    {
+      "uciCode": "USP",
+      "previousUciCode": null,
+      "name": "US Postal"
+    },
+    {
+      "uciCode": "TEL",
+      "previousUciCode": null,
+      "name": "Team Telekom"
+    },
+    {
+      "uciCode": "ONC",
+      "previousUciCode": null,
+      "name": "ONCE-Eroski"
+    },
+    {
+      "uciCode": "KEL",
+      "previousUciCode": null,
+      "name": "Kelme-Costa Blanca"
+    },
+    {
+      "uciCode": "COF",
+      "previousUciCode": null,
+      "name": "Cofidis"
+    },
+    {
+      "uciCode": "CST",
+      "previousUciCode": null,
+      "name": "CSC-Tiscali"
+    },
+    {
+      "uciCode": "C.A",
+      "previousUciCode": null,
+      "name": "Crédit Agricole"
+    },
+    {
+      "uciCode": "DFF",
+      "previousUciCode": null,
+      "name": "Domo-Farm Frites",
+      "colours": ["#FFF", "#99BBEB", "#2C2439"]
+    },
+    {
+      "uciCode": "FAS",
+      "previousUciCode": null,
+      "name": "Fassa Bortolo"
+    },
+    {
+      "uciCode": "FDJ",
+      "previousUciCode": null,
+      "name": "Française des Jeux"
+    },
+    {
+      "uciCode": "RAB",
+      "previousUciCode": null,
+      "name": "Rabobank"
+    },
+    {
+      "uciCode": "BJR",
+      "previousUciCode": null,
+      "name": "Bonjour"
+    },
+    {
+      "uciCode": "MQS",
+      "previousUciCode": null,
+      "name": "Mapei-Quick-Step"
+    },
+    {
+      "uciCode": "BAN",
+      "previousUciCode": null,
+      "name": "iBanesto.com"
+    },
+    {
+      "uciCode": "LOT",
+      "previousUciCode": null,
+      "name": "Lotto-Adecco"
+    },
+    {
+      "uciCode": "LAM",
+      "previousUciCode": null,
+      "name": "Lampre-Daikin",
+      "colours": ["#355CAB", "#EB5C9D", "#FFF"]
+    },
+    {
+      "uciCode": "EUS",
+      "previousUciCode": null,
+      "name": "Euskaltel-Euskadi"
+    },
+    {
+      "uciCode": "TAC",
+      "previousUciCode": null,
+      "name": "Tacconi Sport"
+    },
+    {
+      "uciCode": "A2R",
+      "previousUciCode": null,
+      "name": "Ag2r Prévoyance"
+    },
+    {
+      "uciCode": "ALS",
+      "previousUciCode": null,
+      "name": "Alessio"
+    },
+    {
+      "uciCode": "DEL",
+      "previousUciCode": null,
+      "name": "Jean Delatour"
+    }
+  ]
+}
