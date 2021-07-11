@@ -1,26 +1,26 @@
 {
   "id": "2001",
-  "startDate": "2002-07-07",
-  "endDate": "2002-07-29",
+  "startDate": "2001-07-07",
+  "endDate": "2001-07-29",
   "teams": [
     {
       "uciCode": "USP",
-      "previousUciCode": null,
+      "previousUciCode": "USP",
       "name": "US Postal"
     },
     {
       "uciCode": "TEL",
-      "previousUciCode": null,
+      "previousUciCode": "TEL",
       "name": "Team Telekom"
     },
     {
       "uciCode": "ONC",
-      "previousUciCode": null,
+      "previousUciCode": "ONC",
       "name": "ONCE-Eroski"
     },
     {
       "uciCode": "FES",
-      "previousUciCode": null,
+      "previousUciCode": "FES",
       "name": "Festina",
       "colours": ["#1C1E32", "#C9D535", "#C9D535"]
     },
@@ -31,32 +31,32 @@
     },
     {
       "uciCode": "RAB",
-      "previousUciCode": null,
+      "previousUciCode": "RAB",
       "name": "Rabobank"
     },
     {
       "uciCode": "LOT",
-      "previousUciCode": null,
+      "previousUciCode": "LOT",
       "name": "Lotto-Adecco"
     },
     {
       "uciCode": "COF",
-      "previousUciCode": null,
+      "previousUciCode": "COF",
       "name": "Cofidis"
     },
     {
       "uciCode": "MQS",
-      "previousUciCode": null,
+      "previousUciCode": "MQS",
       "name": "Mapei-Quick-Step"
     },
     {
       "uciCode": "BAN",
-      "previousUciCode": null,
+      "previousUciCode": "BAN",
       "name": "iBanesto.com"
     },
     {
       "uciCode": "C.A",
-      "previousUciCode": null,
+      "previousUciCode": "C.A",
       "name": "Crédit Agricole"
     },
     {
@@ -66,12 +66,12 @@
     },
     {
       "uciCode": "A2R",
-      "previousUciCode": null,
+      "previousUciCode": "A2R",
       "name": "Ag2r Prévoyance"
     },
     {
       "uciCode": "CST",
-      "previousUciCode": null,
+      "previousUciCode": "MCJ",
       "name": "CSC-Tiscali"
     },
     {
@@ -81,12 +81,12 @@
     },
     {
       "uciCode": "KEL",
-      "previousUciCode": null,
+      "previousUciCode": "KEL",
       "name": "Kelme-Costa Blanca"
     },
     {
       "uciCode": "BJR",
-      "previousUciCode": null,
+      "previousUciCode": "BJR",
       "name": "Bonjour"
     },
     {
@@ -96,12 +96,12 @@
     },
     {
       "uciCode": "FDJ",
-      "previousUciCode": null,
+      "previousUciCode": "FDJ",
       "name": "Française des Jeux"
     },
     {
       "uciCode": "DFF",
-      "previousUciCode": null,
+      "previousUciCode": "FAR",
       "name": "Domo-Farm Frites-Latexco"
     },
     {

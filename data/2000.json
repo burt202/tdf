@@ -1,0 +1,111 @@
+{
+  "id": "2000",
+  "startDate": "2000-07-07",
+  "endDate": "2000-07-29",
+  "teams": [
+    {
+      "uciCode": "USP",
+      "previousUciCode": null,
+      "name": "US Postal"
+    },
+    {
+      "uciCode": "BAN",
+      "previousUciCode": null,
+      "name": "Banesto"
+    },
+    {
+      "uciCode": "KEL",
+      "previousUciCode": null,
+      "name": "Kelme-Costa Blanca"
+    },
+    {
+      "uciCode": "MQS",
+      "previousUciCode": null,
+      "name": "Mapei-Quick-Step"
+    },
+    {
+      "uciCode": "RAB",
+      "previousUciCode": null,
+      "name": "Rabobank"
+    },
+    {
+      "uciCode": "ONC",
+      "previousUciCode": null,
+      "name": "ONCE-Deutsche Bank"
+    },
+    {
+      "uciCode": "TEL",
+      "previousUciCode": null,
+      "name": "Team Telekom"
+    },
+    {
+      "uciCode": "MER",
+      "previousUciCode": null,
+      "name": "Mercatone Uno-Albacom",
+      "colours": ["#F9E137", "#ED483F", "#335176"]
+    },
+    {
+      "uciCode": "A2R",
+      "previousUciCode": null,
+      "name": "Ag2r Prévoyance"
+    },
+    {
+      "uciCode": "SAE",
+      "previousUciCode": null,
+      "name": "Saeco Macchine per Caffè",
+      "colours": ["#DD433E", "#2C6EBC", "#FFF"]
+    },
+    {
+      "uciCode": "FES",
+      "previousUciCode": null,
+      "name": "Festina"
+    },
+    {
+      "uciCode": "FAR",
+      "previousUciCode": null,
+      "name": "Farm Frites"
+    },
+    {
+      "uciCode": "COF",
+      "previousUciCode": null,
+      "name": "Cofidis"
+    },
+    {
+      "uciCode": "LOT",
+      "previousUciCode": null,
+      "name": "Lotto-Adecco"
+    },
+    {
+      "uciCode": "FDJ",
+      "previousUciCode": null,
+      "name": "Française des Jeux"
+    },
+    {
+      "uciCode": "PLT",
+      "previousUciCode": null,
+      "name": "Team Polti",
+      "colours": ["#F2ED36", "#ED4843", "#ED4843"]
+    },
+    {
+      "uciCode": "MCJ",
+      "previousUciCode": null,
+      "name": " Memory Card-Jack & Jones"
+    },
+    {
+      "uciCode": "C.A",
+      "previousUciCode": null,
+      "name": "Crédit Agricole"
+    },
+    {
+      "uciCode": "VIN",
+      "previousUciCode": null,
+      "name": "Vini Caldirola-Sidermec",
+      "colours": ["#15193C", "#AE4E99", "#F6EC3F"]
+    },
+    {
+      "uciCode": "BJR",
+      "previousUciCode": null,
+      "name": "Bonjour"
+    }
+  ]
+}
