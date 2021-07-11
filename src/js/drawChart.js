@@ -53,6 +53,7 @@ module.exports = (
   function drawBorderedRoundedRectangle(x, y, width, height, radius, fillColour, borderColour) {
     ctx.fillStyle = fillColour
     ctx.strokeStyle = borderColour
+    ctx.lineWidth = 4
 
     ctx.beginPath()
     ctx.moveTo(x + radius, y)
@@ -100,7 +101,7 @@ module.exports = (
       const {coords, lineId} = points[j]
 
       ctx.strokeStyle = selectedLineId && selectedLineId !== lineId ? "#CCC" : lineColour
-      ctx.lineWidth = selectedLineId && selectedLineId === lineId ? 4 : 2
+      ctx.lineWidth = 2
 
       if (j === 0) {
         const moveToX = coords[0] * columnWidth + sidePadding + dataLabelWidth / 2
