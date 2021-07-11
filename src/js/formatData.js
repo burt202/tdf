@@ -55,6 +55,7 @@ module.exports = () => {
 
   let lines = []
   let usedCoords = {}
+  let autoIncrement = 1
 
   sortedKeys.forEach((edition, i) => {
     const teams = data[edition].teams
@@ -84,8 +85,15 @@ module.exports = () => {
         fillColour: lastPoint.colours ? lastPoint.colours[0] : "black",
         lineColour: lastPoint.colours ? lastPoint.colours[1] : "black",
         textColour: lastPoint.colours ? lastPoint.colours[2] : "white",
-        points: R.map(R.omit("colours"), points),
+        points: points.map((p) => ({
+          id: p.id,
+          text: p.text,
+          coords: p.coords,
+          lineId: autoIncrement,
+        })),
       })
+
+      autoIncrement++
     }
   })
 

@@ -2,7 +2,16 @@ const R = require("ramda")
 
 module.exports = (
   ctx,
-  {chartWidth, chartHeight, gridLineColour, columnTitleColour, cols, lines, onDataLabelDraw},
+  {
+    chartWidth,
+    chartHeight,
+    gridLineColour,
+    columnTitleColour,
+    cols,
+    lines,
+    onDataLabelDraw,
+    selectedLineId,
+  },
 ) => {
   const dataLabelWidth = 250
   const dataLabelHeight = 40
@@ -88,10 +97,10 @@ module.exports = (
     ctx.beginPath()
 
     for (let j = 0; j < points.length; j++) {
-      const coords = points[j].coords
+      const {coords, lineId} = points[j]
 
-      ctx.strokeStyle = lineColour
-      ctx.lineWidth = 2
+      ctx.strokeStyle = selectedLineId && selectedLineId !== lineId ? "#CCC" : lineColour
+      ctx.lineWidth = selectedLineId && selectedLineId === lineId ? 4 : 2
 
       if (j === 0) {
         const moveToX = coords[0] * columnWidth + sidePadding + dataLabelWidth / 2
@@ -115,8 +124,7 @@ module.exports = (
     const {points, fillColour, lineColour, textColour} = line
 
     for (let j = 0; j < points.length; j++) {
-      const text = points[j].text
-      const coords = points[j].coords
+      const {text, coords, lineId} = points[j]
 
       const lineToX = coords[0] * columnWidth + sidePadding
       const lineToY = coords[1] * rowHeight + topBottomPadding
@@ -127,16 +135,16 @@ module.exports = (
         dataLabelWidth,
         dataLabelHeight,
         8,
-        fillColour,
-        lineColour,
+        selectedLineId && selectedLineId !== lineId ? "#DDD" : fillColour,
+        selectedLineId && selectedLineId !== lineId ? "#DDD" : lineColour,
       )
 
       const top = lineToY - dataLabelHeight / 2
       const left = lineToX - dataLabelWidth / 2
-      onDataLabelDraw(top, left, dataLabelHeight, dataLabelWidth, points[j].id)
+      onDataLabelDraw(top, left, dataLabelHeight, dataLabelWidth, points[j].id, points[j].lineId)
 
       ctx.font = "16px arial"
-      ctx.fillStyle = textColour
+      ctx.fillStyle = selectedLineId && selectedLineId !== lineId ? "#FFF" : textColour
       ctx.textAlign = "center"
       ctx.fillText(text, lineToX, lineToY + 5)
     }
