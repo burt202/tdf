@@ -23,6 +23,12 @@ h1 {
   margin: 16px 25px;
 }
 
+#github-link {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
 #hover {
   position: absolute;
   z-index: 999;
