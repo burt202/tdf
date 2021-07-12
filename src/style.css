@@ -23,12 +23,6 @@ h1 {
   margin: 16px 25px;
 }
 
-#github-link {
-  position: absolute;
-  top: 25px;
-  right: 25px;
-}
-
 #hover {
   position: absolute;
   z-index: 999;
@@ -37,7 +31,10 @@ h1 {
   border: #000 1px solid;
 }
 
-#colour-key {
-  margin: 0;
+#footer {
   padding: 0 25px 25px 25px;
+}
+
+#footer p {
+  margin-bottom: 0;
 }
