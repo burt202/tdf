@@ -41,7 +41,10 @@ module.exports = {
   },
   plugins: [
     new CopyWebpackPlugin({
-      patterns: [{from: "src/favicon.ico", to: "favicon.ico"}],
+      patterns: [
+        {from: "src/favicon.ico", to: "favicon.ico"},
+        {from: "src/thumb.png", to: "thumb.png"},
+      ],
     }),
 
     new webpack.DefinePlugin({
