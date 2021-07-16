@@ -15,7 +15,8 @@ module.exports = (
 ) => {
   const dataLabelWidth = 225
   const dataLabelHeight = 30
-  const topBottomPadding = 50
+  const topPadding = 50
+  const bottomPadding = 0
   const sidePadding = 150
   const columnHeaderWidth = 40
   const font = "14px arial"
@@ -28,7 +29,7 @@ module.exports = (
   const rowHeight = chartHeight / rowCount
 
   ctx.canvas.width = chartWidth + 2 * sidePadding
-  ctx.canvas.height = chartHeight + 2 * topBottomPadding
+  ctx.canvas.height = chartHeight + topPadding + bottomPadding
 
   function getColumnCoords(noOfCols, width) {
     let arr = []
@@ -45,11 +46,11 @@ module.exports = (
     let arr = []
 
     for (let i = 0; i < noOfRows; i++) {
-      const coord = height - (i + 1) * (height / noOfRows) + topBottomPadding
+      const coord = height - (i + 1) * (height / noOfRows) + topPadding
       arr.push(coord)
     }
 
-    return [height + topBottomPadding, ...arr]
+    return [height + topPadding, ...arr]
   }
 
   function drawBorderedRoundedRectangle(x, y, width, height, radius, fillColour, borderColour) {
@@ -76,8 +77,8 @@ module.exports = (
     for (let i = 1; i < columnCoords.length - 1; i++) {
       ctx.strokeStyle = gridLineColour
       ctx.lineWidth = 1
-      ctx.moveTo(columnCoords[i], topBottomPadding)
-      ctx.lineTo(columnCoords[i], chartHeight + topBottomPadding)
+      ctx.moveTo(columnCoords[i], topPadding)
+      ctx.lineTo(columnCoords[i], chartHeight + topPadding)
     }
 
     ctx.stroke()
@@ -107,11 +108,11 @@ module.exports = (
 
       if (j === 0) {
         const moveToX = coords[0] * columnWidth + sidePadding + dataLabelWidth / 2
-        const moveToY = coords[1] * rowHeight + topBottomPadding
+        const moveToY = coords[1] * rowHeight + topPadding
         ctx.moveTo(moveToX, moveToY)
       } else {
         const lineToX = coords[0] * columnWidth + sidePadding - dataLabelWidth / 2
-        const lineToY = coords[1] * rowHeight + topBottomPadding
+        const lineToY = coords[1] * rowHeight + topPadding
 
         ctx.lineTo(lineToX, lineToY)
         ctx.stroke()
@@ -130,7 +131,7 @@ module.exports = (
       const {text, coords, lineId} = points[j]
 
       const lineToX = coords[0] * columnWidth + sidePadding
-      const lineToY = coords[1] * rowHeight + topBottomPadding
+      const lineToY = coords[1] * rowHeight + topPadding
 
       drawBorderedRoundedRectangle(
         lineToX - dataLabelWidth / 2,
@@ -160,7 +161,7 @@ module.exports = (
 
     for (let i = 0; i < cols.length; i++) {
       const x = sidePadding - columnHeaderWidth / 2 + i * columnWidth
-      ctx.fillText(cols[i], x, topBottomPadding - dataLabelHeight)
+      ctx.fillText(cols[i], x, topPadding - dataLabelHeight)
     }
   }
 
