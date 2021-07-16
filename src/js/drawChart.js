@@ -13,10 +13,12 @@ module.exports = (
     selectedLineId,
   },
 ) => {
-  const dataLabelWidth = 250
-  const dataLabelHeight = 40
-  const topBottomPadding = 100
+  const dataLabelWidth = 225
+  const dataLabelHeight = 30
+  const topBottomPadding = 50
   const sidePadding = 150
+  const columnHeaderWidth = 40
+  const font = "14px arial"
 
   const rowCount = R.pipe(R.pluck("points"), R.flatten, R.pluck("coords"), R.map(R.last), (arr) =>
     Math.max.apply(null, arr),
@@ -144,7 +146,7 @@ module.exports = (
       const left = lineToX - dataLabelWidth / 2
       onDataLabelDraw(top, left, dataLabelHeight, dataLabelWidth, points[j].id, points[j].lineId)
 
-      ctx.font = "16px arial"
+      ctx.font = font
       ctx.fillStyle = selectedLineId && selectedLineId !== lineId ? "#FFF" : textColour
       ctx.textAlign = "center"
       ctx.fillText(text, lineToX, lineToY + 5)
@@ -152,13 +154,13 @@ module.exports = (
   }
 
   function drawColumnHeaders() {
-    ctx.font = "16px arial"
+    ctx.font = font
     ctx.fillStyle = columnTitleColour
     ctx.textAlign = "left"
 
     for (let i = 0; i < cols.length; i++) {
-      const x = sidePadding - 20 + i * columnWidth
-      ctx.fillText(cols[i], x, 40)
+      const x = sidePadding - columnHeaderWidth / 2 + i * columnWidth
+      ctx.fillText(cols[i], x, topBottomPadding - dataLabelHeight)
     }
   }
 
