@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "scripts": {
     "lint": "eslint src/ --ext .js",
-    "start": "webpack serve --progress",
-    "build": "rm -rf build; webpack --config ./config/webpack.config.prod.js --progress",
+    "start": "webpack serve --progress --config ./webpack.dev.js",
+    "build": "rm -rf build; webpack --progress --config ./webpack.prod.js",
     "deploy": "gh-pages -d build",
     "prepush": "npm run build; npm run deploy"
   },
@@ -41,6 +41,7 @@
     "style-loader": "^3.2.1",
     "webpack": "^5.48.0",
     "webpack-cli": "^4.7.2",
-    "webpack-dev-server": "^3.11.2"
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.8.0"
   }
 }
