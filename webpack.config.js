@@ -2,6 +2,7 @@ const webpack = require("webpack")
 const path = require("path")
 const NunjucksWebpackPlugin = require("nunjucks-webpack-plugin")
 const CopyWebpackPlugin = require("copy-webpack-plugin")
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin")
 
 const packageJson = require("./package.json")
 
@@ -10,11 +11,7 @@ module.exports = {
   performance: {
     hints: false,
   },
-  entry: [
-    "webpack-dev-server/client?http://localhost:8080",
-    "webpack/hot/only-dev-server",
-    "./src/js/index",
-  ],
+  entry: ["./src/js/index"],
   devtool: "inline-source-map",
   output: {
     publicPath: "/",
@@ -36,8 +33,6 @@ module.exports = {
     contentBase: "./build",
     noInfo: true,
     hot: true,
-    inline: true,
-    historyApiFallback: true,
   },
   plugins: [
     new CopyWebpackPlugin({
@@ -65,4 +60,7 @@ module.exports = {
       ],
     }),
   ],
+  optimization: {
+    minimizer: [new CssMinimizerPlugin(), "..."],
+  },
 }
