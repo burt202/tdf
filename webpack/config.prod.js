@@ -1,9 +1,9 @@
 const webpack = require("webpack")
 const {merge} = require("webpack-merge")
-const common = require("./webpack.common.js")
+const common = require("./config.common.js")
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin")
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
-const NunjucksWebpackPlugin = require("nunjucks-webpack-plugin")
+const NunjucksWebpackPlugin = require("./NunjucksWebpackPlugin")
 
 module.exports = merge(common, {
   mode: "production",
