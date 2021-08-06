@@ -1,10 +1,10 @@
-const drawChart = require("./drawChart")
-const formatData = require("./formatData")
+import drawChart from "./drawChart"
+import formatData from "./formatData"
 
-require("../style.css")
+import "../style.css"
 
-module.exports = () => {
-  const chartEl = document.getElementById("chart")
+export default () => {
+  const chartEl = <HTMLCanvasElement>document.getElementById("chart")
   const ctx = chartEl.getContext("2d")
   const chartElLeft = chartEl.offsetLeft
   const chartElTop = chartEl.offsetTop
@@ -26,7 +26,14 @@ module.exports = () => {
     columnTitleColour,
     cols,
     lines,
-    onDataLabelDraw: (top, left, height, width, id, lineId) => {
+    onDataLabelDraw: (
+      top: number,
+      left: number,
+      height: number,
+      width: number,
+      id: string,
+      lineId: string,
+    ) => {
       labelCache.push({top, left, height, width, id, lineId})
     },
   })
@@ -95,7 +102,14 @@ module.exports = () => {
           columnTitleColour,
           cols,
           lines,
-          onDataLabelDraw: (top, left, height, width, id, lineId) => {
+          onDataLabelDraw: (
+            top: number,
+            left: number,
+            height: number,
+            width: number,
+            id: string,
+            lineId: string,
+          ) => {
             labelCache.push({top, left, height, width, id, lineId})
           },
           selectedLineId: lineIdToDraw,

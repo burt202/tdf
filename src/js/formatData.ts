@@ -1,4 +1,4 @@
-const R = require("ramda")
+import * as R from "ramda"
 
 const data = {
   2000: require("../../data/2000.json"),
@@ -23,9 +23,32 @@ const data = {
   2019: require("../../data/2019.json"),
   2020: require("../../data/2020.json"),
   2021: require("../../data/2021.json"),
-}
+} as Record<
+  number,
+  {
+    id: string
+    startDate: string
+    endDate: string
+    teams: Array<{
+      uciCode: string
+      name: string
+      previousUciCode: string | null
+      colours?: Array<string>
+    }>
+  }
+>
 
-function rec(uciCode, edition, i, arr) {
+function rec(
+  uciCode: string,
+  edition: number,
+  i: number,
+  arr: Array<{
+    id: string
+    text: string
+    coords: [number, number]
+    colours: Array<string>
+  }>,
+) {
   if (data[edition] === undefined) {
     return arr
   }
@@ -49,7 +72,7 @@ function rec(uciCode, edition, i, arr) {
   return arr
 }
 
-module.exports = () => {
+export default () => {
   const cols = Object.keys(data)
   const sortedKeys = Object.keys(data).sort()
 

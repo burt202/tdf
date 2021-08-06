@@ -1,7 +1,19 @@
-const R = require("ramda")
+import * as R from "ramda"
 
-module.exports = (
-  ctx,
+interface Line {
+  fillColour: string
+  lineColour: string
+  textColour: string
+  points: Array<{
+    id: string
+    text: string
+    coords: [number, number]
+    lineId: string
+  }>
+}
+
+export default (
+  ctx: CanvasRenderingContext2D,
   {
     chartWidth,
     chartHeight,
@@ -11,6 +23,22 @@ module.exports = (
     lines,
     onDataLabelDraw,
     selectedLineId,
+  }: {
+    chartWidth: number
+    chartHeight: number
+    gridLineColour: string
+    columnTitleColour: string
+    cols: Array<string>
+    lines: Array<Line>
+    onDataLabelDraw: (
+      top: number,
+      left: number,
+      height: number,
+      width: number,
+      id: string,
+      lineId: string,
+    ) => void
+    selectedLineId?: string
   },
 ) => {
   const dataLabelWidth = 225
@@ -21,9 +49,10 @@ module.exports = (
   const columnHeaderWidth = 40
   const font = "14px arial"
 
-  const rowCount = R.pipe(R.pluck("points"), R.flatten, R.pluck("coords"), R.map(R.last), (arr) =>
-    Math.max.apply(null, arr),
-  )(lines)
+  const points = R.flatten(R.pluck("points", lines))
+  const rowsPerColumn = R.pluck("coords", points).map((a) => R.last(a))
+
+  const rowCount = Math.max(...rowsPerColumn)
 
   const columnWidth = chartWidth / (cols.length - 1)
   const rowHeight = chartHeight / rowCount
@@ -31,7 +60,7 @@ module.exports = (
   ctx.canvas.width = chartWidth + 2 * sidePadding
   ctx.canvas.height = chartHeight + topPadding + bottomPadding
 
-  function getColumnCoords(noOfCols, width) {
+  function getColumnCoords(noOfCols: number, width: number) {
     let arr = []
 
     for (let i = 0; i < noOfCols - 1; i++) {
@@ -42,7 +71,7 @@ module.exports = (
     return [0 + sidePadding, ...arr]
   }
 
-  function getRowCoords(noOfRows, height) {
+  function getRowCoords(noOfRows: number, height: number) {
     let arr = []
 
     for (let i = 0; i < noOfRows; i++) {
@@ -53,7 +82,15 @@ module.exports = (
     return [height + topPadding, ...arr]
   }
 
-  function drawBorderedRoundedRectangle(x, y, width, height, radius, fillColour, borderColour) {
+  function drawBorderedRoundedRectangle(
+    x: number,
+    y: number,
+    width: number,
+    height: number,
+    radius: number,
+    fillColour: string,
+    borderColour: string,
+  ) {
     ctx.fillStyle = fillColour
     ctx.strokeStyle = borderColour
     ctx.lineWidth = 4
@@ -95,7 +132,7 @@ module.exports = (
     ctx.stroke()
   }
 
-  function drawDataLines(line) {
+  function drawDataLines(line: Line) {
     const {points, lineColour} = line
 
     ctx.beginPath()
@@ -124,7 +161,7 @@ module.exports = (
     ctx.closePath()
   }
 
-  function drawDataLabels(line) {
+  function drawDataLabels(line: Line) {
     const {points, fillColour, lineColour, textColour} = line
 
     for (let j = 0; j < points.length; j++) {
