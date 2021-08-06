@@ -1,7 +1,7 @@
 const webpack = require("webpack")
 const {merge} = require("webpack-merge")
 const common = require("./config.common.js")
-const NunjucksWebpackPlugin = require("./NunjucksWebpackPlugin")
+const NunjucksWebpackPlugin = require("nunjucks-webpack-plugin")
 
 module.exports = merge(common, {
   mode: "development",
