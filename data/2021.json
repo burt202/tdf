@@ -6,116 +6,97 @@
     {
       "uciCode": "UAD",
       "previousUciCode": "UAD",
-      "name": "UAE Team Emirates",
-      "colours": ["#DDDDE7", "#261A1E", "#BD1C2B"]
+      "name": "UAE Team Emirates"
     },
     {
       "uciCode": "TJV",
       "previousUciCode": "TJV",
-      "name": "Team Jumbo-Visma",
-      "colours": ["#141318", "#EE554D", "#EFC054"]
+      "name": "Team Jumbo-Visma"
     },
     {
       "uciCode": "IGD",
       "previousUciCode": "IGD",
-      "name": "Ineos Grenadiers",
-      "colours": ["#232C3D", "#B61615", "#FFF"]
+      "name": "Ineos Grenadiers"
     },
     {
       "uciCode": "ISN",
       "previousUciCode": "ISN",
-      "name": "Israel Start-Up Nation",
-      "colours": ["#EEEEEC", "#65B5F0", "#09122F"]
+      "name": "Israel Start-Up Nation"
     },
     {
       "uciCode": "TFS",
       "previousUciCode": "TFS",
-      "name": "Trek-Segafredo",
-      "colours": ["#EEE", "#CB252B", "#2A364C"]
+      "name": "Trek-Segafredo"
     },
     {
       "uciCode": "DQT",
       "previousUciCode": "DQT",
-      "name": "Deceuninck-Quick-Step",
-      "colours": ["#004B8F", "#001D45", "#FDFFFE"]
+      "name": "Deceuninck-Quick-Step"
     },
     {
       "uciCode": "MOV",
       "previousUciCode": "MOV",
-      "name": "Movistar Team",
-      "colours": ["#3093D9", "#101016", "#FFF"]
+      "name": "Movistar Team"
     },
     {
       "uciCode": "BOH",
       "previousUciCode": "BOH",
-      "name": "Bora-Hansgrohe",
-      "colours": ["#367E72", "#284145", "#FFFFFF"]
+      "name": "Bora-Hansgrohe"
     },
     {
       "uciCode": "GFC",
       "previousUciCode": "GFC",
-      "name": "Groupama-FDJ",
-      "colours": ["#EEF0F4", "#A22B31", "#02439F"]
+      "name": "Groupama-FDJ"
     },
     {
       "uciCode": "COF",
       "previousUciCode": "COF",
-      "name": "Cofidis",
-      "colours": ["#CD3C34", "#CD3C34", "#F2D652"]
+      "name": "Cofidis"
     },
     {
       "uciCode": "AFC",
       "previousUciCode": null,
-      "name": "Alpecin-Fenix",
-      "colours": ["#28334D", "#D13E33", "#D9D9E7"]
+      "name": "Alpecin-Fenix"
     },
     {
       "uciCode": "EFN",
       "previousUciCode": "EF1",
-      "name": "EF Education-Nippo",
-      "colours": ["#EE769D", "#505165", "#28334D"]
+      "name": "EF Education-Nippo"
     },
     {
       "uciCode": "ACT",
       "previousUciCode": "ALM",
-      "name": "AG2R Citroën Team",
-      "colours": ["#FFF", "#DD1F29", "#000"]
+      "name": "AG2R Citroën Team"
     },
     {
       "uciCode": "ARK",
       "previousUciCode": "ARK",
-      "name": "Arkéa-Samsic",
-      "colours": ["#E0422E", "#0E0E0E", "#FBFFFF"]
+      "name": "Arkéa-Samsic"
     },
     {
       "uciCode": "DSM",
       "previousUciCode": "SUN",
-      "name": "Team DSM",
-      "colours": ["#0E0A0A", "#B7EBFF", "#FFFCFD"]
+      "name": "Team DSM"
     },
     {
       "uciCode": "LTS",
       "previousUciCode": "LTS",
-      "name": "Lotto-Soudal",
-      "colours": ["#D1190F", "#030D0A", "#F1F4FD"]
+      "name": "Lotto-Soudal"
     },
     {
       "uciCode": "TBV",
       "previousUciCode": "TBM",
-      "name": "Team Bahrain Victorious",
-      "colours": ["#ED473B", "#E48835", "#DAD4D4"]
+      "name": "Team Bahrain Victorious"
     },
     {
       "uciCode": "BEX",
       "previousUciCode": "MTS",
-      "name": "Team BikeExchange",
-      "colours": ["#F7F6F9", "#23BFB4", "#070707"]
+      "name": "Team BikeExchange"
     },
     {
       "uciCode": "APT",
       "previousUciCode": "AST",
-      "name": "Astana-Premier Tech",
-      "colours": ["#66CCF4", "#C5CF6C", "#242A4C"]
+      "name": "Astana-Premier Tech"
     },
     {
       "uciCode": "TQA",
@@ -126,20 +107,17 @@
     {
       "uciCode": "TEN",
       "previousUciCode": "TDE",
-      "name": "Team TotalEnergies",
-      "colours": ["#D9D8DD", "#118DD5", "#24272C"]
+      "name": "Team TotalEnergies"
     },
     {
       "uciCode": "IWG",
       "previousUciCode": "CCC",
-      "name": "Intermarché-Wanty-Gobert",
-      "colours": ["#1B4B9B", "#B0F749", "#FFF"]
+      "name": "Intermarché-Wanty-Gobert"
     },
     {
       "uciCode": "BBK",
       "previousUciCode": "BVC",
-      "name": "B&B Hotels",
-      "colours": ["#4CA894", "#1E2424", "#FFF"]
+      "name": "B&B Hotels"
     }
   ]
 }

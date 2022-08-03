@@ -33,7 +33,7 @@ export default (
     selectedLineId,
   }: Props,
 ) => {
-  const dataLabelWidth = 225
+  const dataLabelWidth = 240
   const dataLabelHeight = 30
   const topPadding = 50
   const bottomPadding = 20

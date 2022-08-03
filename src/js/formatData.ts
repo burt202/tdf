@@ -27,6 +27,7 @@ const data = {
   2019: require("../../data/2019.json") as Season,
   2020: require("../../data/2020.json") as Season,
   2021: require("../../data/2021.json") as Season,
+  2022: require("../../data/2022.json") as Season,
 }
 
 interface Point {
