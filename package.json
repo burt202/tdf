@@ -14,7 +14,7 @@
     "@types/ramda": "^0.28.14",
     "@typescript-eslint/eslint-plugin": "^5.23.0",
     "@typescript-eslint/parser": "^5.23.0",
-    "copy-webpack-plugin": "^10.2.4",
+    "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.1",
     "css-minimizer-webpack-plugin": "^4.0.0",
     "eslint": "^8.15.0",
@@ -36,6 +36,6 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
-    "ramda": "^0.27.1"
+    "ramda": "^0.28.0"
   }
 }
