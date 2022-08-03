@@ -1,34 +1,7 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
-
 import * as R from "ramda"
 
+import data from "../../data"
 import {Season, Line, Point} from "./types"
-
-const data = {
-  2000: require("../../data/2000.json") as Season,
-  2001: require("../../data/2001.json") as Season,
-  2002: require("../../data/2002.json") as Season,
-  2003: require("../../data/2003.json") as Season,
-  2004: require("../../data/2004.json") as Season,
-  2005: require("../../data/2005.json") as Season,
-  2006: require("../../data/2006.json") as Season,
-  2007: require("../../data/2007.json") as Season,
-  2008: require("../../data/2008.json") as Season,
-  2009: require("../../data/2009.json") as Season,
-  2010: require("../../data/2010.json") as Season,
-  2011: require("../../data/2011.json") as Season,
-  2012: require("../../data/2012.json") as Season,
-  2013: require("../../data/2013.json") as Season,
-  2014: require("../../data/2014.json") as Season,
-  2015: require("../../data/2015.json") as Season,
-  2016: require("../../data/2016.json") as Season,
-  2017: require("../../data/2017.json") as Season,
-  2018: require("../../data/2018.json") as Season,
-  2019: require("../../data/2019.json") as Season,
-  2020: require("../../data/2020.json") as Season,
-  2021: require("../../data/2021.json") as Season,
-  2022: require("../../data/2022.json") as Season,
-}
 
 function rec(
   uciCode: string,

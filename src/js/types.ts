@@ -2,7 +2,7 @@ export interface Season {
   id: string
   teams: Array<{
     uciCode: string
-    previousUciCode: string
+    previousUciCode: string | null
     name: string
     colours?: Array<string>
   }>
