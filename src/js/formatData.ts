@@ -2,7 +2,7 @@
 
 import * as R from "ramda"
 
-import {Season, Line} from "./types"
+import {Season, Line, Point} from "./types"
 
 const data = {
   2000: require("../../data/2000.json") as Season,
@@ -28,13 +28,6 @@ const data = {
   2020: require("../../data/2020.json") as Season,
   2021: require("../../data/2021.json") as Season,
   2022: require("../../data/2022.json") as Season,
-}
-
-interface Point {
-  text: string
-  id: string
-  colours: Array<string>
-  coords: [number, number]
 }
 
 function rec(
@@ -106,6 +99,7 @@ export default () => {
       const lastPoint = points[points.length - 1]
 
       lines.push({
+        id: autoIncrement.toString(),
         fillColour: lastPoint.colours ? lastPoint.colours[0] : "black",
         lineColour: lastPoint.colours ? lastPoint.colours[1] : "black",
         textColour: lastPoint.colours ? lastPoint.colours[2] : "white",
@@ -113,7 +107,6 @@ export default () => {
           id: p.id,
           text: p.text,
           coords: p.coords,
-          lineId: autoIncrement.toString(),
         })),
       })
 

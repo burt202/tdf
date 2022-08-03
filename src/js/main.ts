@@ -20,8 +20,8 @@ export default () => {
 
   const chartWidth = 7200
   const chartHeight = 900
-  const gridLineColour = "rgba(29, 210, 175,0.3)"
-  const columnTitleColour = "rgb(200,0,0)"
+  const gridLineColour = "rgba(29, 210, 175, 0.3)"
+  const columnTitleColour = "rgb(200, 0, 0)"
 
   const {cols, lines} = formatData()
 

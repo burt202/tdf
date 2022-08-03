@@ -133,10 +133,10 @@ export default (
     ctx.beginPath()
 
     for (let j = 0; j < points.length; j++) {
-      const {coords, lineId} = points[j]
+      const {coords} = points[j]
 
       ctx.strokeStyle =
-        selectedLineId && selectedLineId !== lineId ? "#CCC" : lineColour
+        selectedLineId && selectedLineId !== line.id ? "#CCC" : lineColour
       ctx.lineWidth = 2
 
       if (j === 0) {
@@ -163,7 +163,7 @@ export default (
     const {points, fillColour, lineColour, textColour} = line
 
     for (let j = 0; j < points.length; j++) {
-      const {text, coords, lineId} = points[j]
+      const {text, coords} = points[j]
 
       const lineToX = coords[0] * columnWidth + sidePadding
       const lineToY = coords[1] * rowHeight + topPadding
@@ -174,8 +174,8 @@ export default (
         dataLabelWidth,
         dataLabelHeight,
         8,
-        selectedLineId && selectedLineId !== lineId ? "#DDD" : fillColour,
-        selectedLineId && selectedLineId !== lineId ? "#DDD" : lineColour,
+        selectedLineId && selectedLineId !== line.id ? "#DDD" : fillColour,
+        selectedLineId && selectedLineId !== line.id ? "#DDD" : lineColour,
       )
 
       const top = lineToY - dataLabelHeight / 2
@@ -186,12 +186,12 @@ export default (
         dataLabelHeight,
         dataLabelWidth,
         points[j].id,
-        points[j].lineId,
+        line.id,
       )
 
       ctx.font = font
       ctx.fillStyle =
-        selectedLineId && selectedLineId !== lineId ? "#FFF" : textColour
+        selectedLineId && selectedLineId !== line.id ? "#FFF" : textColour
       ctx.textAlign = "center"
       ctx.fillText(text, lineToX, lineToY + 5)
     }
