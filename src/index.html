@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    {% if production %}
+    <% if (production) { %>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-202501925-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-202501925-1"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || []
       function gtag() {
@@ -13,21 +16,27 @@
 
       gtag("config", "UA-202501925-1")
     </script>
-    {% endif %}
+    <% } %>
     <meta charset="UTF-8" />
     <title>TDF Team History</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
     <meta http-equiv="last-modified" content="{{ lastModified }}" />
     <meta property="og:title" content="Tour de France Team History" />
     <meta
       property="og:description"
       content="Visualising the Tour de France teams history over the last 2 decades"
     />
-    <meta property="og:image" content="https://burt202.github.io/tdf/thumb.png" />
+    <meta
+      property="og:image"
+      content="https://burt202.github.io/tdf/thumb.png"
+    />
     <link rel="icon" href="favicon.ico" />
-    {% if production %}
+    <% if (production) { %>
     <link rel="stylesheet" href="bundle.css" />
-    {% endif %}
+    <% } %>
   </head>
   <body>
     <div id="header">
@@ -38,8 +47,8 @@
     <div id="hover"></div>
     <div id="footer">
       <p>
-        *colours used are based on the most recent guise of each team, the order of the teams is
-        based on each years starting list
+        *colours used are based on the most recent guise of each team, the order
+        of the teams is based on each years starting list
       </p>
       <p><a href="https://github.com/burt202/tdf">Github</a></p>
     </div>

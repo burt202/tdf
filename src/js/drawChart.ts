@@ -1,7 +1,27 @@
-const R = require("ramda")
+import * as R from "ramda"
 
-module.exports = (
-  ctx,
+import {Line} from "./types"
+
+interface Props {
+  chartWidth: number
+  chartHeight: number
+  gridLineColour: string
+  columnTitleColour: string
+  cols: Array<string>
+  lines: Array<Line>
+  onDataLabelDraw: (
+    top: number,
+    left: number,
+    height: number,
+    width: number,
+    id: string,
+    lineId: string,
+  ) => void
+  selectedLineId?: string
+}
+
+export default (
+  ctx: CanvasRenderingContext2D,
   {
     chartWidth,
     chartHeight,
@@ -11,7 +31,7 @@ module.exports = (
     lines,
     onDataLabelDraw,
     selectedLineId,
-  },
+  }: Props,
 ) => {
   const dataLabelWidth = 225
   const dataLabelHeight = 30
@@ -21,8 +41,12 @@ module.exports = (
   const columnHeaderWidth = 40
   const font = "14px arial"
 
-  const rowCount = R.pipe(R.pluck("points"), R.flatten, R.pluck("coords"), R.map(R.last), (arr) =>
-    Math.max.apply(null, arr),
+  const rowCount = R.pipe(
+    R.pluck("points"),
+    R.flatten,
+    R.pluck("coords"),
+    R.map(R.last),
+    (arr: Array<number>) => Math.max.apply(null, arr) as number,
   )(lines)
 
   const columnWidth = chartWidth / (cols.length - 1)
@@ -31,8 +55,8 @@ module.exports = (
   ctx.canvas.width = chartWidth + 2 * sidePadding
   ctx.canvas.height = chartHeight + topPadding + bottomPadding
 
-  function getColumnCoords(noOfCols, width) {
-    let arr = []
+  function getColumnCoords(noOfCols: number, width: number) {
+    const arr = [] as Array<number>
 
     for (let i = 0; i < noOfCols - 1; i++) {
       const coord = (i + 1) * width + sidePadding
@@ -42,8 +66,8 @@ module.exports = (
     return [0 + sidePadding, ...arr]
   }
 
-  function getRowCoords(noOfRows, height) {
-    let arr = []
+  function getRowCoords(noOfRows: number, height: number) {
+    const arr = [] as Array<number>
 
     for (let i = 0; i < noOfRows; i++) {
       const coord = height - (i + 1) * (height / noOfRows) + topPadding
@@ -53,7 +77,15 @@ module.exports = (
     return [height + topPadding, ...arr]
   }
 
-  function drawBorderedRoundedRectangle(x, y, width, height, radius, fillColour, borderColour) {
+  function drawBorderedRoundedRectangle(
+    x: number,
+    y: number,
+    width: number,
+    height: number,
+    radius: number,
+    fillColour: string,
+    borderColour: string,
+  ) {
     ctx.fillStyle = fillColour
     ctx.strokeStyle = borderColour
     ctx.lineWidth = 4
@@ -95,7 +127,7 @@ module.exports = (
     ctx.stroke()
   }
 
-  function drawDataLines(line) {
+  function drawDataLines(line: Line) {
     const {points, lineColour} = line
 
     ctx.beginPath()
@@ -103,15 +135,18 @@ module.exports = (
     for (let j = 0; j < points.length; j++) {
       const {coords, lineId} = points[j]
 
-      ctx.strokeStyle = selectedLineId && selectedLineId !== lineId ? "#CCC" : lineColour
+      ctx.strokeStyle =
+        selectedLineId && selectedLineId !== lineId ? "#CCC" : lineColour
       ctx.lineWidth = 2
 
       if (j === 0) {
-        const moveToX = coords[0] * columnWidth + sidePadding + dataLabelWidth / 2
+        const moveToX =
+          coords[0] * columnWidth + sidePadding + dataLabelWidth / 2
         const moveToY = coords[1] * rowHeight + topPadding
         ctx.moveTo(moveToX, moveToY)
       } else {
-        const lineToX = coords[0] * columnWidth + sidePadding - dataLabelWidth / 2
+        const lineToX =
+          coords[0] * columnWidth + sidePadding - dataLabelWidth / 2
         const lineToY = coords[1] * rowHeight + topPadding
 
         ctx.lineTo(lineToX, lineToY)
@@ -124,7 +159,7 @@ module.exports = (
     ctx.closePath()
   }
 
-  function drawDataLabels(line) {
+  function drawDataLabels(line: Line) {
     const {points, fillColour, lineColour, textColour} = line
 
     for (let j = 0; j < points.length; j++) {
@@ -145,10 +180,18 @@ module.exports = (
 
       const top = lineToY - dataLabelHeight / 2
       const left = lineToX - dataLabelWidth / 2
-      onDataLabelDraw(top, left, dataLabelHeight, dataLabelWidth, points[j].id, points[j].lineId)
+      onDataLabelDraw(
+        top,
+        left,
+        dataLabelHeight,
+        dataLabelWidth,
+        points[j].id,
+        points[j].lineId,
+      )
 
       ctx.font = font
-      ctx.fillStyle = selectedLineId && selectedLineId !== lineId ? "#FFF" : textColour
+      ctx.fillStyle =
+        selectedLineId && selectedLineId !== lineId ? "#FFF" : textColour
       ctx.textAlign = "center"
       ctx.fillText(text, lineToX, lineToY + 5)
     }

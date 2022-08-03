@@ -1,10 +1,19 @@
-const drawChart = require("./drawChart")
-const formatData = require("./formatData")
+import drawChart from "./drawChart"
+import formatData from "./formatData"
 
-require("../style.css")
+import "../style.css"
 
-module.exports = () => {
-  const chartEl = document.getElementById("chart")
+interface Label {
+  top: number
+  left: number
+  height: number
+  width: number
+  id: string
+  lineId: string
+}
+
+export default () => {
+  const chartEl = document.getElementById("chart") as HTMLCanvasElement
   const ctx = chartEl.getContext("2d")
   const chartElLeft = chartEl.offsetLeft
   const chartElTop = chartEl.offsetTop
@@ -16,7 +25,7 @@ module.exports = () => {
 
   const {cols, lines} = formatData()
 
-  let labelCache = []
+  let labelCache = [] as Array<Label>
   let selectedLineId = undefined
 
   drawChart(ctx, {
@@ -26,7 +35,14 @@ module.exports = () => {
     columnTitleColour,
     cols,
     lines,
-    onDataLabelDraw: (top, left, height, width, id, lineId) => {
+    onDataLabelDraw: (
+      top: number,
+      left: number,
+      height: number,
+      width: number,
+      id: string,
+      lineId: string,
+    ) => {
       labelCache.push({top, left, height, width, id, lineId})
     },
   })
@@ -47,7 +63,12 @@ module.exports = () => {
       chartEl.style.cursor = "auto"
 
       const match = labelCache.find((l) => {
-        if (y > l.top && y < l.top + l.height && x > l.left && x < l.left + l.width) {
+        if (
+          y > l.top &&
+          y < l.top + l.height &&
+          x > l.left &&
+          x < l.left + l.width
+        ) {
           return true
         }
 
@@ -75,7 +96,12 @@ module.exports = () => {
       hoverEl.style.display = "none"
 
       const match = labelCache.find((l) => {
-        if (y > l.top && y < l.top + l.height && x > l.left && x < l.left + l.width) {
+        if (
+          y > l.top &&
+          y < l.top + l.height &&
+          x > l.left &&
+          x < l.left + l.width
+        ) {
           return true
         }
 
@@ -84,9 +110,10 @@ module.exports = () => {
 
       if (match) {
         ctx.clearRect(0, 0, chartWidth, chartHeight)
-        labelCache = []
+        labelCache = [] as Array<Label>
 
-        const lineIdToDraw = match.lineId === selectedLineId ? undefined : match.lineId
+        const lineIdToDraw =
+          match.lineId === selectedLineId ? undefined : match.lineId
 
         drawChart(ctx, {
           chartWidth,
@@ -95,7 +122,14 @@ module.exports = () => {
           columnTitleColour,
           cols,
           lines,
-          onDataLabelDraw: (top, left, height, width, id, lineId) => {
+          onDataLabelDraw: (
+            top: number,
+            left: number,
+            height: number,
+            width: number,
+            id: string,
+            lineId: string,
+          ) => {
             labelCache.push({top, left, height, width, id, lineId})
           },
           selectedLineId: lineIdToDraw,
