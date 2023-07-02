@@ -18,6 +18,7 @@ interface Props {
     lineId: string,
   ) => void
   selectedLineId?: string
+  searchTerm?: string
 }
 
 export default (
@@ -31,6 +32,7 @@ export default (
     lines,
     onDataLabelDraw,
     selectedLineId,
+    searchTerm,
   }: Props,
 ) => {
   const dataLabelWidth = 240
@@ -135,8 +137,11 @@ export default (
     for (let j = 0; j < points.length; j++) {
       const {coords} = points[j]
 
-      ctx.strokeStyle =
-        selectedLineId && selectedLineId !== line.id ? "#CCC" : lineColour
+      ctx.strokeStyle = searchTerm
+        ? "#CCC"
+        : selectedLineId && selectedLineId !== line.id
+        ? "#CCC"
+        : lineColour
       ctx.lineWidth = 2
 
       if (j === 0) {
@@ -159,6 +164,70 @@ export default (
     ctx.closePath()
   }
 
+  function getFillColour({
+    lineId,
+    fillColour,
+    searchTerm,
+    searchTermMatch,
+  }: {
+    lineId: string
+    fillColour: string
+    searchTerm?: string
+    searchTermMatch: boolean
+  }) {
+    if (searchTerm) {
+      return searchTermMatch ? "#336699" : "#DDD"
+    }
+
+    if (selectedLineId && selectedLineId !== lineId) {
+      return "#DDD"
+    }
+
+    return fillColour
+  }
+
+  function getLineColour({
+    lineId,
+    lineColour,
+    searchTerm,
+    searchTermMatch,
+  }: {
+    lineId: string
+    lineColour: string
+    searchTerm?: string
+    searchTermMatch: boolean
+  }) {
+    if (searchTerm) {
+      return searchTermMatch ? "#336699" : "#DDD"
+    }
+
+    if (selectedLineId && selectedLineId !== lineId) {
+      return "#DDD"
+    }
+
+    return lineColour
+  }
+
+  function getTextColour({
+    lineId,
+    textColour,
+    searchTerm,
+  }: {
+    lineId: string
+    textColour: string
+    searchTerm?: string
+  }) {
+    if (searchTerm) {
+      return "#FFF"
+    }
+
+    if (selectedLineId && selectedLineId !== lineId) {
+      return "#FFF"
+    }
+
+    return textColour
+  }
+
   function drawDataLabels(line: Line) {
     const {points, fillColour, lineColour, textColour} = line
 
@@ -168,14 +237,29 @@ export default (
       const lineToX = coords[0] * columnWidth + sidePadding
       const lineToY = coords[1] * rowHeight + topPadding
 
+      const searchTermMatch =
+        searchTerm &&
+        searchTerm.length > 2 &&
+        text.toLowerCase().indexOf(searchTerm.toLowerCase()) >= 0
+
       drawBorderedRoundedRectangle(
         lineToX - dataLabelWidth / 2,
         lineToY - dataLabelHeight / 2,
         dataLabelWidth,
         dataLabelHeight,
         8,
-        selectedLineId && selectedLineId !== line.id ? "#DDD" : fillColour,
-        selectedLineId && selectedLineId !== line.id ? "#DDD" : lineColour,
+        getFillColour({
+          lineId: line.id,
+          fillColour,
+          searchTerm,
+          searchTermMatch,
+        }),
+        getLineColour({
+          lineId: line.id,
+          lineColour,
+          searchTerm,
+          searchTermMatch,
+        }),
       )
 
       const top = lineToY - dataLabelHeight / 2
@@ -190,8 +274,11 @@ export default (
       )
 
       ctx.font = font
-      ctx.fillStyle =
-        selectedLineId && selectedLineId !== line.id ? "#FFF" : textColour
+      ctx.fillStyle = getTextColour({
+        lineId: line.id,
+        textColour,
+        searchTerm,
+      })
       ctx.textAlign = "center"
       ctx.fillText(text, lineToX, lineToY + 5)
     }

@@ -28,6 +28,32 @@ export default () => {
   let labelCache = [] as Array<Label>
   let selectedLineId = undefined
 
+  const search = document.getElementById("search") as HTMLInputElement
+
+  search.addEventListener("input", (e: Event & {target: HTMLInputElement}) => {
+    const searchTerm = e.target.value
+
+    drawChart(ctx, {
+      chartWidth,
+      chartHeight,
+      gridLineColour,
+      columnTitleColour,
+      cols,
+      lines,
+      onDataLabelDraw: (
+        top: number,
+        left: number,
+        height: number,
+        width: number,
+        id: string,
+        lineId: string,
+      ) => {
+        labelCache.push({top, left, height, width, id, lineId})
+      },
+      searchTerm,
+    })
+  })
+
   drawChart(ctx, {
     chartWidth,
     chartHeight,
@@ -94,6 +120,8 @@ export default () => {
       const y = event.pageY - chartElTop
 
       hoverEl.style.display = "none"
+
+      search.value = ""
 
       const match = labelCache.find((l) => {
         if (
