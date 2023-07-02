@@ -1,6 +1,6 @@
 import * as R from "ramda"
 
-import {Line} from "./types"
+import {Line, Point} from "./types"
 
 interface Props {
   chartWidth: number
@@ -43,7 +43,7 @@ export default (
 
   const rowCount = R.pipe(
     R.pluck("points"),
-    R.flatten,
+    R.flatten<Array<Omit<Point, "colours">>>,
     R.pluck("coords"),
     R.map(R.last),
     (arr: Array<number>) => Math.max.apply(null, arr) as number,
