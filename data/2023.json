@@ -1,0 +1,136 @@
+{
+  "id": "2023",
+  "teams": [
+    {
+      "uciCode": "TJV",
+      "previousUciCode": "TJV",
+      "name": "Team Jumbo-Visma",
+      "colours": ["#141318", "#EE554D", "#EFC054"]
+    },
+    {
+      "uciCode": "UAD",
+      "previousUciCode": "UAD",
+      "name": "UAE Team Emirates",
+      "colours": ["#DDDDE7", "#261A1E", "#BD1C2B"]
+    },
+    {
+      "uciCode": "IGD",
+      "previousUciCode": "IGD",
+      "name": "Ineos Grenadiers",
+      "colours": ["#232C3D", "#B61615", "#FFF"]
+    },
+    {
+      "uciCode": "GFC",
+      "previousUciCode": "GFC",
+      "name": "Groupama-FDJ",
+      "colours": ["#EEF0F4", "#A22B31", "#02439F"]
+    },
+    {
+      "uciCode": "EFE",
+      "previousUciCode": "EFE",
+      "name": "EF Education-EasyPost",
+      "colours": ["#EE769D", "#505165", "#28334D"]
+    },
+    {
+      "uciCode": "SOQ",
+      "previousUciCode": "QST",
+      "name": "Soudal Quick-Step",
+      "colours": ["#004B8F", "#001D45", "#FDFFFE"]
+    },
+    {
+      "uciCode": "TBV",
+      "previousUciCode": "TBV",
+      "name": "Team Bahrain Victorious",
+      "colours": ["#ED473B", "#E48835", "#DAD4D4"]
+    },
+    {
+      "uciCode": "BOH",
+      "previousUciCode": "BOH",
+      "name": "Bora-Hansgrohe",
+      "colours": ["#367E72", "#284145", "#FFFFFF"]
+    },
+    {
+      "uciCode": "LTK",
+      "previousUciCode": "TFS",
+      "name": "Lidl-Trek",
+      "colours": ["#EEE", "#CB252B", "#2A364C"]
+    },
+    {
+      "uciCode": "ACT",
+      "previousUciCode": "ACT",
+      "name": "AG2R Citroën Team",
+      "colours": ["#FFF", "#DD1F29", "#000"]
+    },
+    {
+      "uciCode": "ADC",
+      "previousUciCode": "ADC",
+      "name": "Alpecin-Deceuninck",
+      "colours": ["#28334D", "#D13E33", "#D9D9E7"]
+    },
+    {
+      "uciCode": "ICW",
+      "previousUciCode": "IWG",
+      "name": "Intermarché-Circus-Wanty",
+      "colours": ["#1B4B9B", "#B0F749", "#FFF"]
+    },
+    {
+      "uciCode": "COF",
+      "previousUciCode": "COF",
+      "name": "Cofidis",
+      "colours": ["#CD3C34", "#CD3C34", "#F2D652"]
+    },
+    {
+      "uciCode": "MOV",
+      "previousUciCode": "MOV",
+      "name": "Movistar Team",
+      "colours": ["#3093D9", "#101016", "#FFF"]
+    },
+    {
+      "uciCode": "DSM",
+      "previousUciCode": "DSM",
+      "name": "Team DSM fFirmenich",
+      "colours": ["#0E0A0A", "#B7EBFF", "#FFFCFD"]
+    },
+    {
+      "uciCode": "IPT",
+      "previousUciCode": "IPT",
+      "name": "Israel Premier Tech",
+      "colours": ["#EEEEEC", "#65B5F0", "#09122F"]
+    },
+    {
+      "uciCode": "JAY",
+      "previousUciCode": "BEX",
+      "name": "Team Jayco-AlUla",
+      "colours": ["#68A6C5", "#4376BA", "#070707"]
+    },
+    {
+      "uciCode": "ARK",
+      "previousUciCode": "ARK",
+      "name": "Arkéa-Samsic",
+      "colours": ["#E0422E", "#0E0E0E", "#FBFFFF"]
+    },
+    {
+      "uciCode": "LTD",
+      "previousUciCode": "LTS",
+      "name": "Lotto-Dstny",
+      "colours": ["#D1190F", "#030D0A", "#F1F4FD"]
+    },
+    {
+      "uciCode": "AST",
+      "previousUciCode": "AST",
+      "name": " Astana Qazaqstan Team",
+      "colours": ["#66CCF4", "#C5CF6C", "#242A4C"]
+    },
+    {
+      "uciCode": "UXT",
+      "name": "Uno-X Pro Cycling Team",
+      "colours": ["#F2F2F2", "#118DD5", "#FB2C02"]
+    },
+    {
+      "uciCode": "TEN",
+      "previousUciCode": "TEN",
+      "name": "Team TotalEnergies",
+      "colours": ["#F2F2F2", "#118DD5", "#FB2C02"]
+    }
+  ]
+}

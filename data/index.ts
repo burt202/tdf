@@ -26,4 +26,5 @@ export default {
   2020: require("./2020.json") as Season,
   2021: require("./2021.json") as Season,
   2022: require("./2022.json") as Season,
+  2023: require("./2023.json") as Season,
 }
