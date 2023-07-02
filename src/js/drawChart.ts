@@ -39,7 +39,7 @@ export default (
   const bottomPadding = 20
   const sidePadding = 150
   const columnHeaderWidth = 40
-  const font = "14px arial"
+  const font = "bold 14px arial"
 
   const rowCount = R.pipe(
     R.pluck("points"),

@@ -101,7 +101,8 @@
     {
       "uciCode": "DOM",
       "previousUciCode": null,
-      "name": "Domina Vacanze"
+      "name": "Domina Vacanze",
+      "colours": ["#FFFFFF", "#000000", "#312f93"]
     },
     {
       "uciCode": "RAG",

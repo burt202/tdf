@@ -9,7 +9,9 @@ View it at [burt202.github.io/tdf/](https://burt202.github.io/tdf/)
 - https://en.wikipedia.org/wiki/UCI_WorldTeam
 - https://www.uci.org/road/teams
 - http://www.cyclingarchives.com/
+- https://www.cyclingnews.com/news/proud-preatoni-relaunches-domina-vacanze-for-2005-1/
 
 ### TODO
 
 double border
+team merges

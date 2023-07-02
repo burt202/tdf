@@ -59,7 +59,8 @@
     {
       "uciCode": "CCC",
       "previousUciCode": "CPT",
-      "name": "CCC Team"
+      "name": "CCC Team",
+      "colours": ["#ff9665", "#ff9665", "#ffffff"]
     },
     {
       "uciCode": "COF",
