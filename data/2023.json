@@ -41,7 +41,7 @@
       "uciCode": "TBV",
       "previousUciCode": "TBV",
       "name": "Team Bahrain Victorious",
-      "colours": ["#ED473B", "#E48835", "#DAD4D4"]
+      "colours": ["#ebedec", "#61a5ad", "#474746"]
     },
     {
       "uciCode": "BOH",
@@ -53,7 +53,7 @@
       "uciCode": "LTK",
       "previousUciCode": "TFS",
       "name": "Lidl-Trek",
-      "colours": ["#EEE", "#CB252B", "#2A364C"]
+      "colours": ["#fff000", "#ff0006", "#0050ae"]
     },
     {
       "uciCode": "ACT",
@@ -88,20 +88,20 @@
     {
       "uciCode": "DSM",
       "previousUciCode": "DSM",
-      "name": "Team DSM fFirmenich",
-      "colours": ["#0E0A0A", "#B7EBFF", "#FFFCFD"]
+      "name": "Team DSM Firmenich",
+      "colours": ["#FFFCFD", "#B7EBFF", "#0E0A0A"]
     },
     {
       "uciCode": "IPT",
       "previousUciCode": "IPT",
       "name": "Israel Premier Tech",
-      "colours": ["#EEEEEC", "#65B5F0", "#09122F"]
+      "colours": ["#304480", "#743361", "#FFFFFF"]
     },
     {
       "uciCode": "JAY",
       "previousUciCode": "BEX",
       "name": "Team Jayco-AlUla",
-      "colours": ["#68A6C5", "#4376BA", "#070707"]
+      "colours": ["#FFFFFF", "#1D5A9D", "#1D5A9D"]
     },
     {
       "uciCode": "ARK",
@@ -113,7 +113,7 @@
       "uciCode": "LTD",
       "previousUciCode": "LTS",
       "name": "Lotto-Dstny",
-      "colours": ["#D1190F", "#030D0A", "#F1F4FD"]
+      "colours": ["#D1190F", "#39aebf", "#F1F4FD"]
     },
     {
       "uciCode": "AST",
@@ -124,7 +124,7 @@
     {
       "uciCode": "UXT",
       "name": "Uno-X Pro Cycling Team",
-      "colours": ["#F2F2F2", "#118DD5", "#FB2C02"]
+      "colours": ["#FEC013", "#DC3339", "#000000"]
     },
     {
       "uciCode": "TEN",
