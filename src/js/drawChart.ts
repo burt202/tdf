@@ -17,18 +17,43 @@ interface Props {
   searchTerm?: string
 }
 
-const dataLabelWidth = 240
-const dataLabelHeight = 30
 const topPadding = 50
 const bottomPadding = 0
-const sidePadding = 150
-const columnHeaderWidth = 40
 const font = "bold 14px arial"
 const gridLineColour = "rgba(29, 210, 175, 0.3)"
 const columnTitleColour = "rgb(200, 0, 0)"
 
+// CONTROL PANEL
+
 const chartWidth = 7200
 const chartHeight = 900
+const dataLabelWidth = 240
+const dataLabelHeight = 30
+const sidePadding = 150
+const columnHeaderWidth = 40
+const borderWidth = 4
+
+function getColumnCoords(noOfCols: number, width: number) {
+  const arr = [] as Array<number>
+
+  for (let i = 0; i < noOfCols - 1; i++) {
+    const coord = (i + 1) * width + sidePadding
+    arr.push(coord)
+  }
+
+  return [0 + sidePadding, ...arr]
+}
+
+function getRowCoords(noOfRows: number, height: number) {
+  const arr = [] as Array<number>
+
+  for (let i = 0; i < noOfRows; i++) {
+    const coord = height - (i + 1) * (height / noOfRows) + topPadding
+    arr.push(coord)
+  }
+
+  return [height + topPadding, ...arr]
+}
 
 export default (
   ctx: CanvasRenderingContext2D,
@@ -47,28 +72,6 @@ export default (
 
   ctx.canvas.width = chartWidth + 2 * sidePadding
   ctx.canvas.height = chartHeight + topPadding + bottomPadding
-
-  function getColumnCoords(noOfCols: number, width: number) {
-    const arr = [] as Array<number>
-
-    for (let i = 0; i < noOfCols - 1; i++) {
-      const coord = (i + 1) * width + sidePadding
-      arr.push(coord)
-    }
-
-    return [0 + sidePadding, ...arr]
-  }
-
-  function getRowCoords(noOfRows: number, height: number) {
-    const arr = [] as Array<number>
-
-    for (let i = 0; i < noOfRows; i++) {
-      const coord = height - (i + 1) * (height / noOfRows) + topPadding
-      arr.push(coord)
-    }
-
-    return [height + topPadding, ...arr]
-  }
 
   function drawVerticalGridLines() {
     for (let i = 1; i < columnCoords.length - 1; i++) {
@@ -202,7 +205,7 @@ export default (
   ) {
     ctx.fillStyle = fillColour
     ctx.strokeStyle = borderColour
-    ctx.lineWidth = 4
+    ctx.lineWidth = borderWidth
 
     ctx.beginPath()
     ctx.moveTo(x + radius, y)
@@ -264,6 +267,8 @@ export default (
         line.id,
       )
 
+      const textTopPadding = 5
+
       ctx.font = font
       ctx.fillStyle = getTextColour({
         lineId: line.id,
@@ -271,7 +276,7 @@ export default (
         searchTerm,
       })
       ctx.textAlign = "center"
-      ctx.fillText(text, lineToX, lineToY + 5)
+      ctx.fillText(text, lineToX, lineToY + textTopPadding)
     }
   }
 
