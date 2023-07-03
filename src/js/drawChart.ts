@@ -3,10 +3,6 @@ import * as R from "ramda"
 import {Line, Point} from "./types"
 
 interface Props {
-  chartWidth: number
-  chartHeight: number
-  gridLineColour: string
-  columnTitleColour: string
   cols: Array<string>
   lines: Array<Line>
   onDataLabelDraw: (
@@ -21,28 +17,23 @@ interface Props {
   searchTerm?: string
 }
 
+const dataLabelWidth = 240
+const dataLabelHeight = 30
+const topPadding = 50
+const bottomPadding = 0
+const sidePadding = 150
+const columnHeaderWidth = 40
+const font = "bold 14px arial"
+const gridLineColour = "rgba(29, 210, 175, 0.3)"
+const columnTitleColour = "rgb(200, 0, 0)"
+
+const chartWidth = 7200
+const chartHeight = 900
+
 export default (
   ctx: CanvasRenderingContext2D,
-  {
-    chartWidth,
-    chartHeight,
-    gridLineColour,
-    columnTitleColour,
-    cols,
-    lines,
-    onDataLabelDraw,
-    selectedLineId,
-    searchTerm,
-  }: Props,
+  {cols, lines, onDataLabelDraw, selectedLineId, searchTerm}: Props,
 ) => {
-  const dataLabelWidth = 240
-  const dataLabelHeight = 30
-  const topPadding = 50
-  const bottomPadding = 20
-  const sidePadding = 150
-  const columnHeaderWidth = 40
-  const font = "bold 14px arial"
-
   const rowCount = R.pipe(
     R.pluck("points"),
     R.flatten<Array<Omit<Point, "colours">>>,
@@ -77,34 +68,6 @@ export default (
     }
 
     return [height + topPadding, ...arr]
-  }
-
-  function drawBorderedRoundedRectangle(
-    x: number,
-    y: number,
-    width: number,
-    height: number,
-    radius: number,
-    fillColour: string,
-    borderColour: string,
-  ) {
-    ctx.fillStyle = fillColour
-    ctx.strokeStyle = borderColour
-    ctx.lineWidth = 4
-
-    ctx.beginPath()
-    ctx.moveTo(x + radius, y)
-    ctx.lineTo(x + width - radius, y)
-    ctx.quadraticCurveTo(x + width, y, x + width, y + radius)
-    ctx.lineTo(x + width, y + height - radius)
-    ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height)
-    ctx.lineTo(x + radius, y + height)
-    ctx.quadraticCurveTo(x, y + height, x, y + height - radius)
-    ctx.lineTo(x, y + radius)
-    ctx.quadraticCurveTo(x, y, x + radius, y)
-    ctx.closePath()
-    ctx.stroke()
-    ctx.fill()
   }
 
   function drawVerticalGridLines() {
@@ -226,6 +189,34 @@ export default (
     }
 
     return textColour
+  }
+
+  function drawBorderedRoundedRectangle(
+    x: number,
+    y: number,
+    width: number,
+    height: number,
+    radius: number,
+    fillColour: string,
+    borderColour: string,
+  ) {
+    ctx.fillStyle = fillColour
+    ctx.strokeStyle = borderColour
+    ctx.lineWidth = 4
+
+    ctx.beginPath()
+    ctx.moveTo(x + radius, y)
+    ctx.lineTo(x + width - radius, y)
+    ctx.quadraticCurveTo(x + width, y, x + width, y + radius)
+    ctx.lineTo(x + width, y + height - radius)
+    ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height)
+    ctx.lineTo(x + radius, y + height)
+    ctx.quadraticCurveTo(x, y + height, x, y + height - radius)
+    ctx.lineTo(x, y + radius)
+    ctx.quadraticCurveTo(x, y, x + radius, y)
+    ctx.closePath()
+    ctx.stroke()
+    ctx.fill()
   }
 
   function drawDataLabels(line: Line) {

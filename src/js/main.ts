@@ -1,32 +1,37 @@
 import drawChart from "./drawChart"
 import formatData from "./formatData"
+import {Label} from "./types"
 
 import "../style.css"
-
-interface Label {
-  top: number
-  left: number
-  height: number
-  width: number
-  id: string
-  lineId: string
-}
 
 export default () => {
   const chartEl = document.getElementById("chart") as HTMLCanvasElement
   const ctx = chartEl.getContext("2d")
+
   const chartElLeft = chartEl.offsetLeft
   const chartElTop = chartEl.offsetTop
-
-  const chartWidth = 7200
-  const chartHeight = 900
-  const gridLineColour = "rgba(29, 210, 175, 0.3)"
-  const columnTitleColour = "rgb(200, 0, 0)"
 
   const {cols, lines} = formatData()
 
   let labelCache = [] as Array<Label>
   let selectedLineId = undefined
+
+  drawChart(ctx, {
+    cols,
+    lines,
+    onDataLabelDraw: (
+      top: number,
+      left: number,
+      height: number,
+      width: number,
+      id: string,
+      lineId: string,
+    ) => {
+      labelCache.push({top, left, height, width, id, lineId})
+    },
+  })
+
+  // SEARCH
 
   const search = document.getElementById("search") as HTMLInputElement
 
@@ -34,10 +39,6 @@ export default () => {
     const searchTerm = e.target.value
 
     drawChart(ctx, {
-      chartWidth,
-      chartHeight,
-      gridLineColour,
-      columnTitleColour,
       cols,
       lines,
       onDataLabelDraw: (
@@ -54,30 +55,13 @@ export default () => {
     })
   })
 
-  drawChart(ctx, {
-    chartWidth,
-    chartHeight,
-    gridLineColour,
-    columnTitleColour,
-    cols,
-    lines,
-    onDataLabelDraw: (
-      top: number,
-      left: number,
-      height: number,
-      width: number,
-      id: string,
-      lineId: string,
-    ) => {
-      labelCache.push({top, left, height, width, id, lineId})
-    },
-  })
+  // TOOLTIP
+
+  const hoverEl = document.getElementById("hover")
 
   document.addEventListener("scroll", function () {
     hoverEl.style.display = "none"
   })
-
-  const hoverEl = document.getElementById("hover")
 
   chartEl.addEventListener(
     "mousemove",
@@ -113,6 +97,8 @@ export default () => {
     false,
   )
 
+  // CLICK
+
   chartEl.addEventListener(
     "click",
     function (event) {
@@ -137,17 +123,12 @@ export default () => {
       })
 
       if (match) {
-        ctx.clearRect(0, 0, chartWidth, chartHeight)
         labelCache = [] as Array<Label>
 
         const lineIdToDraw =
           match.lineId === selectedLineId ? undefined : match.lineId
 
         drawChart(ctx, {
-          chartWidth,
-          chartHeight,
-          gridLineColour,
-          columnTitleColour,
           cols,
           lines,
           onDataLabelDraw: (

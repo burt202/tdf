@@ -22,3 +22,12 @@ export interface Line {
   textColour: string
   points: Array<Omit<Point, "colours">>
 }
+
+export interface Label {
+  top: number
+  left: number
+  height: number
+  width: number
+  id: string
+  lineId: string
+}
